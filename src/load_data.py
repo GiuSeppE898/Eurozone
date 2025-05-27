@@ -1,12 +1,13 @@
 import pprint
 import pandas as pd
 
+from data.match_loader import MatchLoader
 import data.player_loader as pl
 from db.model.player import Player
 from db.repository.player_repository import PlayerRepository
 from db.conf import client
 
-def load_data_from_csv(debug: bool = True) -> pd.DataFrame:
+def load_player_data_from_csv(debug: bool = True) -> pd.DataFrame:
     player_loader = pl.PlayerLoader("./data/euro_lineups.csv")
     data = player_loader.load()
     if debug:
@@ -51,7 +52,7 @@ def load_data_from_csv(debug: bool = True) -> pd.DataFrame:
         print(stats['na_counts'])
     
     # Salvo i dati puliti in un nuovo file json
-    player_loader.dump_to_json("./data/cleaned_data.json")
+    player_loader.dump_to_json("./json_dump/players.json")
 
     # Stampo i giocatori unici in base alla colonna id_player
     if debug:
@@ -62,10 +63,7 @@ def load_data_from_csv(debug: bool = True) -> pd.DataFrame:
         
     return sanitized_data
 
-if __name__ == "__main__":
-    
-    data = load_data_from_csv(debug=False)    
-    
+def save_players_to_db(data: pd.DataFrame):
     # Carico i dati all'interno del database
     player_repository = PlayerRepository(client)
 
@@ -92,3 +90,17 @@ if __name__ == "__main__":
         if index % 15 == 0 or index == total_rows - 1:
             p = ((index + 1) / total_rows) * 100
             print(f"Percentuale di caricamento: {p:.2f}%", end="\r")
+
+
+def load_match_data_from_csv(debug: bool = True):
+    match_loader = MatchLoader("./data/matches/matches/euro")
+    match_loader.load_and_save('./json_dump')
+    
+if __name__ == "__main__":
+    player_data = load_player_data_from_csv(debug=False)    
+    #save_players_to_db(player_data)
+    
+    load_match_data_from_csv(debug=False)
+    
+    
+    
