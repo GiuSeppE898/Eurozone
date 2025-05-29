@@ -27,10 +27,10 @@ class MatchLoader:
             if isinstance(player, dict):
                 # nuovo dizionario con solo le chiavi desiderate
                 filtered_player = {
-                    "name": player.get("name"),
-                    "position_national": player.get("position_national"),
+                    #"name": player.get("name"),
+                    #"position_national": player.get("position_national"),
                     "id_player": player.get("id_player"),
-                    "country_code": player.get("country_code"),
+                    #"country_code": player.get("country_code"),
                     "start": player.get("start")
                 }
                 filtered_players.append(filtered_player)
@@ -38,6 +38,12 @@ class MatchLoader:
                 filtered_players.append(player)
         return filtered_players
 
+    def filter_coach_name(self, coaches_data):
+        if isinstance(coaches_data, list) and coaches_data:
+            first_coach = coaches_data[0]
+            if isinstance(first_coach, dict):
+                return first_coach.get("name")
+        return None
 
     def filter_goals(self, goals_data):
         """
@@ -79,7 +85,6 @@ class MatchLoader:
                             "condition_wind_speed",
                             "stadium_name_sponsor",
                             "stadium_name_media",
-                            "stadium_name_official",
                             "stadium_name_event"
                         ]
                         if col in columns_to_exclude:
@@ -89,7 +94,8 @@ class MatchLoader:
                             doc[col] = self.filter_goals(parsed_value)
                         elif col == "home_lineups" or col == "away_lineups":
                             doc[col] = self.filter_lineups(parsed_value)
-
+                        elif col in ["home_coaches", "away_coaches"]:
+                            doc[col] = self.filter_coach_name(parsed_value)
 
                         else:
                             doc[col] = parsed_value

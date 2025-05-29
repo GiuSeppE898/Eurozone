@@ -94,7 +94,7 @@ def save_players_to_db(data: pd.DataFrame):
 
 def load_match_data_from_csv(debug: bool = True):
     match_loader = MatchLoader("./data/matches/matches/euro")
-    match_loader.load_and_save('./json_dump')
+    match_loader.load_and_save('./json_dump/match')
     
 if __name__ == "__main__":
     player_data = load_player_data_from_csv(debug=False)    
