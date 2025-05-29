@@ -3,7 +3,7 @@ from typing import Optional, List
 
 from pydantic import BaseModel
 
-
+from src.db.model import goal
 from src.db.model.Stadio import Stadio
 from src.db.model.lineup import lineup
 
