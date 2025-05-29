@@ -1,0 +1,4860 @@
+{
+    "coaches": [
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Albert Batteux",
+            "role": "COACH",
+            "id_match": 4024,
+            "year": 1960
+        },
+        {
+            "country_code": "TCH",
+            "country": "Czechoslovakia",
+            "name": "Rudolf Vytlacil",
+            "role": "COACH",
+            "id_match": 4024,
+            "year": 1960
+        },
+        {
+            "country_code": "URS",
+            "country": "Soviet Union",
+            "name": "Gavril Kachalin",
+            "role": "COACH",
+            "id_match": 4023,
+            "year": 1960
+        },
+        {
+            "country_code": "TCH",
+            "country": "Czechoslovakia",
+            "name": "Rudolf Vytlacil",
+            "role": "COACH",
+            "id_match": 4023,
+            "year": 1960
+        },
+        {
+            "country_code": null,
+            "country": null,
+            "name": "Konstantin Beskov",
+            "role": "COACH",
+            "id_match": 3996,
+            "year": 1964
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "José Villalonga",
+            "role": "COACH",
+            "id_match": 3996,
+            "year": 1964
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Poul Petersen",
+            "role": "COACH",
+            "id_match": 3995,
+            "year": 1964
+        },
+        {
+            "country_code": "HUN",
+            "country": "Hungary",
+            "name": "Lajos Baroti",
+            "role": "COACH",
+            "id_match": 3995,
+            "year": 1964
+        },
+        {
+            "country_code": null,
+            "country": null,
+            "name": "Konstantin Beskov",
+            "role": "COACH",
+            "id_match": 3994,
+            "year": 1964
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Poul Petersen",
+            "role": "COACH",
+            "id_match": 3994,
+            "year": 1964
+        },
+        {
+            "country_code": "SRB",
+            "country": "Serbia",
+            "name": "Rajko Mitic",
+            "role": "COACH",
+            "id_match": 73910,
+            "year": 1968
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Ferruccio Valcareggi",
+            "role": "COACH",
+            "id_match": 73910,
+            "year": 1968
+        },
+        {
+            "country_code": "URS",
+            "country": "Soviet Union",
+            "name": "Mikhail Yakuschin",
+            "role": "COACH",
+            "id_match": 3939,
+            "year": 1968
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Sir Alf Ramsey",
+            "role": "COACH",
+            "id_match": 3939,
+            "year": 1968
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Raymond Goethals",
+            "role": "COACH",
+            "id_match": 3837,
+            "year": 1972
+        },
+        {
+            "country_code": "HUN",
+            "country": "Hungary",
+            "name": "Rudolf Illovszky",
+            "role": "COACH",
+            "id_match": 3837,
+            "year": 1972
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Helmut Schön",
+            "role": "COACH",
+            "id_match": 3836,
+            "year": 1972
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Raymond Goethals",
+            "role": "COACH",
+            "id_match": 3836,
+            "year": 1972
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Helmut Schön",
+            "role": "COACH",
+            "id_match": 3693,
+            "year": 1976
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Václav Ježek",
+            "role": "COACH",
+            "id_match": 3693,
+            "year": 1976
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Helmut Schön",
+            "role": "COACH",
+            "id_match": 3691,
+            "year": 1976
+        },
+        {
+            "country_code": "SRB",
+            "country": "Serbia",
+            "name": "Ante Mladinic",
+            "role": "COACH",
+            "id_match": 3691,
+            "year": 1976
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "George Knobel",
+            "role": "COACH",
+            "id_match": 3690,
+            "year": 1976
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Václav Ježek",
+            "role": "COACH",
+            "id_match": 3690,
+            "year": 1976
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Jupp Derwall",
+            "role": "COACH",
+            "id_match": 3585,
+            "year": 1980
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Guy Thys",
+            "role": "COACH",
+            "id_match": 3585,
+            "year": 1980
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Miguel Muñoz Mozún",
+            "role": "COACH",
+            "id_match": 3456,
+            "year": 1984
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Mircea Lucescu",
+            "role": "COACH",
+            "id_match": 3456,
+            "year": 1984
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Cabrita",
+            "role": "COACH",
+            "id_match": 3455,
+            "year": 1984
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Jupp Derwall",
+            "role": "COACH",
+            "id_match": 3455,
+            "year": 1984
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Rinus Michels",
+            "role": "COACH",
+            "id_match": 22,
+            "year": 1988
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Valeriy Lobanovskiy",
+            "role": "COACH",
+            "id_match": 22,
+            "year": 1988
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Azeglio Vicini",
+            "role": "COACH",
+            "id_match": 21,
+            "year": 1988
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Valeriy Lobanovskiy",
+            "role": "COACH",
+            "id_match": 21,
+            "year": 1988
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Rinus Michels",
+            "role": "COACH",
+            "id_match": 20,
+            "year": 1988
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Franz Beckenbauer",
+            "role": "COACH",
+            "id_match": 20,
+            "year": 1988
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Valeriy Lobanovskiy",
+            "role": "COACH",
+            "id_match": 17,
+            "year": 1988
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Bobby Robson",
+            "role": "COACH",
+            "id_match": 17,
+            "year": 1988
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Miguel Muñoz Mozún",
+            "role": "COACH",
+            "id_match": 9,
+            "year": 1988
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Franz Beckenbauer",
+            "role": "COACH",
+            "id_match": 9,
+            "year": 1988
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Josef Emmanuel Piontek",
+            "role": "COACH",
+            "id_match": 10,
+            "year": 1988
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Azeglio Vicini",
+            "role": "COACH",
+            "id_match": 10,
+            "year": 1988
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Rinus Michels",
+            "role": "COACH",
+            "id_match": 15,
+            "year": 1988
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Bobby Robson",
+            "role": "COACH",
+            "id_match": 15,
+            "year": 1988
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Miguel Muñoz Mozún",
+            "role": "COACH",
+            "id_match": 8,
+            "year": 1988
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Azeglio Vicini",
+            "role": "COACH",
+            "id_match": 8,
+            "year": 1988
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Josef Emmanuel Piontek",
+            "role": "COACH",
+            "id_match": 7,
+            "year": 1988
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Franz Beckenbauer",
+            "role": "COACH",
+            "id_match": 7,
+            "year": 1988
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Valeriy Lobanovskiy",
+            "role": "COACH",
+            "id_match": 14,
+            "year": 1988
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Rinus Michels",
+            "role": "COACH",
+            "id_match": 14,
+            "year": 1988
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Jack Charlton",
+            "role": "COACH",
+            "id_match": 13,
+            "year": 1988
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Bobby Robson",
+            "role": "COACH",
+            "id_match": 13,
+            "year": 1988
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Miguel Muñoz Mozún",
+            "role": "COACH",
+            "id_match": 6,
+            "year": 1988
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Josef Emmanuel Piontek",
+            "role": "COACH",
+            "id_match": 6,
+            "year": 1988
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 6098,
+            "year": 1992
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Richard Møller-nielsen",
+            "role": "COACH",
+            "id_match": 6098,
+            "year": 1992
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Richard Møller-nielsen",
+            "role": "COACH",
+            "id_match": 6097,
+            "year": 1992
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Rinus Michels",
+            "role": "COACH",
+            "id_match": 6097,
+            "year": 1992
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 6096,
+            "year": 1992
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Tommy Svensson",
+            "role": "COACH",
+            "id_match": 6096,
+            "year": 1992
+        },
+        {
+            "country_code": "URS",
+            "country": "Soviet Union",
+            "name": "Anatoli Byshovets",
+            "role": "COACH",
+            "id_match": 5098,
+            "year": 1992
+        },
+        {
+            "country_code": null,
+            "country": null,
+            "name": "Andy Roxburgh",
+            "role": "COACH",
+            "id_match": 5098,
+            "year": 1992
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 5097,
+            "year": 1992
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Rinus Michels",
+            "role": "COACH",
+            "id_match": 5097,
+            "year": 1992
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Graham Taylor",
+            "role": "COACH",
+            "id_match": 5091,
+            "year": 1992
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Tommy Svensson",
+            "role": "COACH",
+            "id_match": 5091,
+            "year": 1992
+        },
+        {
+            "country_code": "URS",
+            "country": "Soviet Union",
+            "name": "Anatoli Byshovets",
+            "role": "COACH",
+            "id_match": 5096,
+            "year": 1992
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Rinus Michels",
+            "role": "COACH",
+            "id_match": 5096,
+            "year": 1992
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 5095,
+            "year": 1992
+        },
+        {
+            "country_code": null,
+            "country": null,
+            "name": "Andy Roxburgh",
+            "role": "COACH",
+            "id_match": 5095,
+            "year": 1992
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Graham Taylor",
+            "role": "COACH",
+            "id_match": 5089,
+            "year": 1992
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Michel Platini",
+            "role": "COACH",
+            "id_match": 5089,
+            "year": 1992
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 5094,
+            "year": 1992
+        },
+        {
+            "country_code": "URS",
+            "country": "Soviet Union",
+            "name": "Anatoli Byshovets",
+            "role": "COACH",
+            "id_match": 5094,
+            "year": 1992
+        },
+        {
+            "country_code": null,
+            "country": null,
+            "name": "Andy Roxburgh",
+            "role": "COACH",
+            "id_match": 5093,
+            "year": 1992
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Rinus Michels",
+            "role": "COACH",
+            "id_match": 5093,
+            "year": 1992
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Graham Taylor",
+            "role": "COACH",
+            "id_match": 5108,
+            "year": 1992
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Richard Møller-nielsen",
+            "role": "COACH",
+            "id_match": 5108,
+            "year": 1992
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Michel Platini",
+            "role": "COACH",
+            "id_match": 5099,
+            "year": 1992
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Tommy Svensson",
+            "role": "COACH",
+            "id_match": 5099,
+            "year": 1992
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 52917,
+            "year": 1996
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Dusan Uhrin",
+            "role": "COACH",
+            "id_match": 52917,
+            "year": 1996
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Terry Venables",
+            "role": "COACH",
+            "id_match": 52916,
+            "year": 1996
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 52916,
+            "year": 1996
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Dusan Uhrin",
+            "role": "COACH",
+            "id_match": 52915,
+            "year": 1996
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Aimé Jacquet",
+            "role": "COACH",
+            "id_match": 52915,
+            "year": 1996
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Miroslav Blaževic",
+            "role": "COACH",
+            "id_match": 52913,
+            "year": 1996
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 52913,
+            "year": 1996
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 52511,
+            "year": 1996
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Arrigo Sacchi",
+            "role": "COACH",
+            "id_match": 52511,
+            "year": 1996
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Dusan Uhrin",
+            "role": "COACH",
+            "id_match": 52510,
+            "year": 1996
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Oleg Romantsev",
+            "role": "COACH",
+            "id_match": 52510,
+            "year": 1996
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Richard Møller-nielsen",
+            "role": "COACH",
+            "id_match": 52517,
+            "year": 1996
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 52517,
+            "year": 1996
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "António Luis Oliveira Ribeiro",
+            "role": "COACH",
+            "id_match": 52516,
+            "year": 1996
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Miroslav Blaževic",
+            "role": "COACH",
+            "id_match": 52516,
+            "year": 1996
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Terry Venables",
+            "role": "COACH",
+            "id_match": 52487,
+            "year": 1996
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Guus Hiddink",
+            "role": "COACH",
+            "id_match": 52487,
+            "year": 1996
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Artur Jorge Melo Teixeira",
+            "role": "COACH",
+            "id_match": 52486,
+            "year": 1996
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Craig Brown",
+            "role": "COACH",
+            "id_match": 52486,
+            "year": 1996
+        },
+        {
+            "country_code": "BUL",
+            "country": "Bulgaria",
+            "name": "Dimitar Penev",
+            "role": "COACH",
+            "id_match": 52504,
+            "year": 1996
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Aimé Jacquet",
+            "role": "COACH",
+            "id_match": 52504,
+            "year": 1996
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Richard Møller-nielsen",
+            "role": "COACH",
+            "id_match": 52515,
+            "year": 1996
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Miroslav Blaževic",
+            "role": "COACH",
+            "id_match": 52515,
+            "year": 1996
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 52509,
+            "year": 1996
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Oleg Romantsev",
+            "role": "COACH",
+            "id_match": 52509,
+            "year": 1996
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Javier Clemente Lázaro",
+            "role": "COACH",
+            "id_match": 52503,
+            "year": 1996
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Aimé Jacquet",
+            "role": "COACH",
+            "id_match": 52503,
+            "year": 1996
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Terry Venables",
+            "role": "COACH",
+            "id_match": 52485,
+            "year": 1996
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Craig Brown",
+            "role": "COACH",
+            "id_match": 52485,
+            "year": 1996
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Arrigo Sacchi",
+            "role": "COACH",
+            "id_match": 52508,
+            "year": 1996
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Dusan Uhrin",
+            "role": "COACH",
+            "id_match": 52508,
+            "year": 1996
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Guus Hiddink",
+            "role": "COACH",
+            "id_match": 52484,
+            "year": 1996
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Artur Jorge Melo Teixeira",
+            "role": "COACH",
+            "id_match": 52484,
+            "year": 1996
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Anghel Iordănescu",
+            "role": "COACH",
+            "id_match": 52502,
+            "year": 1996
+        },
+        {
+            "country_code": "BUL",
+            "country": "Bulgaria",
+            "name": "Dimitar Penev",
+            "role": "COACH",
+            "id_match": 52502,
+            "year": 1996
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Oleg Romantsev",
+            "role": "COACH",
+            "id_match": 52507,
+            "year": 1996
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Arrigo Sacchi",
+            "role": "COACH",
+            "id_match": 52507,
+            "year": 1996
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Aimé Jacquet",
+            "role": "COACH",
+            "id_match": 52501,
+            "year": 1996
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Anghel Iordănescu",
+            "role": "COACH",
+            "id_match": 52501,
+            "year": 1996
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Craig Brown",
+            "role": "COACH",
+            "id_match": 52483,
+            "year": 1996
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Guus Hiddink",
+            "role": "COACH",
+            "id_match": 52483,
+            "year": 1996
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "António Luis Oliveira Ribeiro",
+            "role": "COACH",
+            "id_match": 52512,
+            "year": 1996
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Richard Møller-nielsen",
+            "role": "COACH",
+            "id_match": 52512,
+            "year": 1996
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Dusan Uhrin",
+            "role": "COACH",
+            "id_match": 52506,
+            "year": 1996
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Berti Vogts",
+            "role": "COACH",
+            "id_match": 52506,
+            "year": 1996
+        },
+        {
+            "country_code": "BUL",
+            "country": "Bulgaria",
+            "name": "Dimitar Penev",
+            "role": "COACH",
+            "id_match": 52500,
+            "year": 1996
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Javier Clemente Lázaro",
+            "role": "COACH",
+            "id_match": 52500,
+            "year": 1996
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Artur Jorge Melo Teixeira",
+            "role": "COACH",
+            "id_match": 52482,
+            "year": 1996
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Terry Venables",
+            "role": "COACH",
+            "id_match": 52482,
+            "year": 1996
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Dino Zoff",
+            "role": "COACH",
+            "id_match": 65299,
+            "year": 2000
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Roger Lemerre",
+            "role": "COACH",
+            "id_match": 65299,
+            "year": 2000
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Roger Lemerre",
+            "role": "COACH",
+            "id_match": 65183,
+            "year": 2000
+        },
+        {
+            "country_code": "SRB",
+            "country": "Serbia",
+            "name": "Vujadin Boškov",
+            "role": "COACH",
+            "id_match": 65181,
+            "year": 2000
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Frank Rijkaard",
+            "role": "COACH",
+            "id_match": 65181,
+            "year": 2000
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Emeric Ienei",
+            "role": "COACH",
+            "id_match": 65180,
+            "year": 2000
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Dino Zoff",
+            "role": "COACH",
+            "id_match": 65180,
+            "year": 2000
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Mustafa Denizli",
+            "role": "COACH",
+            "id_match": 65179,
+            "year": 2000
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Frank Rijkaard",
+            "role": "COACH",
+            "id_match": 64868,
+            "year": 2000
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Roger Lemerre",
+            "role": "COACH",
+            "id_match": 64868,
+            "year": 2000
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Jozef Chovanec",
+            "role": "COACH",
+            "id_match": 64867,
+            "year": 2000
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Bosse Johansson",
+            "role": "COACH",
+            "id_match": 64867,
+            "year": 2000
+        },
+        {
+            "country_code": "NOR",
+            "country": "Norway",
+            "name": "Nils Johan Semb",
+            "role": "COACH",
+            "id_match": 64862,
+            "year": 2000
+        },
+        {
+            "country_code": "SVN",
+            "country": "Slovenia",
+            "name": "Srečko Katanec",
+            "role": "COACH",
+            "id_match": 64862,
+            "year": 2000
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "José Antonio Camacho",
+            "role": "COACH",
+            "id_match": 64861,
+            "year": 2000
+        },
+        {
+            "country_code": "SRB",
+            "country": "Serbia",
+            "name": "Vujadin Boškov",
+            "role": "COACH",
+            "id_match": 64861,
+            "year": 2000
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Erich Ribbeck",
+            "role": "COACH",
+            "id_match": 64850,
+            "year": 2000
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Emeric Ienei",
+            "role": "COACH",
+            "id_match": 64849,
+            "year": 2000
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Kevin Keegan",
+            "role": "COACH",
+            "id_match": 64849,
+            "year": 2000
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Tommy Söderberg",
+            "role": "COACH",
+            "id_match": 64856,
+            "year": 2000
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Dino Zoff",
+            "role": "COACH",
+            "id_match": 64856,
+            "year": 2000
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Robert Waseige",
+            "role": "COACH",
+            "id_match": 64855,
+            "year": 2000
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Mustafa Denizli",
+            "role": "COACH",
+            "id_match": 64855,
+            "year": 2000
+        },
+        {
+            "country_code": "SRB",
+            "country": "Serbia",
+            "name": "Vujadin Boškov",
+            "role": "COACH",
+            "id_match": 64859,
+            "year": 2000
+        },
+        {
+            "country_code": "NOR",
+            "country": "Norway",
+            "name": "Nils Johan Semb",
+            "role": "COACH",
+            "id_match": 64859,
+            "year": 2000
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "José Antonio Camacho",
+            "role": "COACH",
+            "id_match": 64860,
+            "year": 2000
+        },
+        {
+            "country_code": "SVN",
+            "country": "Slovenia",
+            "name": "Srečko Katanec",
+            "role": "COACH",
+            "id_match": 64860,
+            "year": 2000
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Erich Ribbeck",
+            "role": "COACH",
+            "id_match": 64847,
+            "year": 2000
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Kevin Keegan",
+            "role": "COACH",
+            "id_match": 64847,
+            "year": 2000
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Emeric Ienei",
+            "role": "COACH",
+            "id_match": 64848,
+            "year": 2000
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Roger Lemerre",
+            "role": "COACH",
+            "id_match": 64865,
+            "year": 2000
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Jozef Chovanec",
+            "role": "COACH",
+            "id_match": 64865,
+            "year": 2000
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Mustafa Denizli",
+            "role": "COACH",
+            "id_match": 64854,
+            "year": 2000
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Tommy Söderberg",
+            "role": "COACH",
+            "id_match": 64854,
+            "year": 2000
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Robert Waseige",
+            "role": "COACH",
+            "id_match": 64853,
+            "year": 2000
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Dino Zoff",
+            "role": "COACH",
+            "id_match": 64853,
+            "year": 2000
+        },
+        {
+            "country_code": "NOR",
+            "country": "Norway",
+            "name": "Nils Johan Semb",
+            "role": "COACH",
+            "id_match": 64858,
+            "year": 2000
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "José Antonio Camacho",
+            "role": "COACH",
+            "id_match": 64858,
+            "year": 2000
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Kevin Keegan",
+            "role": "COACH",
+            "id_match": 64846,
+            "year": 2000
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Emeric Ienei",
+            "role": "COACH",
+            "id_match": 64845,
+            "year": 2000
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Erich Ribbeck",
+            "role": "COACH",
+            "id_match": 64845,
+            "year": 2000
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Jozef Chovanec",
+            "role": "COACH",
+            "id_match": 64864,
+            "year": 2000
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Frank Rijkaard",
+            "role": "COACH",
+            "id_match": 64864,
+            "year": 2000
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Dino Zoff",
+            "role": "COACH",
+            "id_match": 64852,
+            "year": 2000
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Mustafa Denizli",
+            "role": "COACH",
+            "id_match": 64852,
+            "year": 2000
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Tommy Söderberg",
+            "role": "COACH",
+            "id_match": 64851,
+            "year": 2000
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Robert Waseige",
+            "role": "COACH",
+            "id_match": 64851,
+            "year": 2000
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Tommy Söderberg",
+            "role": "COACH",
+            "id_match": 73753,
+            "year": 2004
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Morten Olsen",
+            "role": "COACH",
+            "id_match": 73753,
+            "year": 2004
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Aragonés Suárez",
+            "role": "COACH",
+            "id_match": 301696,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 301696,
+            "year": 2008
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Aragonés Suárez",
+            "role": "COACH",
+            "id_match": 301698,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Guus Hiddink",
+            "role": "COACH",
+            "id_match": 301698,
+            "year": 2008
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 301697,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 301697,
+            "year": 2008
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Donadoni",
+            "role": "COACH",
+            "id_match": 301702,
+            "year": 2008
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Aragonés Suárez",
+            "role": "COACH",
+            "id_match": 301702,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Guus Hiddink",
+            "role": "COACH",
+            "id_match": 301701,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Marco van Basten",
+            "role": "COACH",
+            "id_match": 301701,
+            "year": 2008
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 301700,
+            "year": 2008
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Slaven Bilić",
+            "role": "COACH",
+            "id_match": 301700,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Hans-Dieter Flick",
+            "role": "ASSISTANT_COACH",
+            "id_match": 301699,
+            "year": 2008
+        },
+        {
+            "country_code": "BRA",
+            "country": "Brazil",
+            "name": "Luiz Felipe Scolari",
+            "role": "COACH",
+            "id_match": 301699,
+            "year": 2008
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Lars Lagerbäck",
+            "role": "COACH",
+            "id_match": 300705,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Guus Hiddink",
+            "role": "COACH",
+            "id_match": 300705,
+            "year": 2008
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Aragonés Suárez",
+            "role": "COACH",
+            "id_match": 300704,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Otto-Heinz Rehhagel",
+            "role": "COACH",
+            "id_match": 300704,
+            "year": 2008
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Donadoni",
+            "role": "COACH",
+            "id_match": 300703,
+            "year": 2008
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Raymond Domenech",
+            "role": "COACH",
+            "id_match": 300703,
+            "year": 2008
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Victor Piturca",
+            "role": "COACH",
+            "id_match": 300702,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Marco van Basten",
+            "role": "COACH",
+            "id_match": 300702,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 300700,
+            "year": 2008
+        },
+        {
+            "country_code": "AUT",
+            "country": "Austria",
+            "name": "Josef Hickersberger",
+            "role": "COACH",
+            "id_match": 300700,
+            "year": 2008
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Slaven Bilić",
+            "role": "COACH",
+            "id_match": 300701,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Leo Beenhakker",
+            "role": "COACH",
+            "id_match": 300701,
+            "year": 2008
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Karel Brückner",
+            "role": "COACH",
+            "id_match": 300699,
+            "year": 2008
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 300699,
+            "year": 2008
+        },
+        {
+            "country_code": "BRA",
+            "country": "Brazil",
+            "name": "Luiz Felipe Scolari",
+            "role": "COACH",
+            "id_match": 300698,
+            "year": 2008
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Jakob Kuhn",
+            "role": "COACH",
+            "id_match": 300698,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Guus Hiddink",
+            "role": "COACH",
+            "id_match": 300696,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Otto-Heinz Rehhagel",
+            "role": "COACH",
+            "id_match": 300696,
+            "year": 2008
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Aragonés Suárez",
+            "role": "COACH",
+            "id_match": 300697,
+            "year": 2008
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Lars Lagerbäck",
+            "role": "COACH",
+            "id_match": 300697,
+            "year": 2008
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Raymond Domenech",
+            "role": "COACH",
+            "id_match": 300694,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Marco van Basten",
+            "role": "COACH",
+            "id_match": 300694,
+            "year": 2008
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Victor Piturca",
+            "role": "COACH",
+            "id_match": 300695,
+            "year": 2008
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Donadoni",
+            "role": "COACH",
+            "id_match": 300695,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Leo Beenhakker",
+            "role": "COACH",
+            "id_match": 300692,
+            "year": 2008
+        },
+        {
+            "country_code": "AUT",
+            "country": "Austria",
+            "name": "Josef Hickersberger",
+            "role": "COACH",
+            "id_match": 300692,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 300693,
+            "year": 2008
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Slaven Bilić",
+            "role": "COACH",
+            "id_match": 300693,
+            "year": 2008
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 300690,
+            "year": 2008
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Jakob Kuhn",
+            "role": "COACH",
+            "id_match": 300690,
+            "year": 2008
+        },
+        {
+            "country_code": "BRA",
+            "country": "Brazil",
+            "name": "Luiz Felipe Scolari",
+            "role": "COACH",
+            "id_match": 300691,
+            "year": 2008
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Karel Brückner",
+            "role": "COACH",
+            "id_match": 300691,
+            "year": 2008
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Lars Lagerbäck",
+            "role": "COACH",
+            "id_match": 300688,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Otto-Heinz Rehhagel",
+            "role": "COACH",
+            "id_match": 300688,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Guus Hiddink",
+            "role": "COACH",
+            "id_match": 300689,
+            "year": 2008
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Aragonés Suárez",
+            "role": "COACH",
+            "id_match": 300689,
+            "year": 2008
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Donadoni",
+            "role": "COACH",
+            "id_match": 300686,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Marco van Basten",
+            "role": "COACH",
+            "id_match": 300686,
+            "year": 2008
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Raymond Domenech",
+            "role": "COACH",
+            "id_match": 300687,
+            "year": 2008
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Victor Piturca",
+            "role": "COACH",
+            "id_match": 300687,
+            "year": 2008
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Leo Beenhakker",
+            "role": "COACH",
+            "id_match": 300685,
+            "year": 2008
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 300685,
+            "year": 2008
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Slaven Bilić",
+            "role": "COACH",
+            "id_match": 300684,
+            "year": 2008
+        },
+        {
+            "country_code": "AUT",
+            "country": "Austria",
+            "name": "Josef Hickersberger",
+            "role": "COACH",
+            "id_match": 300684,
+            "year": 2008
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 300683,
+            "year": 2008
+        },
+        {
+            "country_code": "BRA",
+            "country": "Brazil",
+            "name": "Luiz Felipe Scolari",
+            "role": "COACH",
+            "id_match": 300683,
+            "year": 2008
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Karel Brückner",
+            "role": "COACH",
+            "id_match": 300682,
+            "year": 2008
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Jakob Kuhn",
+            "role": "COACH",
+            "id_match": 300682,
+            "year": 2008
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Cesare Prandelli",
+            "role": "COACH",
+            "id_match": 2003351,
+            "year": 2012
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2003351,
+            "year": 2012
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Cesare Prandelli",
+            "role": "COACH",
+            "id_match": 2003379,
+            "year": 2012
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2003379,
+            "year": 2012
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Cesare Prandelli",
+            "role": "COACH",
+            "id_match": 2003346,
+            "year": 2012
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Roy Hodgson",
+            "role": "COACH",
+            "id_match": 2003346,
+            "year": 2012
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Laurent Blanc",
+            "role": "COACH",
+            "id_match": 2003345,
+            "year": 2012
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2003345,
+            "year": 2012
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2003344,
+            "year": 2012
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2003344,
+            "year": 2012
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Paulo Bento",
+            "role": "COACH",
+            "id_match": 2003343,
+            "year": 2012
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Michal Bílek",
+            "role": "COACH",
+            "id_match": 2003343,
+            "year": 2012
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Laurent Blanc",
+            "role": "COACH",
+            "id_match": 2003341,
+            "year": 2012
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Erik Hamrén",
+            "role": "COACH",
+            "id_match": 2003341,
+            "year": 2012
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Oleh Blokhin",
+            "role": "COACH",
+            "id_match": 2003342,
+            "year": 2012
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Roy Hodgson",
+            "role": "COACH",
+            "id_match": 2003342,
+            "year": 2012
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Giovanni Trapattoni",
+            "role": "COACH",
+            "id_match": 2003340,
+            "year": 2012
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Cesare Prandelli",
+            "role": "COACH",
+            "id_match": 2003340,
+            "year": 2012
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2003339,
+            "year": 2012
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Slaven Bilić",
+            "role": "COACH",
+            "id_match": 2003339,
+            "year": 2012
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2003338,
+            "year": 2012
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Morten Olsen",
+            "role": "COACH",
+            "id_match": 2003338,
+            "year": 2012
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Bert van Marwijk",
+            "role": "COACH",
+            "id_match": 2003337,
+            "year": 2012
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Paulo Bento",
+            "role": "COACH",
+            "id_match": 2003337,
+            "year": 2012
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Dick Advocaat",
+            "role": "COACH",
+            "id_match": 2003335,
+            "year": 2012
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2003335,
+            "year": 2012
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Franciszek Smuda",
+            "role": "COACH",
+            "id_match": 2003336,
+            "year": 2012
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Michal Bílek",
+            "role": "COACH",
+            "id_match": 2003336,
+            "year": 2012
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Roy Hodgson",
+            "role": "COACH",
+            "id_match": 2003333,
+            "year": 2012
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Erik Hamrén",
+            "role": "COACH",
+            "id_match": 2003333,
+            "year": 2012
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Laurent Blanc",
+            "role": "COACH",
+            "id_match": 2003334,
+            "year": 2012
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Oleh Blokhin",
+            "role": "COACH",
+            "id_match": 2003334,
+            "year": 2012
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Giovanni Trapattoni",
+            "role": "COACH",
+            "id_match": 2003332,
+            "year": 2012
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2003332,
+            "year": 2012
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Slaven Bilić",
+            "role": "COACH",
+            "id_match": 2003331,
+            "year": 2012
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Cesare Prandelli",
+            "role": "COACH",
+            "id_match": 2003331,
+            "year": 2012
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2003329,
+            "year": 2012
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Bert van Marwijk",
+            "role": "COACH",
+            "id_match": 2003329,
+            "year": 2012
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Paulo Bento",
+            "role": "COACH",
+            "id_match": 2003330,
+            "year": 2012
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Morten Olsen",
+            "role": "COACH",
+            "id_match": 2003330,
+            "year": 2012
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Dick Advocaat",
+            "role": "COACH",
+            "id_match": 2003327,
+            "year": 2012
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Franciszek Smuda",
+            "role": "COACH",
+            "id_match": 2003327,
+            "year": 2012
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Michal Bílek",
+            "role": "COACH",
+            "id_match": 2003328,
+            "year": 2012
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2003328,
+            "year": 2012
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Erik Hamrén",
+            "role": "COACH",
+            "id_match": 2003325,
+            "year": 2012
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Oleh Blokhin",
+            "role": "COACH",
+            "id_match": 2003325,
+            "year": 2012
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Roy Hodgson",
+            "role": "COACH",
+            "id_match": 2003326,
+            "year": 2012
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Laurent Blanc",
+            "role": "COACH",
+            "id_match": 2003326,
+            "year": 2012
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Slaven Bilić",
+            "role": "COACH",
+            "id_match": 2003324,
+            "year": 2012
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Giovanni Trapattoni",
+            "role": "COACH",
+            "id_match": 2003324,
+            "year": 2012
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Cesare Prandelli",
+            "role": "COACH",
+            "id_match": 2003323,
+            "year": 2012
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2003323,
+            "year": 2012
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Paulo Bento",
+            "role": "COACH",
+            "id_match": 2003322,
+            "year": 2012
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2003322,
+            "year": 2012
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Morten Olsen",
+            "role": "COACH",
+            "id_match": 2003321,
+            "year": 2012
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Bert van Marwijk",
+            "role": "COACH",
+            "id_match": 2003321,
+            "year": 2012
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Michal Bílek",
+            "role": "COACH",
+            "id_match": 2003320,
+            "year": 2012
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Dick Advocaat",
+            "role": "COACH",
+            "id_match": 2003320,
+            "year": 2012
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2003319,
+            "year": 2012
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Franciszek Smuda",
+            "role": "COACH",
+            "id_match": 2003319,
+            "year": 2012
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2017907,
+            "year": 2016
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2017907,
+            "year": 2016
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2017906,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2017906,
+            "year": 2016
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Chris Coleman",
+            "role": "COACH",
+            "id_match": 2017905,
+            "year": 2016
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2017905,
+            "year": 2016
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Lars Lagerbäck",
+            "role": "COACH",
+            "id_match": 2017904,
+            "year": 2016
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2017904,
+            "year": 2016
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Antonio Conte",
+            "role": "COACH",
+            "id_match": 2017903,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2017903,
+            "year": 2016
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Marc Wilmots",
+            "role": "COACH",
+            "id_match": 2017902,
+            "year": 2016
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Chris Coleman",
+            "role": "COACH",
+            "id_match": 2017902,
+            "year": 2016
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2017901,
+            "year": 2016
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Adam Nawalka",
+            "role": "COACH",
+            "id_match": 2017901,
+            "year": 2016
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Lars Lagerbäck",
+            "role": "COACH",
+            "id_match": 2018003,
+            "year": 2016
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Roy Hodgson",
+            "role": "COACH",
+            "id_match": 2018003,
+            "year": 2016
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2018002,
+            "year": 2016
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Antonio Conte",
+            "role": "COACH",
+            "id_match": 2018002,
+            "year": 2016
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Marc Wilmots",
+            "role": "COACH",
+            "id_match": 2018001,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Bernd Storck",
+            "role": "COACH",
+            "id_match": 2018001,
+            "year": 2016
+        },
+        {
+            "country_code": "SVK",
+            "country": "Slovakia",
+            "name": "Ján Kozák",
+            "role": "COACH",
+            "id_match": 2018000,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2018000,
+            "year": 2016
+        },
+        {
+            "country_code": "NIR",
+            "country": "Northern Ireland",
+            "name": "Martin O'Neill",
+            "role": "COACH",
+            "id_match": 2017999,
+            "year": 2016
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2017999,
+            "year": 2016
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2017998,
+            "year": 2016
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Ante Čačić",
+            "role": "COACH",
+            "id_match": 2017998,
+            "year": 2016
+        },
+        {
+            "country_code": "NIR",
+            "country": "Northern Ireland",
+            "name": "Michael O'Neill",
+            "role": "COACH",
+            "id_match": 2017997,
+            "year": 2016
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Chris Coleman",
+            "role": "COACH",
+            "id_match": 2017997,
+            "year": 2016
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Adam Nawalka",
+            "role": "COACH",
+            "id_match": 2017996,
+            "year": 2016
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2017996,
+            "year": 2016
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Marc Wilmots",
+            "role": "COACH",
+            "id_match": 2017957,
+            "year": 2016
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Erik Hamrén",
+            "role": "COACH",
+            "id_match": 2017957,
+            "year": 2016
+        },
+        {
+            "country_code": "NIR",
+            "country": "Northern Ireland",
+            "name": "Martin O'Neill",
+            "role": "COACH",
+            "id_match": 2017958,
+            "year": 2016
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Antonio Conte",
+            "role": "COACH",
+            "id_match": 2017958,
+            "year": 2016
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2017964,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Bernd Storck",
+            "role": "COACH",
+            "id_match": 2017964,
+            "year": 2016
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Marcel Koller",
+            "role": "COACH",
+            "id_match": 2017963,
+            "year": 2016
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Lars Lagerbäck",
+            "role": "COACH",
+            "id_match": 2017963,
+            "year": 2016
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2017899,
+            "year": 2016
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Ante Čačić",
+            "role": "COACH",
+            "id_match": 2017899,
+            "year": 2016
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 2017900,
+            "year": 2016
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Pavel Vrba",
+            "role": "COACH",
+            "id_match": 2017900,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2017897,
+            "year": 2016
+        },
+        {
+            "country_code": "NIR",
+            "country": "Northern Ireland",
+            "name": "Michael O'Neill",
+            "role": "COACH",
+            "id_match": 2017897,
+            "year": 2016
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Adam Nawalka",
+            "role": "COACH",
+            "id_match": 2017898,
+            "year": 2016
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Mykhailo Fomenko",
+            "role": "COACH",
+            "id_match": 2017898,
+            "year": 2016
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Roy Hodgson",
+            "role": "COACH",
+            "id_match": 2017895,
+            "year": 2016
+        },
+        {
+            "country_code": "SVK",
+            "country": "Slovakia",
+            "name": "Ján Kozák",
+            "role": "COACH",
+            "id_match": 2017895,
+            "year": 2016
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Chris Coleman",
+            "role": "COACH",
+            "id_match": 2017896,
+            "year": 2016
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Leonid Slutski",
+            "role": "COACH",
+            "id_match": 2017896,
+            "year": 2016
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2017893,
+            "year": 2016
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2017893,
+            "year": 2016
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Giovanni de Biasi",
+            "role": "COACH",
+            "id_match": 2017894,
+            "year": 2016
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Anghel Iordănescu",
+            "role": "COACH",
+            "id_match": 2017894,
+            "year": 2016
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Marcel Koller",
+            "role": "COACH",
+            "id_match": 2017961,
+            "year": 2016
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2017961,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Bernd Storck",
+            "role": "COACH",
+            "id_match": 2017962,
+            "year": 2016
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Lars Lagerbäck",
+            "role": "COACH",
+            "id_match": 2017962,
+            "year": 2016
+        },
+        {
+            "country_code": "NIR",
+            "country": "Northern Ireland",
+            "name": "Martin O'Neill",
+            "role": "COACH",
+            "id_match": 2017955,
+            "year": 2016
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Marc Wilmots",
+            "role": "COACH",
+            "id_match": 2017955,
+            "year": 2016
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 2017891,
+            "year": 2016
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2017891,
+            "year": 2016
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Ante Čačić",
+            "role": "COACH",
+            "id_match": 2017892,
+            "year": 2016
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Pavel Vrba",
+            "role": "COACH",
+            "id_match": 2017892,
+            "year": 2016
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Erik Hamrén",
+            "role": "COACH",
+            "id_match": 2017956,
+            "year": 2016
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Antonio Conte",
+            "role": "COACH",
+            "id_match": 2017956,
+            "year": 2016
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Adam Nawalka",
+            "role": "COACH",
+            "id_match": 2017889,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2017889,
+            "year": 2016
+        },
+        {
+            "country_code": "NIR",
+            "country": "Northern Ireland",
+            "name": "Michael O'Neill",
+            "role": "COACH",
+            "id_match": 2017890,
+            "year": 2016
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Mykhailo Fomenko",
+            "role": "COACH",
+            "id_match": 2017890,
+            "year": 2016
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Chris Coleman",
+            "role": "COACH",
+            "id_match": 2017887,
+            "year": 2016
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Roy Hodgson",
+            "role": "COACH",
+            "id_match": 2017887,
+            "year": 2016
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Giovanni de Biasi",
+            "role": "COACH",
+            "id_match": 2017885,
+            "year": 2016
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2017885,
+            "year": 2016
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2017886,
+            "year": 2016
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Anghel Iordănescu",
+            "role": "COACH",
+            "id_match": 2017886,
+            "year": 2016
+        },
+        {
+            "country_code": "SVK",
+            "country": "Slovakia",
+            "name": "Ján Kozák",
+            "role": "COACH",
+            "id_match": 2017888,
+            "year": 2016
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Leonid Slutski",
+            "role": "COACH",
+            "id_match": 2017888,
+            "year": 2016
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Lars Lagerbäck",
+            "role": "COACH",
+            "id_match": 2017959,
+            "year": 2016
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2017959,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Bernd Storck",
+            "role": "COACH",
+            "id_match": 2017960,
+            "year": 2016
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Marcel Koller",
+            "role": "COACH",
+            "id_match": 2017960,
+            "year": 2016
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Antonio Conte",
+            "role": "COACH",
+            "id_match": 2017953,
+            "year": 2016
+        },
+        {
+            "country_code": "BEL",
+            "country": "Belgium",
+            "name": "Marc Wilmots",
+            "role": "COACH",
+            "id_match": 2017953,
+            "year": 2016
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Erik Hamrén",
+            "role": "COACH",
+            "id_match": 2017954,
+            "year": 2016
+        },
+        {
+            "country_code": "NIR",
+            "country": "Northern Ireland",
+            "name": "Martin O'Neill",
+            "role": "COACH",
+            "id_match": 2017954,
+            "year": 2016
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Pavel Vrba",
+            "role": "COACH",
+            "id_match": 2017883,
+            "year": 2016
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Vicente del Bosque",
+            "role": "COACH",
+            "id_match": 2017883,
+            "year": 2016
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Mykhailo Fomenko",
+            "role": "COACH",
+            "id_match": 2017881,
+            "year": 2016
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2017881,
+            "year": 2016
+        },
+        {
+            "country_code": "NIR",
+            "country": "Northern Ireland",
+            "name": "Michael O'Neill",
+            "role": "COACH",
+            "id_match": 2017882,
+            "year": 2016
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Adam Nawalka",
+            "role": "COACH",
+            "id_match": 2017882,
+            "year": 2016
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Ante Čačić",
+            "role": "COACH",
+            "id_match": 2017884,
+            "year": 2016
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Fatih Terim",
+            "role": "COACH",
+            "id_match": 2017884,
+            "year": 2016
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Leonid Slutski",
+            "role": "COACH",
+            "id_match": 2017879,
+            "year": 2016
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Roy Hodgson",
+            "role": "COACH",
+            "id_match": 2017879,
+            "year": 2016
+        },
+        {
+            "country_code": "SVK",
+            "country": "Slovakia",
+            "name": "Ján Kozák",
+            "role": "COACH",
+            "id_match": 2017880,
+            "year": 2016
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Chris Coleman",
+            "role": "COACH",
+            "id_match": 2017880,
+            "year": 2016
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2017878,
+            "year": 2016
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Giovanni de Biasi",
+            "role": "COACH",
+            "id_match": 2017878,
+            "year": 2016
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Anghel Iordănescu",
+            "role": "COACH",
+            "id_match": 2017877,
+            "year": 2016
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2017877,
+            "year": 2016
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2024491,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Mancini",
+            "role": "COACH",
+            "id_match": 2024491,
+            "year": 2020
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2024490,
+            "year": 2020
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2024490,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Enrique",
+            "role": "COACH",
+            "id_match": 2024489,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Mancini",
+            "role": "COACH",
+            "id_match": 2024489,
+            "year": 2020
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2024487,
+            "year": 2020
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Andriy Shevchenko",
+            "role": "COACH",
+            "id_match": 2024487,
+            "year": 2020
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2024488,
+            "year": 2020
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Jaroslav Šilhavý",
+            "role": "COACH",
+            "id_match": 2024488,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Mancini",
+            "role": "COACH",
+            "id_match": 2024486,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2024486,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Enrique",
+            "role": "COACH",
+            "id_match": 2024485,
+            "year": 2020
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2024485,
+            "year": 2020
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Andriy Shevchenko",
+            "role": "COACH",
+            "id_match": 2024483,
+            "year": 2020
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Jan Andersson",
+            "role": "COACH",
+            "id_match": 2024483,
+            "year": 2020
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2024484,
+            "year": 2020
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2024484,
+            "year": 2020
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2024481,
+            "year": 2020
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2024481,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Enrique",
+            "role": "COACH",
+            "id_match": 2024482,
+            "year": 2020
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Zlatko Dalić",
+            "role": "COACH",
+            "id_match": 2024482,
+            "year": 2020
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2024479,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2024479,
+            "year": 2020
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Jaroslav Šilhavý",
+            "role": "COACH",
+            "id_match": 2024480,
+            "year": 2020
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Frank de Boer",
+            "role": "COACH",
+            "id_match": 2024480,
+            "year": 2020
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Franco Foda",
+            "role": "COACH",
+            "id_match": 2024477,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Mancini",
+            "role": "COACH",
+            "id_match": 2024477,
+            "year": 2020
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2024478,
+            "year": 2020
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Rob Page",
+            "role": "COACH",
+            "id_match": 2024478,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Marco Rossi",
+            "role": "COACH",
+            "id_match": 2024475,
+            "year": 2020
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2024475,
+            "year": 2020
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2024476,
+            "year": 2020
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2024476,
+            "year": 2020
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Paulo Sousa",
+            "role": "COACH",
+            "id_match": 2024474,
+            "year": 2020
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Jan Andersson",
+            "role": "COACH",
+            "id_match": 2024474,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Enrique",
+            "role": "COACH",
+            "id_match": 2024473,
+            "year": 2020
+        },
+        {
+            "country_code": "SVK",
+            "country": "Slovakia",
+            "name": "Štefan Tarkovič",
+            "role": "COACH",
+            "id_match": 2024473,
+            "year": 2020
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2024471,
+            "year": 2020
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Jaroslav Šilhavý",
+            "role": "COACH",
+            "id_match": 2024471,
+            "year": 2020
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Steve Clarke",
+            "role": "COACH",
+            "id_match": 2024472,
+            "year": 2020
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Zlatko Dalić",
+            "role": "COACH",
+            "id_match": 2024472,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2024470,
+            "year": 2020
+        },
+        {
+            "country_code": "FIN",
+            "country": "Finland",
+            "name": "Markku Kanerva",
+            "role": "COACH",
+            "id_match": 2024470,
+            "year": 2020
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2024469,
+            "year": 2020
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Stanislav Cherchesov",
+            "role": "COACH",
+            "id_match": 2024469,
+            "year": 2020
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Franco Foda",
+            "role": "COACH",
+            "id_match": 2024446,
+            "year": 2020
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Andriy Shevchenko",
+            "role": "COACH",
+            "id_match": 2024446,
+            "year": 2020
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Frank de Boer",
+            "role": "COACH",
+            "id_match": 2024445,
+            "year": 2020
+        },
+        {
+            "country_code": "MKD",
+            "country": "North Macedonia",
+            "name": "Igor Angelovski",
+            "role": "COACH",
+            "id_match": 2024445,
+            "year": 2020
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Rob Page",
+            "role": "COACH",
+            "id_match": 2024468,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Mancini",
+            "role": "COACH",
+            "id_match": 2024468,
+            "year": 2020
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Şenol Güneş",
+            "role": "COACH",
+            "id_match": 2024467,
+            "year": 2020
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2024467,
+            "year": 2020
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Paulo Sousa",
+            "role": "COACH",
+            "id_match": 2024463,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Enrique",
+            "role": "COACH",
+            "id_match": 2024463,
+            "year": 2020
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2024466,
+            "year": 2020
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2024466,
+            "year": 2020
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2024465,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Marco Rossi",
+            "role": "COACH",
+            "id_match": 2024465,
+            "year": 2020
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Steve Clarke",
+            "role": "COACH",
+            "id_match": 2024461,
+            "year": 2020
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2024461,
+            "year": 2020
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Jaroslav Šilhavý",
+            "role": "COACH",
+            "id_match": 2024462,
+            "year": 2020
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Zlatko Dalić",
+            "role": "COACH",
+            "id_match": 2024462,
+            "year": 2020
+        },
+        {
+            "country_code": "SVK",
+            "country": "Slovakia",
+            "name": "Štefan Tarkovič",
+            "role": "COACH",
+            "id_match": 2024464,
+            "year": 2020
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Jan Andersson",
+            "role": "COACH",
+            "id_match": 2024464,
+            "year": 2020
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Franco Foda",
+            "role": "COACH",
+            "id_match": 2024443,
+            "year": 2020
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Frank de Boer",
+            "role": "COACH",
+            "id_match": 2024443,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2024459,
+            "year": 2020
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2024459,
+            "year": 2020
+        },
+        {
+            "country_code": "MKD",
+            "country": "North Macedonia",
+            "name": "Igor Angelovski",
+            "role": "COACH",
+            "id_match": 2024444,
+            "year": 2020
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Andriy Shevchenko",
+            "role": "COACH",
+            "id_match": 2024444,
+            "year": 2020
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2024458,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Mancini",
+            "role": "COACH",
+            "id_match": 2024458,
+            "year": 2020
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Rob Page",
+            "role": "COACH",
+            "id_match": 2024457,
+            "year": 2020
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Şenol Güneş",
+            "role": "COACH",
+            "id_match": 2024457,
+            "year": 2020
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Stanislav Cherchesov",
+            "role": "COACH",
+            "id_match": 2024460,
+            "year": 2020
+        },
+        {
+            "country_code": "FIN",
+            "country": "Finland",
+            "name": "Markku Kanerva",
+            "role": "COACH",
+            "id_match": 2024460,
+            "year": 2020
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Joachim Löw",
+            "role": "COACH",
+            "id_match": 2024456,
+            "year": 2020
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2024456,
+            "year": 2020
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Fernando Santos",
+            "role": "COACH",
+            "id_match": 2024455,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Marco Rossi",
+            "role": "COACH",
+            "id_match": 2024455,
+            "year": 2020
+        },
+        {
+            "country_code": "SWE",
+            "country": "Sweden",
+            "name": "Jan Andersson",
+            "role": "COACH",
+            "id_match": 2024453,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis Enrique",
+            "role": "COACH",
+            "id_match": 2024453,
+            "year": 2020
+        },
+        {
+            "country_code": "SVK",
+            "country": "Slovakia",
+            "name": "Štefan Tarkovič",
+            "role": "COACH",
+            "id_match": 2024454,
+            "year": 2020
+        },
+        {
+            "country_code": "POR",
+            "country": "Portugal",
+            "name": "Paulo Sousa",
+            "role": "COACH",
+            "id_match": 2024454,
+            "year": 2020
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Jaroslav Šilhavý",
+            "role": "COACH",
+            "id_match": 2024452,
+            "year": 2020
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Steve Clarke",
+            "role": "COACH",
+            "id_match": 2024452,
+            "year": 2020
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Andriy Shevchenko",
+            "role": "COACH",
+            "id_match": 2024441,
+            "year": 2020
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Frank de Boer",
+            "role": "COACH",
+            "id_match": 2024441,
+            "year": 2020
+        },
+        {
+            "country_code": "MKD",
+            "country": "North Macedonia",
+            "name": "Igor Angelovski",
+            "role": "COACH",
+            "id_match": 2024442,
+            "year": 2020
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Franco Foda",
+            "role": "COACH",
+            "id_match": 2024442,
+            "year": 2020
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Zlatko Dalić",
+            "role": "COACH",
+            "id_match": 2024451,
+            "year": 2020
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2024451,
+            "year": 2020
+        },
+        {
+            "country_code": "RUS",
+            "country": "Russia",
+            "name": "Stanislav Cherchesov",
+            "role": "COACH",
+            "id_match": 2024450,
+            "year": 2020
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2024450,
+            "year": 2020
+        },
+        {
+            "country_code": "FIN",
+            "country": "Finland",
+            "name": "Markku Kanerva",
+            "role": "COACH",
+            "id_match": 2024449,
+            "year": 2020
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2024449,
+            "year": 2020
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Vladimir Petković",
+            "role": "COACH",
+            "id_match": 2024448,
+            "year": 2020
+        },
+        {
+            "country_code": "WAL",
+            "country": "Wales",
+            "name": "Rob Page",
+            "role": "COACH",
+            "id_match": 2024448,
+            "year": 2020
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Roberto Mancini",
+            "role": "COACH",
+            "id_match": 2024447,
+            "year": 2020
+        },
+        {
+            "country_code": "TUR",
+            "country": "Türkiye",
+            "name": "Şenol Güneş",
+            "role": "COACH",
+            "id_match": 2024447,
+            "year": 2020
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2036211,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis de la Fuente",
+            "role": "COACH",
+            "id_match": 2036211,
+            "year": 2024
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2036210,
+            "year": 2024
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Ronald Koeman",
+            "role": "COACH",
+            "id_match": 2036210,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2036209,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis de la Fuente",
+            "role": "COACH",
+            "id_match": 2036209,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Vincenzo Montella",
+            "role": "COACH",
+            "id_match": 2036207,
+            "year": 2024
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Ronald Koeman",
+            "role": "COACH",
+            "id_match": 2036207,
+            "year": 2024
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Murat Yakin",
+            "role": "COACH",
+            "id_match": 2036208,
+            "year": 2024
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2036208,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2036206,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2036206,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Julian Nagelsmann",
+            "role": "COACH",
+            "id_match": 2036205,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis de la Fuente",
+            "role": "COACH",
+            "id_match": 2036205,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Vincenzo Montella",
+            "role": "COACH",
+            "id_match": 2036204,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Ralf Rangnick",
+            "role": "COACH",
+            "id_match": 2036204,
+            "year": 2024
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Ronald Koeman",
+            "role": "COACH",
+            "id_match": 2036203,
+            "year": 2024
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Edward Iordănescu",
+            "role": "COACH",
+            "id_match": 2036203,
+            "year": 2024
+        },
+        {
+            "country_code": "SVN",
+            "country": "Slovenia",
+            "name": "Matjaž Kek",
+            "role": "COACH",
+            "id_match": 2036201,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2036201,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Domenico Tedesco",
+            "role": "COACH",
+            "id_match": 2036202,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2036202,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Willy Sagnol",
+            "role": "COACH",
+            "id_match": 2036199,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis de la Fuente",
+            "role": "COACH",
+            "id_match": 2036199,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Francesco Calzona",
+            "role": "COACH",
+            "id_match": 2036200,
+            "year": 2024
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2036200,
+            "year": 2024
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2036197,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Julian Nagelsmann",
+            "role": "COACH",
+            "id_match": 2036197,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Luciano Spalletti",
+            "role": "COACH",
+            "id_match": 2036198,
+            "year": 2024
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Murat Yakin",
+            "role": "COACH",
+            "id_match": 2036198,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Vincenzo Montella",
+            "role": "COACH",
+            "id_match": 2036195,
+            "year": 2024
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Ivan Hašek",
+            "role": "COACH",
+            "id_match": 2036195,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2036196,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Willy Sagnol",
+            "role": "COACH",
+            "id_match": 2036196,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Domenico Tedesco",
+            "role": "COACH",
+            "id_match": 2036193,
+            "year": 2024
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Serhiy Rebrov",
+            "role": "COACH",
+            "id_match": 2036193,
+            "year": 2024
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Edward Iordănescu",
+            "role": "COACH",
+            "id_match": 2036194,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Francesco Calzona",
+            "role": "COACH",
+            "id_match": 2036194,
+            "year": 2024
+        },
+        {
+            "country_code": "SRB",
+            "country": "Serbia",
+            "name": "Dragan Stojković",
+            "role": "COACH",
+            "id_match": 2036190,
+            "year": 2024
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2036190,
+            "year": 2024
+        },
+        {
+            "country_code": "SVN",
+            "country": "Slovenia",
+            "name": "Matjaž Kek",
+            "role": "COACH",
+            "id_match": 2036189,
+            "year": 2024
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2036189,
+            "year": 2024
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Michał Probierz",
+            "role": "COACH",
+            "id_match": 2036191,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2036191,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Ralf Rangnick",
+            "role": "COACH",
+            "id_match": 2036192,
+            "year": 2024
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Ronald Koeman",
+            "role": "COACH",
+            "id_match": 2036192,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Luciano Spalletti",
+            "role": "COACH",
+            "id_match": 2036188,
+            "year": 2024
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Zlatko Dalić",
+            "role": "COACH",
+            "id_match": 2036188,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis de la Fuente",
+            "role": "COACH",
+            "id_match": 2036187,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Sylvinho",
+            "role": "COACH",
+            "id_match": 2036187,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Marco Rossi",
+            "role": "COACH",
+            "id_match": 2036186,
+            "year": 2024
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Steve Clarke",
+            "role": "COACH",
+            "id_match": 2036186,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Julian Nagelsmann",
+            "role": "COACH",
+            "id_match": 2036185,
+            "year": 2024
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Murat Yakin",
+            "role": "COACH",
+            "id_match": 2036185,
+            "year": 2024
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Edward Iordănescu",
+            "role": "COACH",
+            "id_match": 2036181,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Domenico Tedesco",
+            "role": "COACH",
+            "id_match": 2036181,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2036183,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Vincenzo Montella",
+            "role": "COACH",
+            "id_match": 2036183,
+            "year": 2024
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Ivan Hašek",
+            "role": "COACH",
+            "id_match": 2036184,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Willy Sagnol",
+            "role": "COACH",
+            "id_match": 2036184,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2036180,
+            "year": 2024
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Ronald Koeman",
+            "role": "COACH",
+            "id_match": 2036180,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Ralf Rangnick",
+            "role": "COACH",
+            "id_match": 2036179,
+            "year": 2024
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Michał Probierz",
+            "role": "COACH",
+            "id_match": 2036179,
+            "year": 2024
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Serhiy Rebrov",
+            "role": "COACH",
+            "id_match": 2036182,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Francesco Calzona",
+            "role": "COACH",
+            "id_match": 2036182,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Luciano Spalletti",
+            "role": "COACH",
+            "id_match": 2036175,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis de la Fuente",
+            "role": "COACH",
+            "id_match": 2036175,
+            "year": 2024
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2036178,
+            "year": 2024
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2036178,
+            "year": 2024
+        },
+        {
+            "country_code": "SRB",
+            "country": "Serbia",
+            "name": "Dragan Stojković",
+            "role": "COACH",
+            "id_match": 2036177,
+            "year": 2024
+        },
+        {
+            "country_code": "SVN",
+            "country": "Slovenia",
+            "name": "Matjaž Kek",
+            "role": "COACH",
+            "id_match": 2036177,
+            "year": 2024
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Murat Yakin",
+            "role": "COACH",
+            "id_match": 2036174,
+            "year": 2024
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Steve Clarke",
+            "role": "COACH",
+            "id_match": 2036174,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Marco Rossi",
+            "role": "COACH",
+            "id_match": 2036173,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Julian Nagelsmann",
+            "role": "COACH",
+            "id_match": 2036173,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Sylvinho",
+            "role": "COACH",
+            "id_match": 2036176,
+            "year": 2024
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Zlatko Dalić",
+            "role": "COACH",
+            "id_match": 2036176,
+            "year": 2024
+        },
+        {
+            "country_code": "CZE",
+            "country": "Czechia",
+            "name": "Ivan Hašek",
+            "role": "COACH",
+            "id_match": 2036172,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Roberto Martínez",
+            "role": "COACH",
+            "id_match": 2036172,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Willy Sagnol",
+            "role": "COACH",
+            "id_match": 2036171,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Vincenzo Montella",
+            "role": "COACH",
+            "id_match": 2036171,
+            "year": 2024
+        },
+        {
+            "country_code": "FRA",
+            "country": "France",
+            "name": "Didier Deschamps",
+            "role": "COACH",
+            "id_match": 2036168,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Ralf Rangnick",
+            "role": "COACH",
+            "id_match": 2036168,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Francesco Calzona",
+            "role": "COACH",
+            "id_match": 2036169,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Domenico Tedesco",
+            "role": "COACH",
+            "id_match": 2036169,
+            "year": 2024
+        },
+        {
+            "country_code": "UKR",
+            "country": "Ukraine",
+            "name": "Serhiy Rebrov",
+            "role": "COACH",
+            "id_match": 2036170,
+            "year": 2024
+        },
+        {
+            "country_code": "ROU",
+            "country": "Romania",
+            "name": "Edward Iordănescu",
+            "role": "COACH",
+            "id_match": 2036170,
+            "year": 2024
+        },
+        {
+            "country_code": "ENG",
+            "country": "England",
+            "name": "Gareth Southgate",
+            "role": "COACH",
+            "id_match": 2036166,
+            "year": 2024
+        },
+        {
+            "country_code": "SRB",
+            "country": "Serbia",
+            "name": "Dragan Stojković",
+            "role": "COACH",
+            "id_match": 2036166,
+            "year": 2024
+        },
+        {
+            "country_code": "DEN",
+            "country": "Denmark",
+            "name": "Kasper Hjulmand",
+            "role": "COACH",
+            "id_match": 2036165,
+            "year": 2024
+        },
+        {
+            "country_code": "SVN",
+            "country": "Slovenia",
+            "name": "Matjaž Kek",
+            "role": "COACH",
+            "id_match": 2036165,
+            "year": 2024
+        },
+        {
+            "country_code": "NED",
+            "country": "Netherlands",
+            "name": "Ronald Koeman",
+            "role": "COACH",
+            "id_match": 2036167,
+            "year": 2024
+        },
+        {
+            "country_code": "POL",
+            "country": "Poland",
+            "name": "Michał Probierz",
+            "role": "COACH",
+            "id_match": 2036167,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Sylvinho",
+            "role": "COACH",
+            "id_match": 2036164,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Luciano Spalletti",
+            "role": "COACH",
+            "id_match": 2036164,
+            "year": 2024
+        },
+        {
+            "country_code": "CRO",
+            "country": "Croatia",
+            "name": "Zlatko Dalić",
+            "role": "COACH",
+            "id_match": 2036163,
+            "year": 2024
+        },
+        {
+            "country_code": "ESP",
+            "country": "Spain",
+            "name": "Luis de la Fuente",
+            "role": "COACH",
+            "id_match": 2036163,
+            "year": 2024
+        },
+        {
+            "country_code": "SUI",
+            "country": "Switzerland",
+            "name": "Murat Yakin",
+            "role": "COACH",
+            "id_match": 2036162,
+            "year": 2024
+        },
+        {
+            "country_code": "ITA",
+            "country": "Italy",
+            "name": "Marco Rossi",
+            "role": "COACH",
+            "id_match": 2036162,
+            "year": 2024
+        },
+        {
+            "country_code": "SCO",
+            "country": "Scotland",
+            "name": "Steve Clarke",
+            "role": "COACH",
+            "id_match": 2036161,
+            "year": 2024
+        },
+        {
+            "country_code": "GER",
+            "country": "Germany",
+            "name": "Julian Nagelsmann",
+            "role": "COACH",
+            "id_match": 2036161,
+            "year": 2024
+        }
+    ]
+}
