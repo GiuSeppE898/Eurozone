@@ -54,250 +54,141 @@
     "red_cards": NaN,
     "stadium_city": "Munich",
     "stadium_name": "Olympiastadion",
+    "stadium_name_official": "Olympiastadion",
     "home_lineups": [
       {
-        "name": "Viačeslavas Sukristovas",
-        "position_national": null,
         "id_player": "2789",
-        "country_code": "LTU",
         "start": "bench"
       },
       {
-        "name": "Tengiz Sulakvelidze",
-        "position_national": null,
         "id_player": "160",
-        "country_code": "GEO",
         "start": "bench"
       },
       {
-        "name": "Viktor Chanov",
-        "position_national": "GOALKEEPER",
         "id_player": "92028",
-        "country_code": null,
         "start": "bench"
       },
       {
-        "name": "Serhiy Baltacha",
-        "position_national": "MIDFIELDER",
         "id_player": "166",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Viktor Pasulko",
-        "position_national": null,
         "id_player": "175",
-        "country_code": "RUS",
         "start": "bench"
       },
       {
-        "name": "Rinat Dasayev",
-        "position_national": "GOALKEEPER",
         "id_player": "148",
-        "country_code": "RUS",
         "start": "field"
       },
       {
-        "name": "Vagiz Khidiyatullin",
-        "position_national": "DEFENDER",
         "id_player": "150",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoliy Demianenko",
-        "position_national": null,
         "id_player": "152",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Vasiliy Rats",
-        "position_national": null,
         "id_player": "153",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Sergei Aleinikov",
-        "position_national": "MIDFIELDER",
         "id_player": "154",
-        "country_code": "BLR",
         "start": "field"
       },
       {
-        "name": "Gennadiy Lytovchenko",
-        "position_national": "MIDFIELDER",
         "id_player": "155",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Olexandr Zavarov",
-        "position_national": "MIDFIELDER",
         "id_player": "156",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Protasov",
-        "position_national": null,
         "id_player": "157",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Ihor Belanov",
-        "position_national": "FORWARD",
         "id_player": "158",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Oleksiy Mykhailychenko",
-        "position_national": "MIDFIELDER",
         "id_player": "92072",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Sergei Gotsmanov",
-        "position_national": "FORWARD",
         "id_player": "165",
-        "country_code": "URS",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "John Bosman",
-        "position_national": "FORWARD",
         "id_player": "2664",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "John van 't Schip",
-        "position_national": null,
         "id_player": "118",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wim Kieft",
-        "position_national": null,
         "id_player": "121",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Joop Hiele",
-        "position_national": null,
         "id_player": "123",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wilbert Suvrijn",
-        "position_national": null,
         "id_player": "1286",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Hans van Breukelen",
-        "position_national": "GOALKEEPER",
         "id_player": "108",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Adri van Tiggelen",
-        "position_national": "DEFENDER",
         "id_player": "109",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ronald Koeman",
-        "position_national": null,
         "id_player": "150026554",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Berry van Aerle",
-        "position_national": "DEFENDER",
         "id_player": "113",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Gerald Vanenburg",
-        "position_national": "MIDFIELDER",
         "id_player": "114",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Arnold Mühren",
-        "position_national": "MIDFIELDER",
         "id_player": "115",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ruud Gullit",
-        "position_national": null,
         "id_player": "410",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Marco van Basten",
-        "position_national": "FORWARD",
         "id_player": "411",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Erwin Koeman",
-        "position_national": null,
         "id_player": "120",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Frank Rijkaard",
-        "position_national": "DEFENDER",
         "id_player": "412",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Jan Wouters",
-        "position_national": "MIDFIELDER",
         "id_player": "127",
-        "country_code": "NED",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "UKR",
-        "country": "Ukraine",
-        "name": "Valeriy Lobanovskiy",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "NED",
-        "country": "Netherlands",
-        "name": "Rinus Michels",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Valeriy Lobanovskiy",
+    "away_coaches": "Rinus Michels",
     "events": [
       {
         "id": "82517",
@@ -474,250 +365,141 @@
     "red_cards": NaN,
     "stadium_city": "Stuttgart",
     "stadium_name": "Arena Stuttgart",
+    "stadium_name_official": "Arena Stuttgart",
     "home_lineups": [
       {
-        "name": "Anatoliy Demianenko",
-        "position_national": null,
         "id_player": "152",
-        "country_code": "UKR",
         "start": "bench"
       },
       {
-        "name": "Viačeslavas Sukristovas",
-        "position_national": null,
         "id_player": "2789",
-        "country_code": "LTU",
         "start": "bench"
       },
       {
-        "name": "Viktor Chanov",
-        "position_national": "GOALKEEPER",
         "id_player": "92028",
-        "country_code": null,
         "start": "bench"
       },
       {
-        "name": "Serhiy Baltacha",
-        "position_national": "MIDFIELDER",
         "id_player": "166",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Viktor Pasulko",
-        "position_national": null,
         "id_player": "175",
-        "country_code": "RUS",
         "start": "bench"
       },
       {
-        "name": "Rinat Dasayev",
-        "position_national": "GOALKEEPER",
         "id_player": "148",
-        "country_code": "RUS",
         "start": "field"
       },
       {
-        "name": "Volodymyr Bezsonov",
-        "position_national": "MIDFIELDER",
         "id_player": "1900674",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Vagiz Khidiyatullin",
-        "position_national": "DEFENDER",
         "id_player": "150",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Kuznetsov",
-        "position_national": null,
         "id_player": "151",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Vasiliy Rats",
-        "position_national": null,
         "id_player": "153",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Sergei Aleinikov",
-        "position_national": "MIDFIELDER",
         "id_player": "154",
-        "country_code": "BLR",
         "start": "field"
       },
       {
-        "name": "Gennadiy Lytovchenko",
-        "position_national": "MIDFIELDER",
         "id_player": "155",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Olexandr Zavarov",
-        "position_national": "MIDFIELDER",
         "id_player": "156",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Protasov",
-        "position_national": null,
         "id_player": "157",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Oleksiy Mykhailychenko",
-        "position_national": "MIDFIELDER",
         "id_player": "92072",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Sergei Gotsmanov",
-        "position_national": "FORWARD",
         "id_player": "165",
-        "country_code": "URS",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Ciro Ferrara",
-        "position_national": "DEFENDER",
         "id_player": "847",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luigi De Agostini",
-        "position_national": "DEFENDER",
         "id_player": "97",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Stefano Tacconi",
-        "position_national": "GOALKEEPER",
         "id_player": "99",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luca Fusi",
-        "position_national": "MIDFIELDER",
         "id_player": "100",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Alessandro Altobelli",
-        "position_national": "FORWARD",
         "id_player": "103",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Walter Zenga",
-        "position_national": "GOALKEEPER",
         "id_player": "88",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Franco Baresi",
-        "position_national": "DEFENDER",
         "id_player": "416",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giuseppe Bergomi",
-        "position_national": "DEFENDER",
         "id_player": "90",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Riccardo Ferri",
-        "position_national": "DEFENDER",
         "id_player": "93",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Paolo Maldini",
-        "position_national": "DEFENDER",
         "id_player": "428",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Carlo Ancelotti",
-        "position_national": null,
         "id_player": "43192",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "FerNonedo De Napoli",
-        "position_national": "MIDFIELDER",
         "id_player": "98",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giuseppe Giannini",
-        "position_national": "MIDFIELDER",
         "id_player": "101",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Donadoni",
-        "position_national": null,
         "id_player": "421",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Mancini",
-        "position_national": null,
         "id_player": "105",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Gianluca Vialli",
-        "position_national": null,
         "id_player": "107",
-        "country_code": "ITA",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "UKR",
-        "country": "Ukraine",
-        "name": "Valeriy Lobanovskiy",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "ITA",
-        "country": "Italy",
-        "name": "Azeglio Vicini",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Valeriy Lobanovskiy",
+    "away_coaches": "Azeglio Vicini",
     "events": [
       {
         "id": "55388",
@@ -928,250 +710,141 @@
     "red_cards": NaN,
     "stadium_city": "Hamburg",
     "stadium_name": "Volksparkstadion",
+    "stadium_name_official": "Volksparkstadion",
     "home_lineups": [
       {
-        "name": "Pierre Littbarski",
-        "position_national": "MIDFIELDER",
         "id_player": "35",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Bodo Illgner",
-        "position_national": "GOALKEEPER",
         "id_player": "7",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Wolfram Wuttke",
-        "position_national": "FORWARD",
         "id_player": "40",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Thomas Berthold",
-        "position_national": "DEFENDER",
         "id_player": "41",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Hans Pflügler",
-        "position_national": "DEFENDER",
         "id_player": "1133",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Eike Immel",
-        "position_national": "GOALKEEPER",
         "id_player": "29",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Andreas Brehme",
-        "position_national": "DEFENDER",
         "id_player": "31",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Jürgen Kohler",
-        "position_national": "DEFENDER",
         "id_player": "32",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Mathias Herget",
-        "position_national": "DEFENDER",
         "id_player": "33",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Ulrich Borowka",
-        "position_national": "DEFENDER",
         "id_player": "258",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Frank Mill",
-        "position_national": "FORWARD",
         "id_player": "39",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Lothar Matthäus",
-        "position_national": "MIDFIELDER",
         "id_player": "36",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Rudi Völler",
-        "position_national": "FORWARD",
         "id_player": "37",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Olaf Thon",
-        "position_national": "MIDFIELDER",
         "id_player": "38",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Jürgen Klinsmann",
-        "position_national": "FORWARD",
         "id_player": "45",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Wolfgang Rolff",
-        "position_national": "MIDFIELDER",
         "id_player": "47",
-        "country_code": "GER",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "John Bosman",
-        "position_national": "FORWARD",
         "id_player": "2664",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "John van 't Schip",
-        "position_national": null,
         "id_player": "118",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wim Kieft",
-        "position_national": null,
         "id_player": "121",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Joop Hiele",
-        "position_national": null,
         "id_player": "123",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wilbert Suvrijn",
-        "position_national": null,
         "id_player": "1286",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Hans van Breukelen",
-        "position_national": "GOALKEEPER",
         "id_player": "108",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Adri van Tiggelen",
-        "position_national": "DEFENDER",
         "id_player": "109",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ronald Koeman",
-        "position_national": null,
         "id_player": "150026554",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Berry van Aerle",
-        "position_national": "DEFENDER",
         "id_player": "113",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Gerald Vanenburg",
-        "position_national": "MIDFIELDER",
         "id_player": "114",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Arnold Mühren",
-        "position_national": "MIDFIELDER",
         "id_player": "115",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ruud Gullit",
-        "position_national": null,
         "id_player": "410",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Marco van Basten",
-        "position_national": "FORWARD",
         "id_player": "411",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Erwin Koeman",
-        "position_national": null,
         "id_player": "120",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Frank Rijkaard",
-        "position_national": "DEFENDER",
         "id_player": "412",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Jan Wouters",
-        "position_national": "MIDFIELDER",
         "id_player": "127",
-        "country_code": "NED",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "GER",
-        "country": "Germany",
-        "name": "Franz Beckenbauer",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "NED",
-        "country": "Netherlands",
-        "name": "Rinus Michels",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Franz Beckenbauer",
+    "away_coaches": "Rinus Michels",
     "events": [
       {
         "id": "82512",
@@ -1327,236 +1000,141 @@
     "red_cards": NaN,
     "stadium_city": "Gelsenkirchen",
     "stadium_name": "Parkstadion",
+    "stadium_name_official": "Parkstadion",
     "home_lineups": [
       {
-        "name": "Tony Cascarino",
-        "position_national": null,
         "id_player": "79",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Kevin Sheedy",
-        "position_national": null,
         "id_player": "82",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Gerry Peyton",
-        "position_national": null,
         "id_player": "83",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "John Byrne",
-        "position_national": null,
         "id_player": "84",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Niall Quinn",
-        "position_national": "FORWARD",
         "id_player": "87",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Pat Bonner",
-        "position_national": "GOALKEEPER",
         "id_player": "770",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Chris Morris",
-        "position_national": "DEFENDER",
         "id_player": "769",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Chris Hughton",
-        "position_national": null,
         "id_player": "70",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Mick McCarthy",
-        "position_national": null,
         "id_player": "71",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Kevin Moran",
-        "position_national": null,
         "id_player": "72",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Ronnie Whelan",
-        "position_national": null,
         "id_player": "73",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Paul McGrath",
-        "position_national": null,
         "id_player": "74",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Ray Houghton",
-        "position_national": null,
         "id_player": "75",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "John Aldridge",
-        "position_national": null,
         "id_player": "76",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Frank Stapleton",
-        "position_national": null,
         "id_player": "77",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Tony Galvin",
-        "position_national": null,
         "id_player": "78",
-        "country_code": "IRL",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "John Bosman",
-        "position_national": "FORWARD",
         "id_player": "2664",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "John van 't Schip",
-        "position_national": null,
         "id_player": "118",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wim Kieft",
-        "position_national": null,
         "id_player": "121",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Joop Hiele",
-        "position_national": null,
         "id_player": "123",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wilbert Suvrijn",
-        "position_national": null,
         "id_player": "1286",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Hans van Breukelen",
-        "position_national": "GOALKEEPER",
         "id_player": "108",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Adri van Tiggelen",
-        "position_national": "DEFENDER",
         "id_player": "109",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ronald Koeman",
-        "position_national": null,
         "id_player": "150026554",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Berry van Aerle",
-        "position_national": "DEFENDER",
         "id_player": "113",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Gerald Vanenburg",
-        "position_national": "MIDFIELDER",
         "id_player": "114",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Arnold Mühren",
-        "position_national": "MIDFIELDER",
         "id_player": "115",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ruud Gullit",
-        "position_national": null,
         "id_player": "410",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Marco van Basten",
-        "position_national": "FORWARD",
         "id_player": "411",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Erwin Koeman",
-        "position_national": null,
         "id_player": "120",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Frank Rijkaard",
-        "position_national": "DEFENDER",
         "id_player": "412",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Jan Wouters",
-        "position_national": "MIDFIELDER",
         "id_player": "127",
-        "country_code": "NED",
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": [
       {
         "id": "82497",
@@ -1710,250 +1288,141 @@
     "red_cards": NaN,
     "stadium_city": "Frankfurt am Main",
     "stadium_name": "Waldstadion (old)",
+    "stadium_name_official": "Waldstadion (old)",
     "home_lineups": [
       {
-        "name": "Peter Shilton",
-        "position_national": "GOALKEEPER",
         "id_player": "48",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Neil Webb",
-        "position_national": "MIDFIELDER",
         "id_player": "51",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Peter Beardsley",
-        "position_national": "FORWARD",
         "id_player": "56",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Viv Anderson",
-        "position_national": "DEFENDER",
         "id_player": "61",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Mark Hateley",
-        "position_national": "FORWARD",
         "id_player": "301",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Chris Woods",
-        "position_national": null,
         "id_player": "60",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Gary Stevens",
-        "position_national": "DEFENDER",
         "id_player": "49",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Kenny Sansom",
-        "position_national": "DEFENDER",
         "id_player": "50",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Dave Watson",
-        "position_national": "DEFENDER",
         "id_player": "52",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Tony Adams",
-        "position_national": "DEFENDER",
         "id_player": "53",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Bryan Robson",
-        "position_national": "MIDFIELDER",
         "id_player": "54",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Trevor Steven",
-        "position_national": "MIDFIELDER",
         "id_player": "55",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Steve McMahon",
-        "position_national": "MIDFIELDER",
         "id_player": "62",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Glenn Hoddle",
-        "position_national": "MIDFIELDER",
         "id_player": "302",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Gary Lineker",
-        "position_national": "FORWARD",
         "id_player": "57",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "John Barnes",
-        "position_national": "MIDFIELDER",
         "id_player": "58",
-        "country_code": "ENG",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Anatoliy Demianenko",
-        "position_national": null,
         "id_player": "152",
-        "country_code": "UKR",
         "start": "bench"
       },
       {
-        "name": "Viktor Chanov",
-        "position_national": "GOALKEEPER",
         "id_player": "92028",
-        "country_code": null,
         "start": "bench"
       },
       {
-        "name": "Sergei Gotsmanov",
-        "position_national": "FORWARD",
         "id_player": "165",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Serhiy Baltacha",
-        "position_national": "MIDFIELDER",
         "id_player": "166",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Viktor Pasulko",
-        "position_national": null,
         "id_player": "175",
-        "country_code": "RUS",
         "start": "bench"
       },
       {
-        "name": "Rinat Dasayev",
-        "position_national": "GOALKEEPER",
         "id_player": "148",
-        "country_code": "RUS",
         "start": "field"
       },
       {
-        "name": "Volodymyr Bezsonov",
-        "position_national": "MIDFIELDER",
         "id_player": "1900674",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Vagiz Khidiyatullin",
-        "position_national": "DEFENDER",
         "id_player": "150",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Kuznetsov",
-        "position_national": null,
         "id_player": "151",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Vasiliy Rats",
-        "position_national": null,
         "id_player": "153",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Sergei Aleinikov",
-        "position_national": "MIDFIELDER",
         "id_player": "154",
-        "country_code": "BLR",
         "start": "field"
       },
       {
-        "name": "Gennadiy Lytovchenko",
-        "position_national": "MIDFIELDER",
         "id_player": "155",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Olexandr Zavarov",
-        "position_national": "MIDFIELDER",
         "id_player": "156",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Protasov",
-        "position_national": null,
         "id_player": "157",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Ihor Belanov",
-        "position_national": "FORWARD",
         "id_player": "158",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Oleksiy Mykhailychenko",
-        "position_national": "MIDFIELDER",
         "id_player": "92072",
-        "country_code": "URS",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "ENG",
-        "country": "England",
-        "name": "Bobby Robson",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "UKR",
-        "country": "Ukraine",
-        "name": "Valeriy Lobanovskiy",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Bobby Robson",
+    "away_coaches": "Valeriy Lobanovskiy",
     "events": [
       {
         "id": "82494",
@@ -2130,250 +1599,141 @@
     "red_cards": NaN,
     "stadium_city": "Munich",
     "stadium_name": "Olympiastadion",
+    "stadium_name_official": "Olympiastadion",
     "home_lineups": [
       {
-        "name": "Frank Mill",
-        "position_national": "FORWARD",
         "id_player": "39",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Bodo Illgner",
-        "position_national": "GOALKEEPER",
         "id_player": "7",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Wolfram Wuttke",
-        "position_national": "FORWARD",
         "id_player": "40",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Thomas Berthold",
-        "position_national": "DEFENDER",
         "id_player": "41",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Hans Pflügler",
-        "position_national": "DEFENDER",
         "id_player": "1133",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Eike Immel",
-        "position_national": "GOALKEEPER",
         "id_player": "29",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Andreas Brehme",
-        "position_national": "DEFENDER",
         "id_player": "31",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Jürgen Kohler",
-        "position_national": "DEFENDER",
         "id_player": "32",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Mathias Herget",
-        "position_national": "DEFENDER",
         "id_player": "33",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Ulrich Borowka",
-        "position_national": "DEFENDER",
         "id_player": "258",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Pierre Littbarski",
-        "position_national": "MIDFIELDER",
         "id_player": "35",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Lothar Matthäus",
-        "position_national": "MIDFIELDER",
         "id_player": "36",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Rudi Völler",
-        "position_national": "FORWARD",
         "id_player": "37",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Olaf Thon",
-        "position_national": "MIDFIELDER",
         "id_player": "38",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Jürgen Klinsmann",
-        "position_national": "FORWARD",
         "id_player": "45",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Wolfgang Rolff",
-        "position_national": "MIDFIELDER",
         "id_player": "47",
-        "country_code": "GER",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Ramón Calderé",
-        "position_national": "MIDFIELDER",
         "id_player": "133",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Julio Salinas",
-        "position_national": "FORWARD",
         "id_player": "134",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Paco Buyo",
-        "position_national": "GOALKEEPER",
         "id_player": "777",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Ricardo Gallego",
-        "position_national": "MIDFIELDER",
         "id_player": "779",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Miquel Soler",
-        "position_national": "DEFENDER",
         "id_player": "145",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Andoni Zubizarreta",
-        "position_national": "GOALKEEPER",
         "id_player": "2867",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Tomás Reñones",
-        "position_national": "DEFENDER",
         "id_player": "129",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "José Antonio Camacho",
-        "position_national": "DEFENDER",
         "id_player": "150107171",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Genar Andrinúa",
-        "position_national": "DEFENDER",
         "id_player": "131",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Víctor Muñoz",
-        "position_national": "MIDFIELDER",
         "id_player": "803",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Manuel Sanchís",
-        "position_national": "DEFENDER",
         "id_player": "135",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Emilio Butragueño",
-        "position_national": "FORWARD",
         "id_player": "776",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Rafael Gordillo",
-        "position_national": "DEFENDER",
         "id_player": "138",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "José Mari Bakero",
-        "position_national": "MIDFIELDER",
         "id_player": "143",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Rafael Martín Vázquez",
-        "position_national": "MIDFIELDER",
         "id_player": "787",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Míchel",
-        "position_national": "MIDFIELDER",
         "id_player": "780",
-        "country_code": "ESP",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "GER",
-        "country": "Germany",
-        "name": "Franz Beckenbauer",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "ESP",
-        "country": "Spain",
-        "name": "Miguel Muñoz Mozún",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Franz Beckenbauer",
+    "away_coaches": "Miguel Muñoz Mozún",
     "events": [
       {
         "id": "50383",
@@ -2563,250 +1923,141 @@
     "red_cards": NaN,
     "stadium_city": "Cologne",
     "stadium_name": "Stadion Köln",
+    "stadium_name_official": "Stadion Köln",
     "home_lineups": [
       {
-        "name": "Ciro Ferrara",
-        "position_national": "DEFENDER",
         "id_player": "847",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luigi De Agostini",
-        "position_national": "DEFENDER",
         "id_player": "97",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Stefano Tacconi",
-        "position_national": "GOALKEEPER",
         "id_player": "99",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luca Fusi",
-        "position_national": "MIDFIELDER",
         "id_player": "100",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Alessandro Altobelli",
-        "position_national": "FORWARD",
         "id_player": "103",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Walter Zenga",
-        "position_national": "GOALKEEPER",
         "id_player": "88",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Franco Baresi",
-        "position_national": "DEFENDER",
         "id_player": "416",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giuseppe Bergomi",
-        "position_national": "DEFENDER",
         "id_player": "90",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Riccardo Ferri",
-        "position_national": "DEFENDER",
         "id_player": "93",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Paolo Maldini",
-        "position_national": "DEFENDER",
         "id_player": "428",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Carlo Ancelotti",
-        "position_national": null,
         "id_player": "43192",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "FerNonedo De Napoli",
-        "position_national": "MIDFIELDER",
         "id_player": "98",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giuseppe Giannini",
-        "position_national": "MIDFIELDER",
         "id_player": "101",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Donadoni",
-        "position_national": null,
         "id_player": "421",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Mancini",
-        "position_national": null,
         "id_player": "105",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Gianluca Vialli",
-        "position_national": null,
         "id_player": "107",
-        "country_code": "ITA",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Troels Rasmussen",
-        "position_national": null,
         "id_player": "8",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "John Sivebæk",
-        "position_national": null,
         "id_player": "9",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Søren Busk",
-        "position_national": null,
         "id_player": "11",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Klaus Berggreen",
-        "position_national": null,
         "id_player": "25",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Kim Vilfort",
-        "position_national": null,
         "id_player": "28",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Peter Schmeichel",
-        "position_national": "GOALKEEPER",
         "id_player": "24",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Jan Heintze",
-        "position_national": "MIDFIELDER",
         "id_player": "17",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Morten Olsen",
-        "position_national": null,
         "id_player": "12",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Ivan Nielsen",
-        "position_national": null,
         "id_player": "13",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Per Frimann",
-        "position_national": null,
         "id_player": "16",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Michael Laudrup",
-        "position_national": null,
         "id_player": "150039936",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Lars Olsen",
-        "position_national": null,
         "id_player": "712",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "John Faxe Jensen",
-        "position_national": "MIDFIELDER",
         "id_player": "5648",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Flemming Povlsen",
-        "position_national": null,
         "id_player": "23",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "John Eriksen",
-        "position_national": null,
         "id_player": "26",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Bjørn Kristensen",
-        "position_national": null,
         "id_player": "10",
-        "country_code": "DEN",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "ITA",
-        "country": "Italy",
-        "name": "Azeglio Vicini",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "GER",
-        "country": "Germany",
-        "name": "Josef Emmanuel Piontek",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Azeglio Vicini",
+    "away_coaches": "Josef Emmanuel Piontek",
     "events": [
       {
         "id": "34226",
@@ -2970,236 +2221,141 @@
     "red_cards": NaN,
     "stadium_city": "Hanover",
     "stadium_name": "Stadion Hannover",
+    "stadium_name_official": "Stadion Hannover",
     "home_lineups": [
       {
-        "name": "Tony Cascarino",
-        "position_national": null,
         "id_player": "79",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Gerry Peyton",
-        "position_national": null,
         "id_player": "83",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "John Byrne",
-        "position_national": null,
         "id_player": "84",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "John Sheridan",
-        "position_national": null,
         "id_player": "85",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Niall Quinn",
-        "position_national": "FORWARD",
         "id_player": "87",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Pat Bonner",
-        "position_national": "GOALKEEPER",
         "id_player": "770",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Chris Morris",
-        "position_national": "DEFENDER",
         "id_player": "769",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Chris Hughton",
-        "position_national": null,
         "id_player": "70",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Mick McCarthy",
-        "position_national": null,
         "id_player": "71",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Kevin Moran",
-        "position_national": null,
         "id_player": "72",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Ronnie Whelan",
-        "position_national": null,
         "id_player": "73",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Kevin Sheedy",
-        "position_national": null,
         "id_player": "82",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Ray Houghton",
-        "position_national": null,
         "id_player": "75",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "John Aldridge",
-        "position_national": null,
         "id_player": "76",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Frank Stapleton",
-        "position_national": null,
         "id_player": "77",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Tony Galvin",
-        "position_national": null,
         "id_player": "78",
-        "country_code": "IRL",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Viačeslavas Sukristovas",
-        "position_national": null,
         "id_player": "2789",
-        "country_code": "LTU",
         "start": "bench"
       },
       {
-        "name": "Viktor Chanov",
-        "position_national": "GOALKEEPER",
         "id_player": "92028",
-        "country_code": null,
         "start": "bench"
       },
       {
-        "name": "Sergei Gotsmanov",
-        "position_national": "FORWARD",
         "id_player": "165",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Serhiy Baltacha",
-        "position_national": "MIDFIELDER",
         "id_player": "166",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Viktor Pasulko",
-        "position_national": null,
         "id_player": "175",
-        "country_code": "RUS",
         "start": "bench"
       },
       {
-        "name": "Rinat Dasayev",
-        "position_national": "GOALKEEPER",
         "id_player": "148",
-        "country_code": "RUS",
         "start": "field"
       },
       {
-        "name": "Vagiz Khidiyatullin",
-        "position_national": "DEFENDER",
         "id_player": "150",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Kuznetsov",
-        "position_national": null,
         "id_player": "151",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Anatoliy Demianenko",
-        "position_national": null,
         "id_player": "152",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Vasiliy Rats",
-        "position_national": null,
         "id_player": "153",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Sergei Aleinikov",
-        "position_national": "MIDFIELDER",
         "id_player": "154",
-        "country_code": "BLR",
         "start": "field"
       },
       {
-        "name": "Olexandr Zavarov",
-        "position_national": "MIDFIELDER",
         "id_player": "156",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Protasov",
-        "position_national": null,
         "id_player": "157",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Ihor Belanov",
-        "position_national": "FORWARD",
         "id_player": "158",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Oleksiy Mykhailychenko",
-        "position_national": "MIDFIELDER",
         "id_player": "92072",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Tengiz Sulakvelidze",
-        "position_national": null,
         "id_player": "160",
-        "country_code": "GEO",
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": [
       {
         "id": "82488",
@@ -3340,250 +2496,141 @@
     "red_cards": NaN,
     "stadium_city": "Dusseldorf",
     "stadium_name": "Rheinstadion",
+    "stadium_name_official": "Rheinstadion",
     "home_lineups": [
       {
-        "name": "Chris Woods",
-        "position_national": null,
         "id_player": "60",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Chris Waddle",
-        "position_national": "MIDFIELDER",
         "id_player": "59",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Mark Hateley",
-        "position_national": "FORWARD",
         "id_player": "301",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Viv Anderson",
-        "position_national": "DEFENDER",
         "id_player": "61",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Steve McMahon",
-        "position_national": "MIDFIELDER",
         "id_player": "62",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Peter Shilton",
-        "position_national": "GOALKEEPER",
         "id_player": "48",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Gary Stevens",
-        "position_national": "DEFENDER",
         "id_player": "49",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Kenny Sansom",
-        "position_national": "DEFENDER",
         "id_player": "50",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Tony Adams",
-        "position_national": "DEFENDER",
         "id_player": "53",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Bryan Robson",
-        "position_national": "MIDFIELDER",
         "id_player": "54",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Trevor Steven",
-        "position_national": "MIDFIELDER",
         "id_player": "55",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Peter Beardsley",
-        "position_national": "FORWARD",
         "id_player": "56",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Gary Lineker",
-        "position_national": "FORWARD",
         "id_player": "57",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "John Barnes",
-        "position_national": "MIDFIELDER",
         "id_player": "58",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Glenn Hoddle",
-        "position_national": "MIDFIELDER",
         "id_player": "302",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Mark Wright",
-        "position_national": "DEFENDER",
         "id_player": "66",
-        "country_code": "ENG",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Joop Hiele",
-        "position_national": null,
         "id_player": "123",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wim Kieft",
-        "position_national": null,
         "id_player": "121",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wilbert Suvrijn",
-        "position_national": null,
         "id_player": "1286",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "John Bosman",
-        "position_national": "FORWARD",
         "id_player": "2664",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Hendrie Krüzen",
-        "position_national": "MIDFIELDER",
         "id_player": "126",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Hans van Breukelen",
-        "position_national": "GOALKEEPER",
         "id_player": "108",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Adri van Tiggelen",
-        "position_national": "DEFENDER",
         "id_player": "109",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ronald Koeman",
-        "position_national": null,
         "id_player": "150026554",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Berry van Aerle",
-        "position_national": "DEFENDER",
         "id_player": "113",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Gerald Vanenburg",
-        "position_national": "MIDFIELDER",
         "id_player": "114",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Arnold Mühren",
-        "position_national": "MIDFIELDER",
         "id_player": "115",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ruud Gullit",
-        "position_national": null,
         "id_player": "410",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Marco van Basten",
-        "position_national": "FORWARD",
         "id_player": "411",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Erwin Koeman",
-        "position_national": null,
         "id_player": "120",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Frank Rijkaard",
-        "position_national": "DEFENDER",
         "id_player": "412",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Jan Wouters",
-        "position_national": "MIDFIELDER",
         "id_player": "127",
-        "country_code": "NED",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "ENG",
-        "country": "England",
-        "name": "Bobby Robson",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "NED",
-        "country": "Netherlands",
-        "name": "Rinus Michels",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Bobby Robson",
+    "away_coaches": "Rinus Michels",
     "events": [
       {
         "id": "82507",
@@ -3739,250 +2786,141 @@
     "red_cards": NaN,
     "stadium_city": "Frankfurt am Main",
     "stadium_name": "Waldstadion (old)",
+    "stadium_name_official": "Waldstadion (old)",
     "home_lineups": [
       {
-        "name": "Ciro Ferrara",
-        "position_national": "DEFENDER",
         "id_player": "847",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luigi De Agostini",
-        "position_national": "DEFENDER",
         "id_player": "97",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Stefano Tacconi",
-        "position_national": "GOALKEEPER",
         "id_player": "99",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luca Fusi",
-        "position_national": "MIDFIELDER",
         "id_player": "100",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Alessandro Altobelli",
-        "position_national": "FORWARD",
         "id_player": "103",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Walter Zenga",
-        "position_national": "GOALKEEPER",
         "id_player": "88",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Franco Baresi",
-        "position_national": "DEFENDER",
         "id_player": "416",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giuseppe Bergomi",
-        "position_national": "DEFENDER",
         "id_player": "90",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Riccardo Ferri",
-        "position_national": "DEFENDER",
         "id_player": "93",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Paolo Maldini",
-        "position_national": "DEFENDER",
         "id_player": "428",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Carlo Ancelotti",
-        "position_national": null,
         "id_player": "43192",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "FerNonedo De Napoli",
-        "position_national": "MIDFIELDER",
         "id_player": "98",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giuseppe Giannini",
-        "position_national": "MIDFIELDER",
         "id_player": "101",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Donadoni",
-        "position_national": null,
         "id_player": "421",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Mancini",
-        "position_national": null,
         "id_player": "105",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Gianluca Vialli",
-        "position_national": null,
         "id_player": "107",
-        "country_code": "ITA",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Eloy Olaya",
-        "position_national": "FORWARD",
         "id_player": "137",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Diego Rodríguez",
-        "position_national": "DEFENDER",
         "id_player": "11666",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Paco Buyo",
-        "position_national": "GOALKEEPER",
         "id_player": "777",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Aitor Begiristain",
-        "position_national": "MIDFIELDER",
         "id_player": "144",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Rafael Martín Vázquez",
-        "position_national": "MIDFIELDER",
         "id_player": "787",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Andoni Zubizarreta",
-        "position_national": "GOALKEEPER",
         "id_player": "2867",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Tomás Reñones",
-        "position_national": "DEFENDER",
         "id_player": "129",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Genar Andrinúa",
-        "position_national": "DEFENDER",
         "id_player": "131",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Víctor Muñoz",
-        "position_national": "MIDFIELDER",
         "id_player": "803",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Manuel Sanchís",
-        "position_national": "DEFENDER",
         "id_player": "135",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Emilio Butragueño",
-        "position_national": "FORWARD",
         "id_player": "776",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Rafael Gordillo",
-        "position_national": "DEFENDER",
         "id_player": "138",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Ricardo Gallego",
-        "position_national": "MIDFIELDER",
         "id_player": "779",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "José Mari Bakero",
-        "position_national": "MIDFIELDER",
         "id_player": "143",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Miquel Soler",
-        "position_national": "DEFENDER",
         "id_player": "145",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Míchel",
-        "position_national": "MIDFIELDER",
         "id_player": "780",
-        "country_code": "ESP",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "ITA",
-        "country": "Italy",
-        "name": "Azeglio Vicini",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "ESP",
-        "country": "Spain",
-        "name": "Miguel Muñoz Mozún",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Azeglio Vicini",
+    "away_coaches": "Miguel Muñoz Mozún",
     "events": [
       {
         "id": "83085",
@@ -4120,250 +3058,141 @@
     "red_cards": NaN,
     "stadium_city": "Gelsenkirchen",
     "stadium_name": "Parkstadion",
+    "stadium_name_official": "Parkstadion",
     "home_lineups": [
       {
-        "name": "Ulrich Borowka",
-        "position_national": "DEFENDER",
         "id_player": "258",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Bodo Illgner",
-        "position_national": "GOALKEEPER",
         "id_player": "7",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Frank Mill",
-        "position_national": "FORWARD",
         "id_player": "39",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Wolfram Wuttke",
-        "position_national": "FORWARD",
         "id_player": "40",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Dieter Eckstein",
-        "position_national": "FORWARD",
         "id_player": "43",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Eike Immel",
-        "position_national": "GOALKEEPER",
         "id_player": "29",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Guido Buchwald",
-        "position_national": "DEFENDER",
         "id_player": "30",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Andreas Brehme",
-        "position_national": "DEFENDER",
         "id_player": "31",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Jürgen Kohler",
-        "position_national": "DEFENDER",
         "id_player": "32",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Mathias Herget",
-        "position_national": "DEFENDER",
         "id_player": "33",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Pierre Littbarski",
-        "position_national": "MIDFIELDER",
         "id_player": "35",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Lothar Matthäus",
-        "position_national": "MIDFIELDER",
         "id_player": "36",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Rudi Völler",
-        "position_national": "FORWARD",
         "id_player": "37",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Olaf Thon",
-        "position_national": "MIDFIELDER",
         "id_player": "38",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Jürgen Klinsmann",
-        "position_national": "FORWARD",
         "id_player": "45",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Wolfgang Rolff",
-        "position_national": "MIDFIELDER",
         "id_player": "47",
-        "country_code": "GER",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Troels Rasmussen",
-        "position_national": null,
         "id_player": "8",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Søren Busk",
-        "position_national": null,
         "id_player": "11",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "John Eriksen",
-        "position_national": null,
         "id_player": "26",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Jesper Olsen",
-        "position_national": null,
         "id_player": "22",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Klaus Berggreen",
-        "position_national": null,
         "id_player": "25",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Peter Schmeichel",
-        "position_national": "GOALKEEPER",
         "id_player": "24",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Lars Olsen",
-        "position_national": null,
         "id_player": "712",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "John Sivebæk",
-        "position_national": null,
         "id_player": "9",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Ivan Nielsen",
-        "position_national": null,
         "id_player": "13",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Kim Vilfort",
-        "position_national": null,
         "id_player": "28",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Morten Olsen",
-        "position_national": null,
         "id_player": "12",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Søren Lerby",
-        "position_national": null,
         "id_player": "14",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Jan Heintze",
-        "position_national": "MIDFIELDER",
         "id_player": "17",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Preben Elkjær",
-        "position_national": "MIDFIELDER",
         "id_player": "18",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Flemming Povlsen",
-        "position_national": null,
         "id_player": "23",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Michael Laudrup",
-        "position_national": null,
         "id_player": "150039936",
-        "country_code": "DEN",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "GER",
-        "country": "Germany",
-        "name": "Franz Beckenbauer",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "GER",
-        "country": "Germany",
-        "name": "Josef Emmanuel Piontek",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Franz Beckenbauer",
+    "away_coaches": "Josef Emmanuel Piontek",
     "events": [
       {
         "id": "6918",
@@ -4532,250 +3361,141 @@
     "red_cards": NaN,
     "stadium_city": "Cologne",
     "stadium_name": "Stadion Köln",
+    "stadium_name_official": "Stadion Köln",
     "home_lineups": [
       {
-        "name": "Sjaak Troost",
-        "position_national": null,
         "id_player": "110",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Marco van Basten",
-        "position_national": "FORWARD",
         "id_player": "411",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Erwin Koeman",
-        "position_national": null,
         "id_player": "120",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Joop Hiele",
-        "position_national": null,
         "id_player": "123",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Wilbert Suvrijn",
-        "position_national": null,
         "id_player": "1286",
-        "country_code": "NED",
         "start": "bench"
       },
       {
-        "name": "Hans van Breukelen",
-        "position_national": "GOALKEEPER",
         "id_player": "108",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Adri van Tiggelen",
-        "position_national": "DEFENDER",
         "id_player": "109",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ronald Koeman",
-        "position_national": null,
         "id_player": "150026554",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Berry van Aerle",
-        "position_national": "DEFENDER",
         "id_player": "113",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Gerald Vanenburg",
-        "position_national": "MIDFIELDER",
         "id_player": "114",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Arnold Mühren",
-        "position_national": "MIDFIELDER",
         "id_player": "115",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "John Bosman",
-        "position_national": "FORWARD",
         "id_player": "2664",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Ruud Gullit",
-        "position_national": null,
         "id_player": "410",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "John van 't Schip",
-        "position_national": null,
         "id_player": "118",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Frank Rijkaard",
-        "position_national": "DEFENDER",
         "id_player": "412",
-        "country_code": "NED",
         "start": "field"
       },
       {
-        "name": "Jan Wouters",
-        "position_national": "MIDFIELDER",
         "id_player": "127",
-        "country_code": "NED",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Sergei Aleinikov",
-        "position_national": "MIDFIELDER",
         "id_player": "154",
-        "country_code": "BLR",
         "start": "bench"
       },
       {
-        "name": "Tengiz Sulakvelidze",
-        "position_national": null,
         "id_player": "160",
-        "country_code": "GEO",
         "start": "bench"
       },
       {
-        "name": "Viačeslavas Sukristovas",
-        "position_national": null,
         "id_player": "2789",
-        "country_code": "LTU",
         "start": "bench"
       },
       {
-        "name": "Viktor Chanov",
-        "position_national": "GOALKEEPER",
         "id_player": "92028",
-        "country_code": null,
         "start": "bench"
       },
       {
-        "name": "Serhiy Baltacha",
-        "position_national": "MIDFIELDER",
         "id_player": "166",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Rinat Dasayev",
-        "position_national": "GOALKEEPER",
         "id_player": "148",
-        "country_code": "RUS",
         "start": "field"
       },
       {
-        "name": "Volodymyr Bezsonov",
-        "position_national": "MIDFIELDER",
         "id_player": "1900674",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Vagiz Khidiyatullin",
-        "position_national": "DEFENDER",
         "id_player": "150",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Kuznetsov",
-        "position_national": null,
         "id_player": "151",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Anatoliy Demianenko",
-        "position_national": null,
         "id_player": "152",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Vasiliy Rats",
-        "position_national": null,
         "id_player": "153",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Gennadiy Lytovchenko",
-        "position_national": "MIDFIELDER",
         "id_player": "155",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Olexandr Zavarov",
-        "position_national": "MIDFIELDER",
         "id_player": "156",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Oleh Protasov",
-        "position_national": null,
         "id_player": "157",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Ihor Belanov",
-        "position_national": "FORWARD",
         "id_player": "158",
-        "country_code": "UKR",
         "start": "field"
       },
       {
-        "name": "Oleksiy Mykhailychenko",
-        "position_national": "MIDFIELDER",
         "id_player": "92072",
-        "country_code": "URS",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "NED",
-        "country": "Netherlands",
-        "name": "Rinus Michels",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "UKR",
-        "country": "Ukraine",
-        "name": "Valeriy Lobanovskiy",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Rinus Michels",
+    "away_coaches": "Valeriy Lobanovskiy",
     "events": [
       {
         "id": "82508",
@@ -4905,250 +3625,141 @@
     "red_cards": NaN,
     "stadium_city": "Stuttgart",
     "stadium_name": "Arena Stuttgart",
+    "stadium_name_official": "Arena Stuttgart",
     "home_lineups": [
       {
-        "name": "Chris Woods",
-        "position_national": null,
         "id_player": "60",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Viv Anderson",
-        "position_national": "DEFENDER",
         "id_player": "61",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Steve McMahon",
-        "position_national": "MIDFIELDER",
         "id_player": "62",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Glenn Hoddle",
-        "position_national": "MIDFIELDER",
         "id_player": "302",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Mark Hateley",
-        "position_national": "FORWARD",
         "id_player": "301",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Peter Shilton",
-        "position_national": "GOALKEEPER",
         "id_player": "48",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Gary Stevens",
-        "position_national": "DEFENDER",
         "id_player": "49",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Kenny Sansom",
-        "position_national": "DEFENDER",
         "id_player": "50",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Neil Webb",
-        "position_national": "MIDFIELDER",
         "id_player": "51",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Mark Wright",
-        "position_national": "DEFENDER",
         "id_player": "66",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Tony Adams",
-        "position_national": "DEFENDER",
         "id_player": "53",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Bryan Robson",
-        "position_national": "MIDFIELDER",
         "id_player": "54",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Chris Waddle",
-        "position_national": "MIDFIELDER",
         "id_player": "59",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Peter Beardsley",
-        "position_national": "FORWARD",
         "id_player": "56",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Gary Lineker",
-        "position_national": "FORWARD",
         "id_player": "57",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "John Barnes",
-        "position_national": "MIDFIELDER",
         "id_player": "58",
-        "country_code": "ENG",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Kevin Sheedy",
-        "position_national": null,
         "id_player": "82",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Gerry Peyton",
-        "position_national": null,
         "id_player": "83",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "John Byrne",
-        "position_national": null,
         "id_player": "84",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "John Anderson",
-        "position_national": null,
         "id_player": "86",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Niall Quinn",
-        "position_national": "FORWARD",
         "id_player": "87",
-        "country_code": "IRL",
         "start": "bench"
       },
       {
-        "name": "Pat Bonner",
-        "position_national": "GOALKEEPER",
         "id_player": "770",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Chris Morris",
-        "position_national": "DEFENDER",
         "id_player": "769",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Chris Hughton",
-        "position_national": null,
         "id_player": "70",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Mick McCarthy",
-        "position_national": null,
         "id_player": "71",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Kevin Moran",
-        "position_national": null,
         "id_player": "72",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Ronnie Whelan",
-        "position_national": null,
         "id_player": "73",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Paul McGrath",
-        "position_national": null,
         "id_player": "74",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Ray Houghton",
-        "position_national": null,
         "id_player": "75",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "John Aldridge",
-        "position_national": null,
         "id_player": "76",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Frank Stapleton",
-        "position_national": null,
         "id_player": "77",
-        "country_code": "IRL",
         "start": "field"
       },
       {
-        "name": "Tony Galvin",
-        "position_national": null,
         "id_player": "78",
-        "country_code": "IRL",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "ENG",
-        "country": "England",
-        "name": "Bobby Robson",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "ENG",
-        "country": "England",
-        "name": "Jack Charlton",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Bobby Robson",
+    "away_coaches": "Jack Charlton",
     "events": [
       {
         "id": "82499",
@@ -5297,250 +3908,141 @@
     "red_cards": NaN,
     "stadium_city": "Hanover",
     "stadium_name": "Stadion Hannover",
+    "stadium_name_official": "Stadion Hannover",
     "home_lineups": [
       {
-        "name": "Lars Olsen",
-        "position_national": null,
         "id_player": "712",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "John Faxe Jensen",
-        "position_national": "MIDFIELDER",
         "id_player": "5648",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Jesper Olsen",
-        "position_national": null,
         "id_player": "22",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Peter Schmeichel",
-        "position_national": "GOALKEEPER",
         "id_player": "24",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "John Eriksen",
-        "position_national": null,
         "id_player": "26",
-        "country_code": "DEN",
         "start": "bench"
       },
       {
-        "name": "Troels Rasmussen",
-        "position_national": null,
         "id_player": "8",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "John Sivebæk",
-        "position_national": null,
         "id_player": "9",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Søren Busk",
-        "position_national": null,
         "id_player": "11",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Morten Olsen",
-        "position_national": null,
         "id_player": "12",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Ivan Nielsen",
-        "position_national": null,
         "id_player": "13",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Søren Lerby",
-        "position_national": null,
         "id_player": "14",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "John Dulle Helt",
-        "position_national": null,
         "id_player": "15",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Jan Heintze",
-        "position_national": "MIDFIELDER",
         "id_player": "17",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Preben Elkjær",
-        "position_national": "MIDFIELDER",
         "id_player": "18",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Michael Laudrup",
-        "position_national": null,
         "id_player": "150039936",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Flemming Povlsen",
-        "position_national": null,
         "id_player": "23",
-        "country_code": "DEN",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Ramón Calderé",
-        "position_national": "MIDFIELDER",
         "id_player": "133",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Julio Salinas",
-        "position_national": "FORWARD",
         "id_player": "134",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Paco Buyo",
-        "position_national": "GOALKEEPER",
         "id_player": "777",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Miquel Soler",
-        "position_national": "DEFENDER",
         "id_player": "145",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Rafael Martín Vázquez",
-        "position_national": "MIDFIELDER",
         "id_player": "787",
-        "country_code": "ESP",
         "start": "bench"
       },
       {
-        "name": "Andoni Zubizarreta",
-        "position_national": "GOALKEEPER",
         "id_player": "2867",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Tomás Reñones",
-        "position_national": "DEFENDER",
         "id_player": "129",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "José Antonio Camacho",
-        "position_national": "DEFENDER",
         "id_player": "150107171",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Genar Andrinúa",
-        "position_national": "DEFENDER",
         "id_player": "131",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Víctor Muñoz",
-        "position_national": "MIDFIELDER",
         "id_player": "803",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Manuel Sanchís",
-        "position_national": "DEFENDER",
         "id_player": "135",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Emilio Butragueño",
-        "position_national": "FORWARD",
         "id_player": "776",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Rafael Gordillo",
-        "position_national": "DEFENDER",
         "id_player": "138",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Ricardo Gallego",
-        "position_national": "MIDFIELDER",
         "id_player": "779",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "José Mari Bakero",
-        "position_national": "MIDFIELDER",
         "id_player": "143",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Míchel",
-        "position_national": "MIDFIELDER",
         "id_player": "780",
-        "country_code": "ESP",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "GER",
-        "country": "Germany",
-        "name": "Josef Emmanuel Piontek",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "ESP",
-        "country": "Spain",
-        "name": "Miguel Muñoz Mozún",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Josef Emmanuel Piontek",
+    "away_coaches": "Miguel Muñoz Mozún",
     "events": [
       {
         "id": "6920",
@@ -5756,236 +4258,141 @@
     "red_cards": NaN,
     "stadium_city": "Dusseldorf",
     "stadium_name": "Rheinstadion",
+    "stadium_name_official": "Rheinstadion",
     "home_lineups": [
       {
-        "name": "Ulrich Borowka",
-        "position_national": "DEFENDER",
         "id_player": "258",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Bodo Illgner",
-        "position_national": "GOALKEEPER",
         "id_player": "7",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Wolfram Wuttke",
-        "position_national": "FORWARD",
         "id_player": "40",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Dieter Eckstein",
-        "position_national": "FORWARD",
         "id_player": "43",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Wolfgang Rolff",
-        "position_national": "MIDFIELDER",
         "id_player": "47",
-        "country_code": "GER",
         "start": "bench"
       },
       {
-        "name": "Eike Immel",
-        "position_national": "GOALKEEPER",
         "id_player": "29",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Guido Buchwald",
-        "position_national": "DEFENDER",
         "id_player": "30",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Andreas Brehme",
-        "position_national": "DEFENDER",
         "id_player": "31",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Jürgen Kohler",
-        "position_national": "DEFENDER",
         "id_player": "32",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Mathias Herget",
-        "position_national": "DEFENDER",
         "id_player": "33",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Pierre Littbarski",
-        "position_national": "MIDFIELDER",
         "id_player": "35",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Lothar Matthäus",
-        "position_national": "MIDFIELDER",
         "id_player": "36",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Rudi Völler",
-        "position_national": "FORWARD",
         "id_player": "37",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Olaf Thon",
-        "position_national": "MIDFIELDER",
         "id_player": "38",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Thomas Berthold",
-        "position_national": "DEFENDER",
         "id_player": "41",
-        "country_code": "GER",
         "start": "field"
       },
       {
-        "name": "Jürgen Klinsmann",
-        "position_national": "FORWARD",
         "id_player": "45",
-        "country_code": "GER",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Ciro Ferrara",
-        "position_national": "DEFENDER",
         "id_player": "847",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giovanni Francini",
-        "position_national": "DEFENDER",
         "id_player": "94",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luigi De Agostini",
-        "position_national": "DEFENDER",
         "id_player": "97",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Alessandro Altobelli",
-        "position_national": "FORWARD",
         "id_player": "103",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Stefano Tacconi",
-        "position_national": "GOALKEEPER",
         "id_player": "99",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Walter Zenga",
-        "position_national": "GOALKEEPER",
         "id_player": "88",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Franco Baresi",
-        "position_national": "DEFENDER",
         "id_player": "416",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giuseppe Bergomi",
-        "position_national": "DEFENDER",
         "id_player": "90",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Riccardo Ferri",
-        "position_national": "DEFENDER",
         "id_player": "93",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Paolo Maldini",
-        "position_national": "DEFENDER",
         "id_player": "428",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Carlo Ancelotti",
-        "position_national": null,
         "id_player": "43192",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "FerNonedo De Napoli",
-        "position_national": "MIDFIELDER",
         "id_player": "98",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giuseppe Giannini",
-        "position_national": "MIDFIELDER",
         "id_player": "101",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Donadoni",
-        "position_national": null,
         "id_player": "421",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Mancini",
-        "position_national": null,
         "id_player": "105",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Gianluca Vialli",
-        "position_national": null,
         "id_player": "107",
-        "country_code": "ITA",
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": [
       {
         "id": "83093",

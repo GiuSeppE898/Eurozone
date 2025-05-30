@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-from db.model.player import Player
+from src.db.model.player import Player
 
 class PlayerRepository:
     def __init__(self, client: MongoClient, db_name="eurozone", collection_name="players"):

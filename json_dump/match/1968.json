@@ -54,320 +54,189 @@
     "red_cards": NaN,
     "stadium_city": "Rome",
     "stadium_name": "Stadio Olimpico",
+    "stadium_name_official": "Stadio Olimpico",
     "home_lineups": [
       {
-        "name": "Enrico Albertosi",
-        "position_national": "GOALKEEPER",
         "id_player": "36638",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Angelo Anquilletti",
-        "position_national": "DEFENDER",
         "id_player": "40097",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giancarlo Bercellino",
-        "position_national": "DEFENDER",
         "id_player": "36653",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giacomo Bulgarelli",
-        "position_national": "MIDFIELDER",
         "id_player": "36657",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Ernesto Castano",
-        "position_national": "DEFENDER",
         "id_player": "36659",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giorgio Ferrini",
-        "position_national": "MIDFIELDER",
         "id_player": "36656",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Antonio Juliano",
-        "position_national": "MIDFIELDER",
         "id_player": "36635",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giovanni Lodetti",
-        "position_national": "MIDFIELDER",
         "id_player": "36668",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Piero Prati",
-        "position_national": "FORWARD",
         "id_player": "36643",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Gianni Rivera",
-        "position_national": "MIDFIELDER",
         "id_player": "1901070",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Lido Vieri",
-        "position_national": "GOALKEEPER",
         "id_player": "36688",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Dino Zoff",
-        "position_national": "GOALKEEPER",
         "id_player": "36630",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Pietro Anastasi",
-        "position_national": "FORWARD",
         "id_player": "36654",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Tarcisio Burgnich",
-        "position_national": "DEFENDER",
         "id_player": "36631",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Picchio",
-        "position_national": "MIDFIELDER",
         "id_player": "36636",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Angelo Domenghini",
-        "position_national": "MIDFIELDER",
         "id_player": "36632",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giacinto Facchetti",
-        "position_national": "DEFENDER",
         "id_player": "36629",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Aristide Guarneri",
-        "position_national": "DEFENDER",
         "id_player": "36644",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Sandro Mazzola",
-        "position_national": "MIDFIELDER",
         "id_player": "9664",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Luigi Riva",
-        "position_national": "FORWARD",
         "id_player": "9659",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Roberto Rosato",
-        "position_national": "DEFENDER",
         "id_player": "36646",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Alessandro Salvadore",
-        "position_national": "DEFENDER",
         "id_player": "36658",
-        "country_code": "ITA",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Radomir Vukčević",
-        "position_national": null,
         "id_player": "36763",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Borivoje Djordjević",
-        "position_national": "MIDFIELDER",
         "id_player": "36762",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ilija Petković",
-        "position_national": null,
         "id_player": "51746",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ivica Osim",
-        "position_national": "MIDFIELDER",
         "id_player": "36739",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Rudolf Belin",
-        "position_national": null,
         "id_player": "36819",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ratomir Dujković",
-        "position_national": null,
         "id_player": "36783",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Rajko Aleksić",
-        "position_national": null,
         "id_player": "40103",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Mladen Ramljak",
-        "position_national": null,
         "id_player": "36753",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ljubomir Mihajlović",
-        "position_national": null,
         "id_player": "36781",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ivan Brzić",
-        "position_national": null,
         "id_player": "40104",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Boško Antić",
-        "position_national": null,
         "id_player": "40105",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ilija Pantelić",
-        "position_national": null,
         "id_player": "40102",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Mirsad Fazlagić",
-        "position_national": "DEFENDER",
         "id_player": "36718",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Milan Damjanović",
-        "position_national": null,
         "id_player": "36748",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Blagoje Paunović",
-        "position_national": null,
         "id_player": "36711",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dragan Holcer",
-        "position_national": null,
         "id_player": "36708",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Vahidin Musemić",
-        "position_national": null,
         "id_player": "36733",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dragan Džajić",
-        "position_national": "MIDFIELDER",
         "id_player": "36707",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Miroslav Pavlović",
-        "position_national": null,
         "id_player": "36719",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Jovan Aćimović",
-        "position_national": null,
         "id_player": "36714",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dobrivoje Trivić",
-        "position_national": null,
         "id_player": "36737",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Idriz Hošić",
-        "position_national": null,
         "id_player": "36820",
-        "country_code": "SRB",
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": [
       {
         "id": "283290",
@@ -447,327 +316,185 @@
     "red_cards": NaN,
     "stadium_city": "Rome",
     "stadium_name": "Stadio Olimpico",
+    "stadium_name_official": "Stadio Olimpico",
     "home_lineups": [
       {
-        "name": "Enrico Albertosi",
-        "position_national": "GOALKEEPER",
         "id_player": "36638",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Angelo Anquilletti",
-        "position_national": "DEFENDER",
         "id_player": "40097",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giancarlo Bercellino",
-        "position_national": "DEFENDER",
         "id_player": "36653",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giacomo Bulgarelli",
-        "position_national": "MIDFIELDER",
         "id_player": "36657",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Picchio",
-        "position_national": "MIDFIELDER",
         "id_player": "36636",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Sandro Mazzola",
-        "position_national": "MIDFIELDER",
         "id_player": "9664",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luigi Riva",
-        "position_national": "FORWARD",
         "id_player": "9659",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Gianni Rivera",
-        "position_national": "MIDFIELDER",
         "id_player": "1901070",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Roberto Rosato",
-        "position_national": "DEFENDER",
         "id_player": "36646",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Alessandro Salvadore",
-        "position_national": "DEFENDER",
         "id_player": "36658",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Lido Vieri",
-        "position_national": "GOALKEEPER",
         "id_player": "36688",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Dino Zoff",
-        "position_national": "GOALKEEPER",
         "id_player": "36630",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Pietro Anastasi",
-        "position_national": "FORWARD",
         "id_player": "36654",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Tarcisio Burgnich",
-        "position_national": "DEFENDER",
         "id_player": "36631",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Ernesto Castano",
-        "position_national": "DEFENDER",
         "id_player": "36659",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Angelo Domenghini",
-        "position_national": "MIDFIELDER",
         "id_player": "36632",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giacinto Facchetti",
-        "position_national": "DEFENDER",
         "id_player": "36629",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giorgio Ferrini",
-        "position_national": "MIDFIELDER",
         "id_player": "36656",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Aristide Guarneri",
-        "position_national": "DEFENDER",
         "id_player": "36644",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Antonio Juliano",
-        "position_national": "MIDFIELDER",
         "id_player": "36635",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giovanni Lodetti",
-        "position_national": "MIDFIELDER",
         "id_player": "36668",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Piero Prati",
-        "position_national": "FORWARD",
         "id_player": "36643",
-        "country_code": "ITA",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Radomir Vukčević",
-        "position_national": null,
         "id_player": "36763",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Borivoje Djordjević",
-        "position_national": "MIDFIELDER",
         "id_player": "36762",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ivica Osim",
-        "position_national": "MIDFIELDER",
         "id_player": "36739",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Rudolf Belin",
-        "position_national": null,
         "id_player": "36819",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Rajko Aleksić",
-        "position_national": null,
         "id_player": "40103",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Mladen Ramljak",
-        "position_national": null,
         "id_player": "36753",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ljubomir Mihajlović",
-        "position_national": null,
         "id_player": "36781",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ivan Brzić",
-        "position_national": null,
         "id_player": "40104",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Boško Antić",
-        "position_national": null,
         "id_player": "40105",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Idriz Hošić",
-        "position_national": null,
         "id_player": "36820",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ilija Pantelić",
-        "position_national": null,
         "id_player": "40102",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Mirsad Fazlagić",
-        "position_national": "DEFENDER",
         "id_player": "36718",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Milan Damjanović",
-        "position_national": null,
         "id_player": "36748",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Blagoje Paunović",
-        "position_national": null,
         "id_player": "36711",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dragan Holcer",
-        "position_national": null,
         "id_player": "36708",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Ilija Petković",
-        "position_national": null,
         "id_player": "51746",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Vahidin Musemić",
-        "position_national": null,
         "id_player": "36733",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dragan Džajić",
-        "position_national": "MIDFIELDER",
         "id_player": "36707",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Miroslav Pavlović",
-        "position_national": null,
         "id_player": "36719",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Jovan Aćimović",
-        "position_national": null,
         "id_player": "36714",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dobrivoje Trivić",
-        "position_national": null,
         "id_player": "36737",
-        "country_code": "SRB",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "ITA",
-        "country": "Italy",
-        "name": "Ferruccio Valcareggi",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "SRB",
-        "country": "Serbia",
-        "name": "Rajko Mitic",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Ferruccio Valcareggi",
+    "away_coaches": "Rajko Mitic",
     "events": [
       {
         "id": "283251",
@@ -847,334 +574,189 @@
     "red_cards": NaN,
     "stadium_city": "Rome",
     "stadium_name": "Stadio Olimpico",
+    "stadium_name_official": "Stadio Olimpico",
     "home_lineups": [
       {
-        "name": "Keith Newton",
-        "position_national": "DEFENDER",
         "id_player": "36384",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Alan Mullery",
-        "position_national": "MIDFIELDER",
         "id_player": "36366",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Alan Ball",
-        "position_national": "MIDFIELDER",
         "id_player": "36353",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Alexander Stepney",
-        "position_national": "GOALKEEPER",
         "id_player": "75768",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Gordon West",
-        "position_national": "GOALKEEPER",
         "id_player": "40101",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Cyril Knowles",
-        "position_national": "DEFENDER",
         "id_player": "36422",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Jack Charlton",
-        "position_national": null,
         "id_player": "36378",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Mike Summerbee",
-        "position_national": "MIDFIELDER",
         "id_player": "36389",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Colin Bell",
-        "position_national": null,
         "id_player": "36368",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Jimmy Greaves",
-        "position_national": "FORWARD",
         "id_player": "36391",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Peter Thompson",
-        "position_national": "MIDFIELDER",
         "id_player": "36420",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Gordon Banks",
-        "position_national": "GOALKEEPER",
         "id_player": "9662",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Ramon Wilson",
-        "position_national": "DEFENDER",
         "id_player": "36363",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Brian Labone",
-        "position_national": "DEFENDER",
         "id_player": "36377",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Bobby Moore",
-        "position_national": "DEFENDER",
         "id_player": "9666",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Roger Hunt",
-        "position_national": "MIDFIELDER",
         "id_player": "36367",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Bobby Charlton",
-        "position_national": "MIDFIELDER",
         "id_player": "9654",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Geoff Hurst",
-        "position_national": "FORWARD",
         "id_player": "36359",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Martin Peters",
-        "position_national": "MIDFIELDER",
         "id_player": "36355",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Tommy Wright",
-        "position_national": "DEFENDER",
         "id_player": "36423",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Nobby Stiles",
-        "position_national": "MIDFIELDER",
         "id_player": "36383",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Norman Hunter",
-        "position_national": "DEFENDER",
         "id_player": "36371",
-        "country_code": "ENG",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Viktor Anichkin",
-        "position_national": "DEFENDER",
         "id_player": "37947",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Valeri Voronin",
-        "position_national": "MIDFIELDER",
         "id_player": "37933",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Anzor Kavazashvili",
-        "position_national": "GOALKEEPER",
         "id_player": "37965",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Volodymyr Muntyan",
-        "position_national": "MIDFIELDER",
         "id_player": "37934",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Givi Nodia",
-        "position_national": null,
         "id_player": "37992",
-        "country_code": "GEO",
         "start": "bench"
       },
       {
-        "name": "Evgeni Rudakov",
-        "position_national": "GOALKEEPER",
         "id_player": "37926",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Volodymyr Levchenko",
-        "position_national": "DEFENDER",
         "id_player": "40098",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Murtaz Khurtsilava",
-        "position_national": "DEFENDER",
         "id_player": "37924",
-        "country_code": "GEO",
         "start": "bench"
       },
       {
-        "name": "Igor Chislenko",
-        "position_national": "FORWARD",
         "id_player": "37929",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Kakhi Asatiani",
-        "position_national": "MIDFIELDER",
         "id_player": "40099",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Nikolai Smolnikov",
-        "position_national": "FORWARD",
         "id_player": "40100",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Yuri Pshenichnikov",
-        "position_national": "GOALKEEPER",
         "id_player": "37969",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valentin Afonin",
-        "position_national": "DEFENDER",
         "id_player": "37946",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoli Banishevski",
-        "position_national": "FORWARD",
         "id_player": "37925",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoli Byshovets",
-        "position_national": "FORWARD",
         "id_player": "37936",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Gennadi Evryuzhikhin",
-        "position_national": "FORWARD",
         "id_player": "37942",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Yuri Istomin",
-        "position_national": null,
         "id_player": "37937",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Volodymyr Kaplychniy",
-        "position_national": "DEFENDER",
         "id_player": "37932",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Eduard Malofeev",
-        "position_national": null,
         "id_player": "37945",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Albert Shesternev",
-        "position_national": "DEFENDER",
         "id_player": "39910",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Aleksandr Lenev",
-        "position_national": "MIDFIELDER",
         "id_player": "37968",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Gennadi Logofet",
-        "position_national": null,
         "id_player": "37978",
-        "country_code": null,
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "ENG",
-        "country": "England",
-        "name": "Sir Alf Ramsey",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "URS",
-        "country": "Soviet Union",
-        "name": "Mikhail Yakuschin",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Sir Alf Ramsey",
+    "away_coaches": "Mikhail Yakuschin",
     "events": [
       {
         "id": "10270",
@@ -1258,320 +840,189 @@
     ],
     "stadium_city": "Florence",
     "stadium_name": "Stadio Artemio Franchi",
+    "stadium_name_official": "Stadio Artemio Franchi",
     "home_lineups": [
       {
-        "name": "Borivoje Djordjević",
-        "position_national": "MIDFIELDER",
         "id_player": "36762",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Rudolf Belin",
-        "position_national": null,
         "id_player": "36819",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Radomir Vukčević",
-        "position_national": null,
         "id_player": "36763",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ratomir Dujković",
-        "position_national": null,
         "id_player": "36783",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Rajko Aleksić",
-        "position_national": null,
         "id_player": "40103",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Jovan Aćimović",
-        "position_national": null,
         "id_player": "36714",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Mladen Ramljak",
-        "position_national": null,
         "id_player": "36753",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ljubomir Mihajlović",
-        "position_national": null,
         "id_player": "36781",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ivan Brzić",
-        "position_national": null,
         "id_player": "40104",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Boško Antić",
-        "position_national": null,
         "id_player": "40105",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Idriz Hošić",
-        "position_national": null,
         "id_player": "36820",
-        "country_code": "SRB",
         "start": "bench"
       },
       {
-        "name": "Ilija Pantelić",
-        "position_national": null,
         "id_player": "40102",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Mirsad Fazlagić",
-        "position_national": "DEFENDER",
         "id_player": "36718",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Milan Damjanović",
-        "position_national": null,
         "id_player": "36748",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Blagoje Paunović",
-        "position_national": null,
         "id_player": "36711",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dragan Holcer",
-        "position_national": null,
         "id_player": "36708",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Ilija Petković",
-        "position_national": null,
         "id_player": "51746",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Ivica Osim",
-        "position_national": "MIDFIELDER",
         "id_player": "36739",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Vahidin Musemić",
-        "position_national": null,
         "id_player": "36733",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dragan Džajić",
-        "position_national": "MIDFIELDER",
         "id_player": "36707",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Miroslav Pavlović",
-        "position_national": null,
         "id_player": "36719",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dobrivoje Trivić",
-        "position_national": null,
         "id_player": "36737",
-        "country_code": "SRB",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Geoff Hurst",
-        "position_national": "FORWARD",
         "id_player": "36359",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Alexander Stepney",
-        "position_national": "GOALKEEPER",
         "id_player": "75768",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Gordon West",
-        "position_national": "GOALKEEPER",
         "id_player": "40101",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Cyril Knowles",
-        "position_national": "DEFENDER",
         "id_player": "36422",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Jack Charlton",
-        "position_national": null,
         "id_player": "36378",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Tommy Wright",
-        "position_national": "DEFENDER",
         "id_player": "36423",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Nobby Stiles",
-        "position_national": "MIDFIELDER",
         "id_player": "36383",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Mike Summerbee",
-        "position_national": "MIDFIELDER",
         "id_player": "36389",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Colin Bell",
-        "position_national": null,
         "id_player": "36368",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Jimmy Greaves",
-        "position_national": "FORWARD",
         "id_player": "36391",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Peter Thompson",
-        "position_national": "MIDFIELDER",
         "id_player": "36420",
-        "country_code": "ENG",
         "start": "bench"
       },
       {
-        "name": "Gordon Banks",
-        "position_national": "GOALKEEPER",
         "id_player": "9662",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Keith Newton",
-        "position_national": "DEFENDER",
         "id_player": "36384",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Ramon Wilson",
-        "position_national": "DEFENDER",
         "id_player": "36363",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Alan Mullery",
-        "position_national": "MIDFIELDER",
         "id_player": "36366",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Brian Labone",
-        "position_national": "DEFENDER",
         "id_player": "36377",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Bobby Moore",
-        "position_national": "DEFENDER",
         "id_player": "9666",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Alan Ball",
-        "position_national": "MIDFIELDER",
         "id_player": "36353",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Roger Hunt",
-        "position_national": "MIDFIELDER",
         "id_player": "36367",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Bobby Charlton",
-        "position_national": "MIDFIELDER",
         "id_player": "9654",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Martin Peters",
-        "position_national": "MIDFIELDER",
         "id_player": "36355",
-        "country_code": "ENG",
         "start": "field"
       },
       {
-        "name": "Norman Hunter",
-        "position_national": "DEFENDER",
         "id_player": "36371",
-        "country_code": "ENG",
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": [
       {
         "id": "53734",
@@ -1640,320 +1091,189 @@
     "red_cards": NaN,
     "stadium_city": "Naples",
     "stadium_name": "Stadio Diego Armando Maradona",
+    "stadium_name_official": "Stadio Diego Armando Maradona",
     "home_lineups": [
       {
-        "name": "Enrico Albertosi",
-        "position_national": "GOALKEEPER",
         "id_player": "36638",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Pietro Anastasi",
-        "position_national": "FORWARD",
         "id_player": "36654",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Angelo Anquilletti",
-        "position_national": "DEFENDER",
         "id_player": "40097",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giacomo Bulgarelli",
-        "position_national": "MIDFIELDER",
         "id_player": "36657",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Picchio",
-        "position_national": "MIDFIELDER",
         "id_player": "36636",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Aristide Guarneri",
-        "position_national": "DEFENDER",
         "id_player": "36644",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Giovanni Lodetti",
-        "position_national": "MIDFIELDER",
         "id_player": "36668",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Luigi Riva",
-        "position_national": "FORWARD",
         "id_player": "9659",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Roberto Rosato",
-        "position_national": "DEFENDER",
         "id_player": "36646",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Alessandro Salvadore",
-        "position_national": "DEFENDER",
         "id_player": "36658",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Lido Vieri",
-        "position_national": "GOALKEEPER",
         "id_player": "36688",
-        "country_code": "ITA",
         "start": "bench"
       },
       {
-        "name": "Dino Zoff",
-        "position_national": "GOALKEEPER",
         "id_player": "36630",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giancarlo Bercellino",
-        "position_national": "DEFENDER",
         "id_player": "36653",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Tarcisio Burgnich",
-        "position_national": "DEFENDER",
         "id_player": "36631",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Ernesto Castano",
-        "position_national": "DEFENDER",
         "id_player": "36659",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Angelo Domenghini",
-        "position_national": "MIDFIELDER",
         "id_player": "36632",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giacinto Facchetti",
-        "position_national": "DEFENDER",
         "id_player": "36629",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Giorgio Ferrini",
-        "position_national": "MIDFIELDER",
         "id_player": "36656",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Antonio Juliano",
-        "position_national": "MIDFIELDER",
         "id_player": "36635",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Sandro Mazzola",
-        "position_national": "MIDFIELDER",
         "id_player": "9664",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Piero Prati",
-        "position_national": "FORWARD",
         "id_player": "36643",
-        "country_code": "ITA",
         "start": "field"
       },
       {
-        "name": "Gianni Rivera",
-        "position_national": "MIDFIELDER",
         "id_player": "1901070",
-        "country_code": "ITA",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Viktor Anichkin",
-        "position_national": "DEFENDER",
         "id_player": "37947",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Valeri Voronin",
-        "position_national": "MIDFIELDER",
         "id_player": "37933",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Anzor Kavazashvili",
-        "position_national": "GOALKEEPER",
         "id_player": "37965",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Volodymyr Muntyan",
-        "position_national": "MIDFIELDER",
         "id_player": "37934",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Givi Nodia",
-        "position_national": null,
         "id_player": "37992",
-        "country_code": "GEO",
         "start": "bench"
       },
       {
-        "name": "Evgeni Rudakov",
-        "position_national": "GOALKEEPER",
         "id_player": "37926",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Volodymyr Levchenko",
-        "position_national": "DEFENDER",
         "id_player": "40098",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Murtaz Khurtsilava",
-        "position_national": "DEFENDER",
         "id_player": "37924",
-        "country_code": "GEO",
         "start": "bench"
       },
       {
-        "name": "Igor Chislenko",
-        "position_national": "FORWARD",
         "id_player": "37929",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Kakhi Asatiani",
-        "position_national": "MIDFIELDER",
         "id_player": "40099",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Nikolai Smolnikov",
-        "position_national": "FORWARD",
         "id_player": "40100",
-        "country_code": "URS",
         "start": "bench"
       },
       {
-        "name": "Yuri Pshenichnikov",
-        "position_national": "GOALKEEPER",
         "id_player": "37969",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valentin Afonin",
-        "position_national": "DEFENDER",
         "id_player": "37946",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoli Banishevski",
-        "position_national": "FORWARD",
         "id_player": "37925",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoli Byshovets",
-        "position_national": "FORWARD",
         "id_player": "37936",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Gennadi Evryuzhikhin",
-        "position_national": "FORWARD",
         "id_player": "37942",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Yuri Istomin",
-        "position_national": null,
         "id_player": "37937",
-        "country_code": null,
         "start": "field"
       },
       {
-        "name": "Volodymyr Kaplychniy",
-        "position_national": "DEFENDER",
         "id_player": "37932",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Eduard Malofeev",
-        "position_national": null,
         "id_player": "37945",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Albert Shesternev",
-        "position_national": "DEFENDER",
         "id_player": "39910",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Aleksandr Lenev",
-        "position_national": "MIDFIELDER",
         "id_player": "37968",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Gennadi Logofet",
-        "position_national": null,
         "id_player": "37978",
-        "country_code": null,
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": NaN,
     "_id": 3938
   }

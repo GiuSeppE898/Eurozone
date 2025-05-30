@@ -62,166 +62,101 @@
     "red_cards": NaN,
     "stadium_city": "Paris",
     "stadium_name": "Parc des Princes",
+    "stadium_name_official": "Parc des Princes",
     "home_lineups": [
       {
-        "name": "Lev Yashin",
-        "position_national": "GOALKEEPER",
         "id_player": "35559",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Givi Chokheli",
-        "position_national": "DEFENDER",
         "id_player": "35560",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoli Maslenkin",
-        "position_national": "MIDFIELDER",
         "id_player": "35550",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoli Krutikov",
-        "position_national": "DEFENDER",
         "id_player": "35561",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Yuri Voinov",
-        "position_national": "MIDFIELDER",
         "id_player": "35552",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Igor Netto",
-        "position_national": "MIDFIELDER",
         "id_player": "35562",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Slava Metreveli",
-        "position_national": "MIDFIELDER",
         "id_player": "35554",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valentin Ivanov",
-        "position_national": "FORWARD",
         "id_player": "35555",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Viktor Ponedelnik",
-        "position_national": "FORWARD",
         "id_player": "35563",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valentin Bubukin",
-        "position_national": "FORWARD",
         "id_player": "35564",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Mikheil Meskhi",
-        "position_national": "FORWARD",
         "id_player": "35565",
-        "country_code": "URS",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Blagoje Vidinić",
-        "position_national": null,
         "id_player": "36774",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Vladimir Djurković",
-        "position_national": "DEFENDER",
         "id_player": "36735",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Fahrudin Jusufi",
-        "position_national": null,
         "id_player": "36723",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Ante Žanetić",
-        "position_national": null,
         "id_player": "36747",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Jovan Miladinović",
-        "position_national": null,
         "id_player": "36795",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Željko Perušić",
-        "position_national": null,
         "id_player": "36727",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Željko Matuš",
-        "position_national": null,
         "id_player": "92424",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dražan Jerković",
-        "position_national": null,
         "id_player": "36775",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Milan Galić",
-        "position_national": "FORWARD",
         "id_player": "36722",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dragoslav Šekularac",
-        "position_national": "FORWARD",
         "id_player": "36732",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Borivoje Kostić",
-        "position_national": "FORWARD",
         "id_player": "36736",
-        "country_code": "SRB",
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": [
       {
         "id": "39211",
@@ -311,208 +246,117 @@
     "red_cards": NaN,
     "stadium_city": "Marseille",
     "stadium_name": "Stade de Marseille",
+    "stadium_name_official": "Stade de Marseille",
     "home_lineups": [
       {
-        "name": "Viliam Schrojf",
-        "position_national": null,
         "id_player": "35567",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "František Šafránek",
-        "position_national": null,
         "id_player": "35568",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Ján Popluhár",
-        "position_national": null,
         "id_player": "35569",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Ladislav Novák",
-        "position_national": "DEFENDER",
         "id_player": "35570",
-        "country_code": "CZE",
         "start": "field"
       },
       {
-        "name": "Titus Buberník",
-        "position_national": null,
         "id_player": "35571",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Josef Masopust",
-        "position_national": "MIDFIELDER",
         "id_player": "39993",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Ladislav Pavlovič",
-        "position_national": null,
         "id_player": "35580",
-        "country_code": "SVK",
         "start": "field"
       },
       {
-        "name": "Josef Vojta",
-        "position_national": null,
         "id_player": "35573",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Pavol Molnár",
-        "position_national": null,
         "id_player": "35581",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Vlastimil Bubník",
-        "position_national": null,
         "id_player": "35576",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Milan Dolinský",
-        "position_national": null,
         "id_player": "35577",
-        "country_code": "TCH",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Georges Lamia",
-        "position_national": "GOALKEEPER",
         "id_player": "35606",
-        "country_code": "FRA",
         "start": "bench"
       },
       {
-        "name": "Jean Wendling",
-        "position_national": "DEFENDER",
         "id_player": "35607",
-        "country_code": "FRA",
         "start": "bench"
       },
       {
-        "name": "Robert Herbin",
-        "position_national": "MIDFIELDER",
         "id_player": "35625",
-        "country_code": "FRA",
         "start": "bench"
       },
       {
-        "name": "Paul Sauvage",
-        "position_national": "FORWARD",
         "id_player": "35710",
-        "country_code": "FRA",
         "start": "bench"
       },
       {
-        "name": "Jean Taillandier",
-        "position_national": "GOALKEEPER",
         "id_player": "35709",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Bruno Rodzik",
-        "position_national": "DEFENDER",
         "id_player": "35638",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Robert Jonquet",
-        "position_national": "DEFENDER",
         "id_player": "35608",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "André Chorda",
-        "position_national": "DEFENDER",
         "id_player": "35621",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Jean-Jacques Marcel",
-        "position_national": "DEFENDER",
         "id_player": "35653",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Robert Siatka",
-        "position_national": "MIDFIELDER",
         "id_player": "35708",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "François Heutte",
-        "position_national": "FORWARD",
         "id_player": "35612",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Yvon Douis",
-        "position_national": "FORWARD",
         "id_player": "35637",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Maryan Wisnieski",
-        "position_national": "MIDFIELDER",
         "id_player": "35657",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Michel Stievenard",
-        "position_national": "FORWARD",
         "id_player": "35677",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Jean Vincent",
-        "position_national": "MIDFIELDER",
         "id_player": "35654",
-        "country_code": "FRA",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "TCH",
-        "country": "Czechoslovakia",
-        "name": "Rudolf Vytlacil",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "FRA",
-        "country": "France",
-        "name": "Albert Batteux",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Rudolf Vytlacil",
+    "away_coaches": "Albert Batteux",
     "events": [
       {
         "id": "35126",
@@ -600,180 +444,101 @@
     "red_cards": NaN,
     "stadium_city": "Marseille",
     "stadium_name": "Stade de Marseille",
+    "stadium_name_official": "Stade de Marseille",
     "home_lineups": [
       {
-        "name": "Viliam Schrojf",
-        "position_national": null,
         "id_player": "35567",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "František Šafránek",
-        "position_national": null,
         "id_player": "35568",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Ján Popluhár",
-        "position_national": null,
         "id_player": "35569",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Ladislav Novák",
-        "position_national": "DEFENDER",
         "id_player": "35570",
-        "country_code": "CZE",
         "start": "field"
       },
       {
-        "name": "Titus Buberník",
-        "position_national": null,
         "id_player": "35571",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Josef Masopust",
-        "position_national": "MIDFIELDER",
         "id_player": "39993",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Josef Vojta",
-        "position_national": null,
         "id_player": "35573",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Anton Moravčík",
-        "position_national": null,
         "id_player": "35574",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Andrej Kvašňák",
-        "position_national": null,
         "id_player": "35575",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Vlastimil Bubník",
-        "position_national": null,
         "id_player": "35576",
-        "country_code": "TCH",
         "start": "field"
       },
       {
-        "name": "Milan Dolinský",
-        "position_national": null,
         "id_player": "35577",
-        "country_code": "TCH",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Lev Yashin",
-        "position_national": "GOALKEEPER",
         "id_player": "35559",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Givi Chokheli",
-        "position_national": "DEFENDER",
         "id_player": "35560",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoli Maslenkin",
-        "position_national": "MIDFIELDER",
         "id_player": "35550",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Anatoli Krutikov",
-        "position_national": "DEFENDER",
         "id_player": "35561",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Yuri Voinov",
-        "position_national": "MIDFIELDER",
         "id_player": "35552",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Igor Netto",
-        "position_national": "MIDFIELDER",
         "id_player": "35562",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Slava Metreveli",
-        "position_national": "MIDFIELDER",
         "id_player": "35554",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valentin Ivanov",
-        "position_national": "FORWARD",
         "id_player": "35555",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Viktor Ponedelnik",
-        "position_national": "FORWARD",
         "id_player": "35563",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valentin Bubukin",
-        "position_national": "FORWARD",
         "id_player": "35564",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Mikheil Meskhi",
-        "position_national": "FORWARD",
         "id_player": "35565",
-        "country_code": "URS",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "TCH",
-        "country": "Czechoslovakia",
-        "name": "Rudolf Vytlacil",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "URS",
-        "country": "Soviet Union",
-        "name": "Gavril Kachalin",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Rudolf Vytlacil",
+    "away_coaches": "Gavril Kachalin",
     "events": [
       {
         "id": "10247",
@@ -919,187 +684,113 @@
     "red_cards": NaN,
     "stadium_city": "Paris",
     "stadium_name": "Parc des Princes",
+    "stadium_name_official": "Parc des Princes",
     "home_lineups": [
       {
-        "name": "Dominique Colonna",
-        "position_national": "GOALKEEPER",
         "id_player": "35701",
-        "country_code": "FRA",
         "start": "bench"
       },
       {
-        "name": "Georges Peyroche",
-        "position_national": "MIDFIELDER",
         "id_player": "42730",
-        "country_code": "FRA",
         "start": "bench"
       },
       {
-        "name": "Henri Skiba",
-        "position_national": "FORWARD",
         "id_player": "42731",
-        "country_code": "FRA",
         "start": "bench"
       },
       {
-        "name": "Georges Lamia",
-        "position_national": "GOALKEEPER",
         "id_player": "35606",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Jean Wendling",
-        "position_national": "DEFENDER",
         "id_player": "35607",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Robert Herbin",
-        "position_national": "MIDFIELDER",
         "id_player": "35625",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Bruno Rodzik",
-        "position_national": "DEFENDER",
         "id_player": "35638",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Jean-Jacques Marcel",
-        "position_national": "DEFENDER",
         "id_player": "35653",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "René Ferrier",
-        "position_national": "MIDFIELDER",
         "id_player": "35611",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Michel Stievenard",
-        "position_national": "FORWARD",
         "id_player": "35677",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Lucien Muller",
-        "position_national": "MIDFIELDER",
         "id_player": "35658",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Maryan Wisnieski",
-        "position_national": "MIDFIELDER",
         "id_player": "35657",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "François Heutte",
-        "position_national": "FORWARD",
         "id_player": "35612",
-        "country_code": "FRA",
         "start": "field"
       },
       {
-        "name": "Jean Vincent",
-        "position_national": "MIDFIELDER",
         "id_player": "35654",
-        "country_code": "FRA",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Milutin Šoškić",
-        "position_national": null,
         "id_player": "36728",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Vladimir Djurković",
-        "position_national": "DEFENDER",
         "id_player": "36735",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Fahrudin Jusufi",
-        "position_national": null,
         "id_player": "36723",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Ante Žanetić",
-        "position_national": null,
         "id_player": "36747",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Branko Zebec",
-        "position_national": null,
         "id_player": "36757",
-        "country_code": "CRO",
         "start": "field"
       },
       {
-        "name": "Željko Perušić",
-        "position_national": null,
         "id_player": "36727",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Tomislav Knež",
-        "position_national": null,
         "id_player": "36779",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dražan Jerković",
-        "position_national": null,
         "id_player": "36775",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Milan Galić",
-        "position_national": "FORWARD",
         "id_player": "36722",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Dragoslav Šekularac",
-        "position_national": "FORWARD",
         "id_player": "36732",
-        "country_code": "SRB",
         "start": "field"
       },
       {
-        "name": "Borivoje Kostić",
-        "position_national": "FORWARD",
         "id_player": "36736",
-        "country_code": "SRB",
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": [
       {
         "id": "10249",

@@ -71,6 +71,7 @@ class MatchLoader:
     def load_and_save(self, output_path: str):
         for x in range(1960, 2025, 4):
             try:
+                print(f"{self.path}/{x}.csv")
                 df = pd.read_csv(f"{self.path}/{x}.csv")
                 documents = []
                 for _, row in df.iterrows():
@@ -110,13 +111,63 @@ class MatchLoader:
                     documents.append(doc)
 
 
+
                 with open(f"{output_path}/{x}.json", "w", encoding="utf-8") as f:
                     json.dump(documents, f, ensure_ascii=False, indent=2)
 
                 print(f"Conversione completata. File salvato come {output_path}/{x}.json.")
+                return documents
 
             except FileNotFoundError:
                 print(f"Errore: Il file euro/{x}.csv non è stato trovato. Saltando l'anno {x}.")
             except Exception as e:
                 print(f"Si è verificato un errore durante l'elaborazione dell'anno {x}: {e}")
 
+    def load(self, debug=False):
+        all_documents = []
+        for x in range(1960, 2025, 4):
+            try:
+                if debug:
+                    print(f"Caricamento: {self.path}/{x}.csv")
+                df = pd.read_csv(f"{self.path}/{x}.csv")
+                for _, row in df.iterrows():
+                    doc = {}
+                    for col in df.columns:
+                        columns_to_exclude = [
+                            "game_referees",
+                            "condition_humidity",
+                            "condition_pitch",
+                            "condition_temperature",
+                            "condition_weather",
+                            "condition_wind_speed",
+                            "stadium_name_sponsor",
+                            "stadium_name_media",
+                            "stadium_name_event"
+                        ]
+                        if col in columns_to_exclude:
+                            continue
+
+                        parsed_value = self.parse_field(row[col])
+                        if col == "goals":
+                            doc[col] = self.filter_goals(parsed_value)
+                        elif col == "home_lineups" or col == "away_lineups":
+                            doc[col] = self.filter_lineups(parsed_value)
+                        elif col in ["home_coaches", "away_coaches"]:
+                            doc[col] = self.filter_coach_name(parsed_value)
+                        else:
+                            doc[col] = parsed_value
+
+                    if "id_match" in doc:
+                        try:
+                            doc["_id"] = int(doc["id_match"])
+                        except (ValueError, TypeError):
+                            doc["_id"] = doc["id_match"]
+
+                    all_documents.append(doc)
+
+            except FileNotFoundError:
+                if debug:
+                    print(f"File euro/{x}.csv non trovato. Saltando.")
+            except Exception as e:
+                print(f"Errore durante l'elaborazione dell'anno {x}: {e}")
+        return all_documents

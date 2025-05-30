@@ -62,178 +62,101 @@
     "red_cards": NaN,
     "stadium_city": "Madrid",
     "stadium_name": "Estadio Santiago Bernabéu",
+    "stadium_name_official": "Estadio Santiago Bernabéu",
     "home_lineups": [
       {
-        "name": "José Ángel Iribar",
-        "position_national": "GOALKEEPER",
         "id_player": "38082",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Feliciano Rivilla",
-        "position_national": "DEFENDER",
         "id_player": "38099",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "FerNonedo Olivella",
-        "position_national": "DEFENDER",
         "id_player": "38098",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Isacio Calleja",
-        "position_national": "DEFENDER",
         "id_player": "38107",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Ignacio Zoco",
-        "position_national": "DEFENDER",
         "id_player": "38100",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Josep Maria Fusté",
-        "position_national": "MIDFIELDER",
         "id_player": "38124",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Amancio Amaro",
-        "position_national": "MIDFIELDER",
         "id_player": "38087",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Jesús María Pereda",
-        "position_national": "FORWARD",
         "id_player": "38115",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Marcelino Martínez",
-        "position_national": "FORWARD",
         "id_player": "38116",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Luis Suárez",
-        "position_national": "MIDFIELDER",
         "id_player": "38114",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Carlos Lapetra",
-        "position_national": "MIDFIELDER",
         "id_player": "38125",
-        "country_code": "ESP",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Lev Yashin",
-        "position_national": "GOALKEEPER",
         "id_player": "35559",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Viktor Shustikov",
-        "position_national": "DEFENDER",
         "id_player": "37980",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Albert Shesternev",
-        "position_national": "DEFENDER",
         "id_player": "39910",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Eduard Mudrik",
-        "position_national": "DEFENDER",
         "id_player": "37960",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valeri Voronin",
-        "position_national": "MIDFIELDER",
         "id_player": "37933",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Viktor Anichkin",
-        "position_national": "DEFENDER",
         "id_player": "37947",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Igor Chislenko",
-        "position_national": "FORWARD",
         "id_player": "37929",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valentin Ivanov",
-        "position_national": "FORWARD",
         "id_player": "35555",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Viktor Ponedelnik",
-        "position_national": "FORWARD",
         "id_player": "35563",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Aleksei Korneev",
-        "position_national": "DEFENDER",
         "id_player": "37981",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Galimzyan Khusainov",
-        "position_national": "FORWARD",
         "id_player": "37959",
-        "country_code": "URS",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "ESP",
-        "country": "Spain",
-        "name": "José Villalonga",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "name": "Konstantin Beskov",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "José Villalonga",
+    "away_coaches": "Konstantin Beskov",
     "events": [
       {
         "id": "28989",
@@ -339,180 +262,101 @@
     "red_cards": NaN,
     "stadium_city": "Barcelona",
     "stadium_name": "Camp Nou",
+    "stadium_name_official": "Camp Nou",
     "home_lineups": [
       {
-        "name": "Antal Szentmihályi",
-        "position_national": "GOALKEEPER",
         "id_player": "38400",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Dezső Novák",
-        "position_national": "DEFENDER",
         "id_player": "38377",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Kálmán Mészöly",
-        "position_national": "DEFENDER",
         "id_player": "39969",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Kálmán Ihász",
-        "position_national": "DEFENDER",
         "id_player": "38398",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Ernő Solymosi",
-        "position_national": "MIDFIELDER",
         "id_player": "38340",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Ferenc Sipos",
-        "position_national": "DEFENDER",
         "id_player": "38404",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "János Farkas",
-        "position_national": "FORWARD",
         "id_player": "38405",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Zoltán Varga",
-        "position_national": "FORWARD",
         "id_player": "38341",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Flórián Albert",
-        "position_national": "FORWARD",
         "id_player": "38392",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Ferenc Bene",
-        "position_national": "FORWARD",
         "id_player": "9652",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Máté Fenyvesi",
-        "position_national": "FORWARD",
         "id_player": "80529",
-        "country_code": "HUN",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Leif Nielsen",
-        "position_national": null,
         "id_player": "36109",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Bent Wolmar",
-        "position_national": null,
         "id_player": "36165",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Kaj Hansen",
-        "position_national": null,
         "id_player": "36154",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Bent Hansen",
-        "position_national": null,
         "id_player": "35594",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Birger Larsen",
-        "position_national": null,
         "id_player": "36140",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Erling Nielsen",
-        "position_national": null,
         "id_player": "36155",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Carl Bertelsen",
-        "position_national": null,
         "id_player": "36108",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Ole Sørensen",
-        "position_national": null,
         "id_player": "36117",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Ole Madsen",
-        "position_national": null,
         "id_player": "36103",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Kjeld Thorst",
-        "position_national": null,
         "id_player": "36118",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "John Danielsen",
-        "position_national": null,
         "id_player": "35600",
-        "country_code": "DEN",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "HUN",
-        "country": "Hungary",
-        "name": "Lajos Baroti",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "country_code": "DEN",
-        "country": "Denmark",
-        "name": "Poul Petersen",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Lajos Baroti",
+    "away_coaches": "Poul Petersen",
     "events": [
       {
         "id": "10267",
@@ -624,178 +468,101 @@
     "red_cards": NaN,
     "stadium_city": "Barcelona",
     "stadium_name": "Camp Nou",
+    "stadium_name_official": "Camp Nou",
     "home_lineups": [
       {
-        "name": "Leif Nielsen",
-        "position_national": null,
         "id_player": "36109",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Jens Jørgen Hansen",
-        "position_national": null,
         "id_player": "36102",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Kaj Hansen",
-        "position_national": null,
         "id_player": "36154",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Bent Hansen",
-        "position_national": null,
         "id_player": "35594",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Birger Larsen",
-        "position_national": null,
         "id_player": "36140",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Erling Nielsen",
-        "position_national": null,
         "id_player": "36155",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Carl Bertelsen",
-        "position_national": null,
         "id_player": "36108",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Ole Sørensen",
-        "position_national": null,
         "id_player": "36117",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Ole Madsen",
-        "position_national": null,
         "id_player": "36103",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "Kjeld Thorst",
-        "position_national": null,
         "id_player": "36118",
-        "country_code": "DEN",
         "start": "field"
       },
       {
-        "name": "John Danielsen",
-        "position_national": null,
         "id_player": "35600",
-        "country_code": "DEN",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Lev Yashin",
-        "position_national": "GOALKEEPER",
         "id_player": "35559",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Viktor Shustikov",
-        "position_national": "DEFENDER",
         "id_player": "37980",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Albert Shesternev",
-        "position_national": "DEFENDER",
         "id_player": "39910",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Eduard Mudrik",
-        "position_national": "DEFENDER",
         "id_player": "37960",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valeri Voronin",
-        "position_national": "MIDFIELDER",
         "id_player": "37933",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Viktor Anichkin",
-        "position_national": "DEFENDER",
         "id_player": "37947",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Igor Chislenko",
-        "position_national": "FORWARD",
         "id_player": "37929",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Valentin Ivanov",
-        "position_national": "FORWARD",
         "id_player": "35555",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Viktor Ponedelnik",
-        "position_national": "FORWARD",
         "id_player": "35563",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Gennadi Gusarov",
-        "position_national": "MIDFIELDER",
         "id_player": "37970",
-        "country_code": "URS",
         "start": "field"
       },
       {
-        "name": "Galimzyan Khusainov",
-        "position_national": "FORWARD",
         "id_player": "37959",
-        "country_code": "URS",
         "start": "field"
       }
     ],
-    "home_coaches": [
-      {
-        "country_code": "DEN",
-        "country": "Denmark",
-        "name": "Poul Petersen",
-        "role": "COACH"
-      }
-    ],
-    "away_coaches": [
-      {
-        "name": "Konstantin Beskov",
-        "role": "COACH"
-      }
-    ],
+    "home_coaches": "Poul Petersen",
+    "away_coaches": "Konstantin Beskov",
     "events": [
       {
         "id": "10263",
@@ -893,166 +660,101 @@
     "red_cards": NaN,
     "stadium_city": "Madrid",
     "stadium_name": "Estadio Santiago Bernabéu",
+    "stadium_name_official": "Estadio Santiago Bernabéu",
     "home_lineups": [
       {
-        "name": "José Ángel Iribar",
-        "position_national": "GOALKEEPER",
         "id_player": "38082",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Feliciano Rivilla",
-        "position_national": "DEFENDER",
         "id_player": "38099",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "FerNonedo Olivella",
-        "position_national": "DEFENDER",
         "id_player": "38098",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Isacio Calleja",
-        "position_national": "DEFENDER",
         "id_player": "38107",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Ignacio Zoco",
-        "position_national": "DEFENDER",
         "id_player": "38100",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Josep Maria Fusté",
-        "position_national": "MIDFIELDER",
         "id_player": "38124",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Amancio Amaro",
-        "position_national": "MIDFIELDER",
         "id_player": "38087",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Jesús María Pereda",
-        "position_national": "FORWARD",
         "id_player": "38115",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Marcelino Martínez",
-        "position_national": "FORWARD",
         "id_player": "38116",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Luis Suárez",
-        "position_national": "MIDFIELDER",
         "id_player": "38114",
-        "country_code": "ESP",
         "start": "field"
       },
       {
-        "name": "Carlos Lapetra",
-        "position_national": "MIDFIELDER",
         "id_player": "38125",
-        "country_code": "ESP",
         "start": "field"
       }
     ],
     "away_lineups": [
       {
-        "name": "Antal Szentmihályi",
-        "position_national": "GOALKEEPER",
         "id_player": "38400",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Sándor Mátrai",
-        "position_national": "DEFENDER",
         "id_player": "38397",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Kálmán Mészöly",
-        "position_national": "DEFENDER",
         "id_player": "39969",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "László Sárosi",
-        "position_national": "DEFENDER",
         "id_player": "38338",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "István Nagy",
-        "position_national": "MIDFIELDER",
         "id_player": "38351",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Ferenc Sipos",
-        "position_national": "DEFENDER",
         "id_player": "38404",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Ferenc Bene",
-        "position_national": "FORWARD",
         "id_player": "9652",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Imre Komora",
-        "position_national": "FORWARD",
         "id_player": "38384",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Flórián Albert",
-        "position_national": "FORWARD",
         "id_player": "38392",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Lajos Tichy",
-        "position_national": "FORWARD",
         "id_player": "38339",
-        "country_code": "HUN",
         "start": "field"
       },
       {
-        "name": "Máté Fenyvesi",
-        "position_national": "FORWARD",
         "id_player": "80529",
-        "country_code": "HUN",
         "start": "field"
       }
     ],
-    "home_coaches": [],
-    "away_coaches": [],
+    "home_coaches": null,
+    "away_coaches": null,
     "events": [
       {
         "id": "10260",

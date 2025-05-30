@@ -3,17 +3,12 @@ import pandas as pd
 
 from data.match_loader import MatchLoader
 import data.player_loader as pl
-from data.coach_loader import CoachLoader
+from src.db.model.player import Player
+from src.db.repository.player_repository import PlayerRepository
+from src.db.conf import client
+from src.db.model.match import Match
+from src.db.repository.match_repository import MatchRepository
 
-from db.model.player import Player
-from db.model.coach import Coach
-
-from db.repository.player_repository import PlayerRepository
-from db.repository.coach_repository import CoachRepository
-
-from db.conf import client
-
-## Sezione relativa ai Player
 
 def load_player_data_from_csv(debug: bool = True) -> pd.DataFrame:
     player_loader = pl.PlayerLoader("./data/euro_lineups.csv")
@@ -100,57 +95,29 @@ def save_players_to_db(data: pd.DataFrame):
             print(f"Percentuale di caricamento: {p:.2f}%", end="\r")
 
 
-## Sezione relativa ai Coach
-
-def load_coach_data_from_csv(debug: bool = True) -> pd.DataFrame:
-    coach_loader = CoachLoader("./data/euro_coaches.csv")
-    data = coach_loader.load()
-    coach_loader.sanitize_data()
-    coach_loader.dump_to_json("./json_dump/coaches.json")
-
-    if debug:
-        print(data)
-
-    return coach_loader.data
-
-def save_coaches_to_db(data: pd.DataFrame):
-    coach_repository = CoachRepository(client)
-    total_rows = len(data)
-
-    for index, row in data.iterrows():
-        coach = Coach(
-            name=row["name"],
-            country=row["country"],
-            country_code=row["country_code"],
-            role=row["role"],
-            id_match=row["id_match"],
-            year=row["year"]
-        )
-        coach_repository.insert_coach(coach)
-
-        if index % 15 == 0 or index == total_rows - 1:
-            p = ((index + 1) / total_rows) * 100
-            print(f"Percentuale di caricamento coach: {p:.2f}%", end="\r")
-
-## Sezione relativa ai Match
-
 def load_match_data_from_csv(debug: bool = True):
     match_loader = MatchLoader("./data/matches/matches/euro")
     match_loader.load_and_save('./json_dump/match')
+def save_matches_to_db(match_data: list):
+    match_repository = MatchRepository(client)
 
+    total = len(match_data)
+    for index, row in enumerate(match_data):
+        try:
+            match = Match.from_dict(row)
+            match_repository.insert_match(match)
+        except Exception as e:
+            print(f"Errore nel match all'indice {index}: {e}")
 
-## Main
-
+        if index % 15 == 0 or index == total - 1:
+            percentuale = ((index + 1) / total) * 100
+            print(f"Percentuale di caricamento: {percentuale:.2f}%", end="\r")
 if __name__ == "__main__":
-    # --- PLAYER ---
-    player_data = load_player_data_from_csv(debug=False)
-    # save_players_to_db(player_data)
-
-    # --- COACH ---
-    coach_data = load_coach_data_from_csv(debug=False)
-
-    # --- MATCH ---
-    load_match_data_from_csv(debug=False)
+    #player_data = load_player_data_from_csv(debug=False)
+    #save_players_to_db(player_data)
+    match_loader = MatchLoader("/Users/giuseppepiosorrentino/PycharmProjects/NoSQLMAtches/data/matches/matches/euro")
+    match_data = match_loader.load(debug=False)  # ritorna lista di dizionari
+    save_matches_to_db(match_data)
     
     
     
