@@ -105,8 +105,8 @@ class Match:
             "penalties_missed": self.penalties_missed,
             "penalties": self.penalties,
             "red_cards": self.red_cards,
-            "home_lineup": [lineup.to_dict() for lineup in self.home_lineup] if self.home_lineup else [],
-            "away_lineup": [lineup.to_dict() for lineup in self.away_lineup] if self.away_lineup else [],
+            "home_lineups": [lineup.to_dict() for lineup in self.home_lineup] if self.home_lineup else [],
+            "away_lineups": [lineup.to_dict() for lineup in self.away_lineup] if self.away_lineup else [],
             "coach_home": self.coach_home,
             "coach_away": self.coach_away,
             "events": [event.to_dict() for event in self.events] if self.events else [],
@@ -149,21 +149,13 @@ class Match:
             penalties_missed=data.get("penalties_missed", 0),
             penalties=data.get("penalties", 0),
             red_cards=data.get("red_cards", 0),
-            home_lineup=[
-                Lineup.from_dict(l)
-                for l in safe_list(data.get("home_lineups"))
-                if isinstance(l, dict)
-            ],
-            away_lineup=[
-                Lineup.from_dict(l)
-                for l in safe_list(data.get("away_lineups"))
-                if isinstance(l, dict)
-            ],
-            coach_home=data.get("home_coaches", "Unknown"),
-            coach_away=data.get("away_coaches", "Unknown"),
+            home_lineup=[Lineup.from_dict(l) for l in data.get("home_lineups", [])],
+            away_lineup=[Lineup.from_dict(l) for l in data.get("away_lineups", [])],
+            coach_home=data.get("coach_home", "Unknown"),
+            coach_away=data.get("coach_away", "Unknown"),
             events=[
                 Events.from_dict(e)
                 for e in safe_list(data.get("events"))
-                if isinstance(e, dict) and "timestamp" in e
+                if isinstance(e, dict)
             ],
         )

@@ -4,27 +4,30 @@ from typing import Optional
 class Events:
     def __init__(
         self,
-        id: int,
-        phase: str,
-        timestamp: datetime,
-        type: str,
-        time_minute: float,
-        time_second: float,
-        primary_id_person: str,
-        primary_country_code: str,
-        primary_name: str,
+        id: str,
+        phase: Optional[str],
+        timestamp: Optional[datetime],
+        type: Optional[str],
+        subType: Optional[str] = None,
+        time_minute: Optional[float] = None,
+        time_second: Optional[float] = None,
+        primary_id_person: Optional[str] = None,
+        primary_country_code: Optional[str] = None,
+        primary_name: Optional[str] = None,
         secondary_id_person: Optional[str] = None,
         secondary_country_code: Optional[str] = None,
         secondary_name: Optional[str] = None,
         body_part: Optional[str] = None,
         field_position_x: Optional[float] = None,
         field_position_y: Optional[float] = None,
-        field_position_distance: Optional[float] = None
+        field_position_distance: Optional[float] = None,
+        field_position_zone: Optional[str] = None
     ):
         self.id = id
         self.phase = phase
         self.timestamp = timestamp
         self.type = type
+        self.subType = subType
         self.time_minute = time_minute
         self.time_second = time_second
         self.primary_id_person = primary_id_person
@@ -37,6 +40,7 @@ class Events:
         self.field_position_x = field_position_x
         self.field_position_y = field_position_y
         self.field_position_distance = field_position_distance
+        self.field_position_zone = field_position_zone
 
     def to_dict(self) -> dict:
         return {
@@ -44,6 +48,7 @@ class Events:
             "phase": self.phase,
             "timestamp": self.timestamp,
             "type": self.type,
+            "subType": self.subType,
             "time_minute": self.time_minute,
             "time_second": self.time_second,
             "primary_id_person": self.primary_id_person,
@@ -55,26 +60,39 @@ class Events:
             "body_part": self.body_part,
             "field_position_x": self.field_position_x,
             "field_position_y": self.field_position_y,
-            "field_position_distance": self.field_position_distance
+            "field_position_distance": self.field_position_distance,
+            "field_position_zone": self.field_position_zone
         }
 
     @classmethod
     def from_dict(cls, data: dict):
+        from dateutil.parser import isoparse
+
+        # Convert timestamp string to datetime or None
+        ts = data.get("timestamp")
+        if isinstance(ts, str):
+            try:
+                ts = isoparse(ts)
+            except Exception:
+                ts = None
+
         return cls(
-            id=data["id"],
-            phase=data["phase"],
-            timestamp=data["timestamp"],
-            type=data["type"],
-            time_minute=data["time_minute"],
-            time_second=data["time_second"],
-            primary_id_person=data["primary_id_person"],
-            primary_country_code=data["primary_country_code"],
-            primary_name=data["primary_name"],
-            secondary_id_person=data.get("secondary_id_person"),
-            secondary_country_code=data.get("secondary_country_code"),
-            secondary_name=data.get("secondary_name"),
+            id=data.get("id"),
+            phase=data.get("phase"),
+            timestamp=ts,
+            type=data.get("type"),
+            subType=data.get("subType"),
+            time_minute=data.get("time_minute"),
+            time_second=data.get("time_second"),
+            primary_id_person=data.get("primary_id_person"),
+            primary_country_code=data.get("primary_country_code"),
+            primary_name=data.get("primary_name"),
+            secondary_id_person=data.get("secondaty_id_person") or data.get("secondary_id_person"),
+            secondary_country_code=data.get("secondaty_country_code") or data.get("secondary_country_code"),
+            secondary_name=data.get("secondaty_name") or data.get("secondary_name"),
             body_part=data.get("body_part"),
             field_position_x=data.get("field_position_x"),
             field_position_y=data.get("field_position_y"),
-            field_position_distance=data.get("field_position_distance")
+            field_position_distance=data.get("field_position_distance"),
+            field_position_zone=data.get("field_position_zone")
         )

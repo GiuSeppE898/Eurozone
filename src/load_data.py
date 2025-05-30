@@ -103,8 +103,20 @@ def save_matches_to_db(match_data: list):
 
     total = len(match_data)
     for index, row in enumerate(match_data):
+        # Metti qui il controllo: stampa il dizionario raw
+        if index == 0:  # controlla solo il primo per non intasare il terminale
+            import pprint
+            print("\n--- RAW DATA ---")
+            pprint.pprint(row)
+
         try:
             match = Match.from_dict(row)
+
+            # Stampa anche il risultato dopo conversione in dict
+            if index == 0:
+                print("\n--- AFTER from_dict e to_dict ---")
+                pprint.pprint(match.to_dict())
+
             match_repository.insert_match(match)
         except Exception as e:
             print(f"Errore nel match all'indice {index}: {e}")
