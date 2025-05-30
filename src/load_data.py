@@ -3,9 +3,17 @@ import pandas as pd
 
 from data.match_loader import MatchLoader
 import data.player_loader as pl
+from data.coach_loader import CoachLoader
+
 from db.model.player import Player
+from db.model.coach import Coach
+
 from db.repository.player_repository import PlayerRepository
+from db.repository.coach_repository import CoachRepository
+
 from db.conf import client
+
+## Sezione relativa ai Player
 
 def load_player_data_from_csv(debug: bool = True) -> pd.DataFrame:
     player_loader = pl.PlayerLoader("./data/euro_lineups.csv")
@@ -92,14 +100,56 @@ def save_players_to_db(data: pd.DataFrame):
             print(f"Percentuale di caricamento: {p:.2f}%", end="\r")
 
 
+## Sezione relativa ai Coach
+
+def load_coach_data_from_csv(debug: bool = True) -> pd.DataFrame:
+    coach_loader = CoachLoader("./data/euro_coaches.csv")
+    data = coach_loader.load()
+    coach_loader.sanitize_data()
+    coach_loader.dump_to_json("./json_dump/coaches.json")
+
+    if debug:
+        print(data)
+
+    return coach_loader.data
+
+def save_coaches_to_db(data: pd.DataFrame):
+    coach_repository = CoachRepository(client)
+    total_rows = len(data)
+
+    for index, row in data.iterrows():
+        coach = Coach(
+            name=row["name"],
+            country=row["country"],
+            country_code=row["country_code"],
+            role=row["role"],
+            id_match=row["id_match"],
+            year=row["year"]
+        )
+        coach_repository.insert_coach(coach)
+
+        if index % 15 == 0 or index == total_rows - 1:
+            p = ((index + 1) / total_rows) * 100
+            print(f"Percentuale di caricamento coach: {p:.2f}%", end="\r")
+
+## Sezione relativa ai Match
+
 def load_match_data_from_csv(debug: bool = True):
     match_loader = MatchLoader("./data/matches/matches/euro")
     match_loader.load_and_save('./json_dump/match')
-    
+
+
+## Main
+
 if __name__ == "__main__":
-    player_data = load_player_data_from_csv(debug=False)    
-    #save_players_to_db(player_data)
-    
+    # --- PLAYER ---
+    player_data = load_player_data_from_csv(debug=False)
+    # save_players_to_db(player_data)
+
+    # --- COACH ---
+    coach_data = load_coach_data_from_csv(debug=False)
+
+    # --- MATCH ---
     load_match_data_from_csv(debug=False)
     
     
