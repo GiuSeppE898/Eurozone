@@ -1,49 +1,53 @@
 class Stadio:
     def __init__(
         self,
-        stadium_id: int,
-        stadium_name: str,
-        stadium_city: str,
-        stadium_country_code: str,
-        stadium_capacity: int,
-        stadium_latitude: complex,
-        stadium_longitude: complex,
-        stadium_pitch_length: float,
-        stadium_pitch_width: float
+        id: int,
+        name: str,
+        name_official: str,
+        city: str,
+        country_code: str,
+        capacity: float,
+        latitude: float,
+        longitude: float,
+        pitch_length: float,
+        pitch_width: float,
     ):
-        self.stadium_id = stadium_id
-        self.stadium_name = stadium_name
-        self.stadium_city = stadium_city
-        self.stadium_country_code = stadium_country_code
-        self.stadium_capacity = stadium_capacity
-        self.stadium_latitude = stadium_latitude
-        self.stadium_longitude = stadium_longitude
-        self.stadium_pitch_length = stadium_pitch_length
-        self.stadium_pitch_width = stadium_pitch_width
+        self.id = id
+        self.name = name
+        self.name_official = name_official
+        self.city = city
+        self.country_code = country_code
+        self.capacity = capacity
+        self.latitude = latitude
+        self.longitude = longitude
+        self.pitch_length = pitch_length
+        self.pitch_width = pitch_width
 
-    def to_dict(self) -> dict:
+    def to_dict(self):
         return {
-            "stadium_id": self.stadium_id,
-            "stadium_name": self.stadium_name,
-            "stadium_city": self.stadium_city,
-            "stadium_country_code": self.stadium_country_code,
-            "stadium_capacity": self.stadium_capacity,
-            "stadium_latitude": self.stadium_latitude,
-            "stadium_longitude": self.stadium_longitude,
-            "stadium_pitch_length": self.stadium_pitch_length,
-            "stadium_pitch_width": self.stadium_pitch_width
+            "id": self.id,
+            "name": self.name,
+            "name_official": self.name_official,
+            "city": self.city,
+            "country_code": self.country_code,
+            "capacity": self.capacity,
+            "latitude": self.latitude,
+            "longitude": self.longitude,
+            "pitch_length": self.pitch_length,
+            "pitch_width": self.pitch_width,
         }
 
     @classmethod
     def from_dict(cls, data: dict):
         return cls(
-            stadium_id=data["stadium_id"],
-            stadium_name=data["stadium_name"],
-            stadium_city=data["stadium_city"],
-            stadium_country_code=data["stadium_country_code"],
-            stadium_capacity=data["stadium_capacity"],
-            stadium_latitude=data["stadium_latitude"],
-            stadium_longitude=data["stadium_longitude"],
-            stadium_pitch_length=data["stadium_pitch_length"],
-            stadium_pitch_width=data["stadium_pitch_width"]
+            id=data.get("id"),
+            name=data.get("name", ""),
+            name_official=data.get("name_official", ""),
+            city=data.get("city", ""),
+            country_code=data.get("country_code", ""),
+            capacity=data.get("capacity", 0.0),
+            latitude=data.get("latitude", 0.0),
+            longitude=data.get("longitude", 0.0),
+            pitch_length=data.get("pitch_length", 0.0),
+            pitch_width=data.get("pitch_width", 0.0),
         )

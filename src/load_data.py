@@ -103,8 +103,7 @@ def save_matches_to_db(match_data: list):
 
     total = len(match_data)
     for index, row in enumerate(match_data):
-        # Metti qui il controllo: stampa il dizionario raw
-        if index == 0:  # controlla solo il primo per non intasare il terminale
+        if index == 0:  
             import pprint
             print("\n--- RAW DATA ---")
             pprint.pprint(row)

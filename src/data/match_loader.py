@@ -64,64 +64,40 @@ class MatchLoader:
                 }
                 filtered_goals.append(filtered_goal)
             else:
-                # Se un elemento nella lista non è un dizionario, lo include così com'è
                 filtered_goals.append(goal)
         return filtered_goals
 
-    def load_and_save(self, output_path: str):
-        for x in range(1960, 2025, 4):
-            try:
-                print(f"{self.path}/{x}.csv")
-                df = pd.read_csv(f"{self.path}/{x}.csv")
-                documents = []
-                for _, row in df.iterrows():
-                    doc = {}
-                    for col in df.columns:
-                        columns_to_exclude = [
-                            "game_referees",
-                            "condition_humidity",
-                            "condition_pitch",
-                            "condition_temperature",
-                            "condition_weather",
-                            "condition_wind_speed",
-                            "stadium_name_sponsor",
-                            "stadium_name_media",
-                            "stadium_name_event"
-                        ]
-                        if col in columns_to_exclude:
-                            continue
-                        parsed_value = self.parse_field(row[col])
-                        if col == "goals":
-                            doc[col] = self.filter_goals(parsed_value)
-                        elif col == "home_lineups" or col == "away_lineups":
-                            doc[col] = self.filter_lineups(parsed_value)
-                        elif col in ["home_coaches", "away_coaches"]:
-                            doc[col] = self.filter_coach_name(parsed_value)
+    def filter_penalties(self, pen_data):
+        if not isinstance(pen_data, list):
+            return pen_data  # o [], a seconda di cosa ti serve
 
-                        else:
-                            doc[col] = parsed_value
+        filtered_penalties = []
+        for p in pen_data:
+            if isinstance(p, dict):
+                filtered_penalty = {
+                    "phase": p.get("phase"),
+                    "time": p.get("time"),
+                    "international_name": p.get("international_name"),
+                    "penalty_type": p.get("penalty_type"),
+                    "country_code": p.get("country_code")
+                }
+                filtered_penalties.append(filtered_penalty)
+        return filtered_penalties
 
-                    if "id_match" in doc:
-                        try:
-                            doc["_id"] = int(doc["id_match"])
-                        except (ValueError, TypeError):
-                            print(f"Attenzione: 'id_match' non è un numero valido per il documento nell'anno {x}.")
-                            doc["_id"] = doc["id_match"] # Mantiene il valore originale se non è convertibile
-
-                    documents.append(doc)
-
-
-
-                with open(f"{output_path}/{x}.json", "w", encoding="utf-8") as f:
-                    json.dump(documents, f, ensure_ascii=False, indent=2)
-
-                print(f"Conversione completata. File salvato come {output_path}/{x}.json.")
-                return documents
-
-            except FileNotFoundError:
-                print(f"Errore: Il file euro/{x}.csv non è stato trovato. Saltando l'anno {x}.")
-            except Exception as e:
-                print(f"Si è verificato un errore durante l'elaborazione dell'anno {x}: {e}")
+    def filter_cards(self, cards_data):
+        if not isinstance(cards_data, list):
+            return cards_data
+        filtered_cards = []
+        for p in cards_data:
+            if isinstance(p, dict):
+                filtered_card = {
+                    "phase": p.get("phase"),
+                    "time": p.get("time"),
+                    "international_name": p.get("international_name"),
+                    "country_code": p.get("country_code")
+                }
+                filtered_cards.append(filtered_card)
+        return filtered_cards
 
     def load(self, debug=False):
         all_documents = []
@@ -132,6 +108,7 @@ class MatchLoader:
                 df = pd.read_csv(f"{self.path}/{x}.csv")
                 for _, row in df.iterrows():
                     doc = {}
+                    stadium_fields = {}
                     for col in df.columns:
                         columns_to_exclude = [
                             "game_referees",
@@ -148,14 +125,27 @@ class MatchLoader:
                             continue
 
                         parsed_value = self.parse_field(row[col])
+                        if col.startswith("stadium_"):
+                            stadium_key = col.replace("stadium_", "")
+                            stadium_fields[stadium_key] = parsed_value
+                            continue
                         if col == "goals":
                             doc[col] = self.filter_goals(parsed_value)
                         elif col == "home_lineups" or col == "away_lineups":
                             doc[col] = self.filter_lineups(parsed_value)
                         elif col in ["home_coaches", "away_coaches"]:
                             doc[col] = self.filter_coach_name(parsed_value)
+                        elif col == "penalties":
+                            doc["penalties"] = self.filter_penalties(parsed_value)
+                        elif col == "penalties_missed":
+                            doc["penalties_missed"] = self.filter_penalties(parsed_value)
+                        elif col == "red_cards":
+                            doc["red_cards"] = self.filter_cards(parsed_value)
+
                         else:
                             doc[col] = parsed_value
+                    if stadium_fields:
+                        doc["stadio"] = stadium_fields
 
                     if "id_match" in doc:
                         try:
@@ -171,3 +161,6 @@ class MatchLoader:
             except Exception as e:
                 print(f"Errore durante l'elaborazione dell'anno {x}: {e}")
         return all_documents
+
+
+

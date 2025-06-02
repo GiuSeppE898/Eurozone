@@ -5,6 +5,8 @@ from src.db.model.Stadio import Stadio
 from src.db.model.goal import Goal
 from src.db.model.lineup import Lineup
 from src.db.model.events import Events
+from src.db.model.penalty import Penalty
+from src.db.model.red_card import Red_Card
 
 
 class Match:
@@ -34,13 +36,13 @@ class Match:
         match_attendance: Optional[float],
         stadio: Stadio,
         goals: List[Goal],
-        penalties_missed: float,
-        penalties: float,
-        red_cards: float,
+        penalties_missed: List[Penalty],
+        penalties: List[Penalty],
+        red_cards: List[Red_Card],
         home_lineup: List[Lineup],
         away_lineup: List[Lineup],
-        coach_home: str,
-        coach_away: str,
+        home_coaches: str,
+        away_coaches: str,
         events: List[Events],
     ):
         self.id_match = id_match
@@ -72,8 +74,8 @@ class Match:
         self.red_cards = red_cards
         self.home_lineup = home_lineup
         self.away_lineup = away_lineup
-        self.coach_home = coach_home
-        self.coach_away = coach_away
+        self.home_coaches = home_coaches
+        self.away_coaches = away_coaches
         self.events = events
 
     def to_dict(self) -> dict:
@@ -102,13 +104,13 @@ class Match:
             "match_attendance": self.match_attendance,
             "stadio": self.stadio.to_dict() if self.stadio else None,
             "goals": [goal.to_dict() for goal in self.goals] if self.goals else [],
-            "penalties_missed": self.penalties_missed,
-            "penalties": self.penalties,
-            "red_cards": self.red_cards,
+            "penalties_missed": [penalty.to_dict() for penalty in self.penalties_missed] if self.penalties_missed else [],
+            "penalties": [penalty.to_dict() for penalty in self.penalties] if self.penalties else [],
+            "red_cards": [red_card.to_dict() for red_card in self.red_cards] if self.red_cards else [],
             "home_lineups": [lineup.to_dict() for lineup in self.home_lineup] if self.home_lineup else [],
             "away_lineups": [lineup.to_dict() for lineup in self.away_lineup] if self.away_lineup else [],
-            "coach_home": self.coach_home,
-            "coach_away": self.coach_away,
+            "home_coaches": self.home_coaches,
+            "away_coaches": self.away_coaches,
             "events": [event.to_dict() for event in self.events] if self.events else [],
         }
 
@@ -146,13 +148,25 @@ class Match:
                 for g in safe_list(data.get("goals"))
                 if isinstance(g, dict)
             ],
-            penalties_missed=data.get("penalties_missed", 0),
-            penalties=data.get("penalties", 0),
-            red_cards=data.get("red_cards", 0),
+            penalties_missed=[
+                Penalty.from_dict(p)
+                for p in safe_list(data.get("penalties_missed"))
+                if isinstance(p, dict)
+            ],
+            penalties=[
+                Penalty.from_dict(p)
+                for p in safe_list(data.get("penalties"))
+                if isinstance(p, dict)
+            ],
+            red_cards=[
+                Red_Card.from_dict(r)
+                for r in safe_list(data.get("red_cards"))
+                if isinstance(r, dict)
+            ],
             home_lineup=[Lineup.from_dict(l) for l in data.get("home_lineups", [])],
             away_lineup=[Lineup.from_dict(l) for l in data.get("away_lineups", [])],
-            coach_home=data.get("coach_home", "Unknown"),
-            coach_away=data.get("coach_away", "Unknown"),
+            home_coaches=data.get("home_coaches", "Unknown"),
+            away_coaches=data.get("away_coaches", "Unknown"),
             events=[
                 Events.from_dict(e)
                 for e in safe_list(data.get("events"))
