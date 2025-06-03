@@ -25,4 +25,12 @@ class PlayerRepository:
         return self.collection.delete_one({"id_player": player_id})
 
 
-    # by id by name
+    # Trovato tramite nome
+    def find_player_by_name(self, name: str):
+        data = self.collection.find_one({'name': name})
+        return Player.from_dict(data) if data else None
+
+    # Trovato tramite id
+    def find_player_by_id(self, id_player: str):
+        data = self.collection.find_one({'id_player': id_player})
+        return Player.from_dict(data) if data else None
