@@ -142,3 +142,51 @@ class MatchRepository:
 
     def get_match_from_edition(self,edition:int) -> list[dict]:
         return list(self.collection.find({"year": edition}))
+
+
+
+    # script per trovare il totale dei match giocati
+
+    def count_matches_played_by_player_id(self, player_id: int) -> int:
+        player_id_str = str(player_id)
+        return self.collection.count_documents({
+            "$or": [
+                {"home_lineups.id_player": player_id_str},
+                {"away_lineups.id_player": player_id_str}
+            ]
+        })
+
+    #script per trovare il totale dei match giocati da titolare
+
+    def count_matches_started_by_player_id(self, player_id: int) -> int:
+        player_id_str = str(player_id)
+        return self.collection.count_documents({
+            "$or": [
+                {"home_lineups": {"$elemMatch": {"id_player": player_id_str, "start": "field"}}},
+                {"away_lineups": {"$elemMatch": {"id_player": player_id_str, "start": "field"}}}
+            ]
+        })
+
+    #script per contare gli assist
+    def count_assists_by_player_id(self, player_id: int) -> int:
+        player_id_str = str(player_id)
+
+        matches_with_assists = self.collection.find({
+            "events": {
+                "$elemMatch": {
+                    "type": "GOAL",
+                    "secondary_id_person": player_id_str
+                }
+            }
+        })
+
+        assist_count = 0
+        for match in matches_with_assists:
+            for event in match.get("events", []):
+                if (
+                        event.get("type") == "GOAL"
+                        and event.get("secondary_id_person") == player_id_str
+                ):
+                    assist_count += 1
+
+        return assist_count
