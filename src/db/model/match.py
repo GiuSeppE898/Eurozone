@@ -15,6 +15,8 @@ class Match:
         id_match: int,
         home_team: str,
         away_team: str,
+        home_team_code: str,
+        away_team_code: str,
         home_score: float,
         away_score: float,
         home_penalty: Optional[int],
@@ -48,6 +50,8 @@ class Match:
         self.id_match = id_match
         self.home_team = home_team
         self.away_team = away_team
+        self.home_team_code = home_team_code
+        self.away_team_code = away_team_code
         self.home_score = home_score
         self.away_score = away_score
         self.home_penalty = home_penalty
@@ -83,6 +87,8 @@ class Match:
             "id_match": self.id_match,
             "home_team": self.home_team,
             "away_team": self.away_team,
+            "home_team_code": self.home_team_code,
+            "away_team_code": self.away_team_code,
             "home_score": self.home_score,
             "away_score": self.away_score,
             "home_penalty": self.home_penalty,
@@ -123,6 +129,8 @@ class Match:
             id_match=data.get("id_match"),
             home_team=data.get("home_team", ""),
             away_team=data.get("away_team", ""),
+            home_team_code=data.get("home_team_code", ""),
+            away_team_code=data.get("away_team_code", ""),
             home_score=data.get("home_score", 0),
             away_score=data.get("away_score", 0),
             home_penalty=data.get("home_penalty"),

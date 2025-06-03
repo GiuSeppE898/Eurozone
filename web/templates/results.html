@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Risultati Euro {{ edition }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    .container {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .matchday {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .match {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.match img.team-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.team-home, .team-away {
+  flex: 2;
+  text-align: center;
+  font-weight: bold;
+}
+
+.score {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+    .back-link {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .back-link a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .back-link a:hover {
+      text-decoration: underline;
+    }
+    .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.edition-logo {
+  width: 80px;
+  height: 60px;
+  object-fit: contain;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+  <h2>Risultati Euro {{ edition }}</h2>
+  <img class="edition-logo" src="{{ url_for('static', filename='Eurologos/' ~ edition ~ '.png') }}" alt="Logo Euro {{ edition }}">
+</div>
+
+    <div class="matchday">Partite dell'edizione {{ edition }}</div>
+
+    {% if results %}
+      {% for match in results %}
+        <div class="match">
+            <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.home_team_code ~ '.png') }}" alt="{{ match.home_team }}">
+          <span class="team-home">{{ match.home_team }} ({{ match.home_team_code }})</span>
+          <span class="score">{{ match.home_score|int }} - {{ match.away_score|int }}</span>
+          <span class="team-away">{{ match.away_team }} ({{ match.away_team_code }})</span>
+          <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.away_team_code ~ '.png') }}" alt="{{ match.away_team }}">
+
+        </div>
+      {% endfor %}
+    {% else %}
+      <p style="text-align:center;">Nessun risultato disponibile per questa edizione.</p>
+    {% endif %}
+
+    <div class="back-link">
+      <a href="{{ url_for('index') }}">⬅ Torna alla selezione edizioni</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -13,7 +13,8 @@ class MatchRepository:
         self.db = self.client[db_name]
         self.collection = self.db[collection_name]
 
-
+    def insert_match(self, match: Match):
+        return self.collection.insert_one(match.to_dict())
 
     def search_match_by_id(self, match_id: int) -> dict | None:
         return self.collection.find_one({"id_match": match_id})
@@ -138,3 +139,6 @@ class MatchRepository:
 
         result = list(self.collection.aggregate(pipeline))
         return result[0]["total_goals"] if result else 0
+
+    def get_match_from_edition(self,edition:int) -> list[dict]:
+        return list(self.collection.find({"year": edition}))

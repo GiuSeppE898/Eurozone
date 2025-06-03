@@ -1,8 +1,12 @@
 import os
 from flask import Flask, render_template, url_for
 
-app = Flask(__name__)
+from src.db.conf import client
+from src.db.repository.match_repository import MatchRepository
+from src.db.repository.player_repository import PlayerRepository
 
+app = Flask(__name__)
+mr = MatchRepository(client)
 @app.route('/')
 def index():
     editions = []
@@ -14,9 +18,10 @@ def index():
     return render_template("index.html", editions=editions)
 
 
-@app.route('/edizione/<year>')
-def edizione_detail(year):
-    return f"<h1>Dettagli per l'edizione {year}</h1><p>Qui verranno mostrati i contenuti di {year}.json.</p><a href='{url_for('index')}'>Torna alla Home</a>"
+@app.route('/results/<int:edition>')
+def results_page(edition):
+    results = mr.get_match_from_edition(edition)
+    return render_template('results.html', edition=edition, results=results)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -62,13 +62,14 @@
   <div class="row justify-content-center">
     {% for edition in editions %}
       <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+          <a href="{{ url_for('results_page', edition=edition) }}" style="text-decoration: none; color: inherit;">
         <div class="card d-flex align-items-center text-center" style="width: 18rem;">
           <img class="card-img-top mt-3" src="{{ url_for('static', filename='Eurologos/' ~ edition ~ '.png') }}" alt="Logo {{ edition }}" style="width: 100px; height: 100px; object-fit: contain;">
-          <div class="card-body">
+            <div class="card-body">
             <h3 class="card-title">Euro {{ edition }}</h3>
             <p class="card-text">Breve Descrizione...</p>
-          </div>
-        </div>
+            </div>
+        </div></a>
       </div>
     {% endfor %}
   </div>
