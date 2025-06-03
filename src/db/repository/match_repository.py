@@ -61,7 +61,6 @@ class MatchRepository:
         )
         return result.modified_count > 0
 
-    import uuid
 
     def insert_red_card(self, match_id: int, redc: red_card):
         match = self.search_match_by_id(match_id)
@@ -125,3 +124,17 @@ class MatchRepository:
         )
         return result.modified_count > 0
 
+
+
+    def count_goals_by_player_name(self, player_name: str) -> int:
+        """
+        Conta il numero totale di goal segnati da un giocatore dato il suo nome.
+        """
+        pipeline = [
+            {"$unwind": "$goals"},
+            {"$match": {"goals.international_name": player_name}},
+            {"$count": "total_goals"}
+        ]
+
+        result = list(self.collection.aggregate(pipeline))
+        return result[0]["total_goals"] if result else 0

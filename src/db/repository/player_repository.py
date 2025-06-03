@@ -23,3 +23,6 @@ class PlayerRepository:
 
     def delete_player(self, player_id: int):
         return self.collection.delete_one({"id_player": player_id})
+
+
+    # by id by name
