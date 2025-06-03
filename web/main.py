@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    dataset_path = "../json_dump/match"
+    #dataset_path = "../json_dump/match"
+    dataset_path = "json_dump\\match"
     editions = []
     if os.path.exists(dataset_path) and os.path.isdir(dataset_path):
         for f_name in os.listdir(dataset_path):
