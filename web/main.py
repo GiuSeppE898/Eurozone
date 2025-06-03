@@ -5,18 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    #dataset_path = "../json_dump/match"
-    dataset_path = "json_dump\\match"
     editions = []
-    if os.path.exists(dataset_path) and os.path.isdir(dataset_path):
-        for f_name in os.listdir(dataset_path):
-            if f_name.endswith(".json"):
-                editions.append(f_name.replace(".json", ""))
-        editions.sort() # Ordina gli anni
-        editions.reverse()
-    else:
-        print(f"Attenzione: La cartella '{dataset_path}' non esiste o non è una directory.")
-        # Potresti voler gestire questo caso in modo diverso, es. mostrando un errore all'utente
+    for x in range(1960,2025,4):
+        editions.append(x)
+    editions.sort() # Ordina gli anni
+    editions.reverse()
 
     return render_template("index.html", editions=editions)
 
