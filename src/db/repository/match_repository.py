@@ -1,3 +1,4 @@
+import uuid
 from re import match
 
 from pymongo import MongoClient
@@ -17,28 +18,93 @@ class MatchRepository:
     def search_match_by_id(self, match_id: int) -> dict | None:
         return self.collection.find_one({"id_match": match_id})
 
-    def insert_goal_by_id(self, match_id: int, goal: Goal) -> bool:
+
+    def insert_goal(self, match_id: int, goal: Goal, assist_name: Optional[str] = None):
         match = self.search_match_by_id(match_id)
         if not match:
             return False
 
+        goal_dict = goal.to_dict()
+        event_id = str(uuid.uuid4())
+        minute = goal_dict["time"]["minute"]
+        phase = "FIRST_HALF" if minute <= 45 else "SECOND_HALF"
+
+        event_goal = {
+            "id": event_id,
+            "phase": phase,
+            "timestamp": None,
+            "type": "GOAL",
+            "subType": None,
+            "time_minute": minute,
+            "time_second": goal_dict["time"]["second"],
+            "primary_id_person": goal_dict.get("id_player"),
+            "primary_country_code": goal_dict.get("country_code"),
+            "primary_name": goal_dict.get("international_name"),
+            "secondary_id_person": None,
+            "secondary_country_code": None,
+            "secondary_name": assist_name if assist_name else None,
+            "body_part": None,
+            "field_position_x": None,
+            "field_position_y": None,
+            "field_position_distance": None,
+            "field_position_zone": None
+        }
+
         result = self.collection.update_one(
             {"id_match": match_id},
-            {"$push": {"goals": goal.to_dict()}}
+            {
+                "$push": {
+                    "goals": goal_dict,
+                    "events": event_goal
+                }
+            }
         )
         return result.modified_count > 0
 
-    def insert_red_card(self,match_id:int, redc :red_card):
+    import uuid
+
+    def insert_red_card(self, match_id: int, redc: red_card):
         match = self.search_match_by_id(match_id)
         if not match:
             return False
-        print(match)
+
+        red_card_data = redc.to_dict()
+        minute = red_card_data["time"]["minute"]
+        second = red_card_data["time"].get("second")
+        red_card_event = {
+            "id": str(uuid.uuid4()),
+            "phase": red_card_data["phase"],
+            "timestamp": None,
+            "type": "RED_CARD",
+            "subType": None,
+            "time_minute": minute,
+            "time_second": second,
+            "primary_id_person": red_card_data.get("id_player"),
+            "primary_country_code": red_card_data.get("country_code"),
+            "primary_name": red_card_data.get("international_name"),
+            "secondary_id_person": red_card_data.get("id_player"),
+            "secondary_country_code": red_card_data.get("country_code"),
+            "secondary_name": red_card_data.get("international_name"),
+            "body_part": None,
+            "field_position_x": None,
+            "field_position_y": None,
+            "field_position_distance": None,
+            "field_position_zone": None
+        }
+
         result = self.collection.update_one(
             {"id_match": match_id},
-            {"$push": {"red_cards":redc.to_dict()}}
+            {
+                "$push": {
+                    "red_cards": red_card_data,
+                    "events": red_card_event
+                }
+            }
         )
-        print(result)
+
         return result.modified_count > 0
+
+
     def insert_home_linup(self, match_id:int, homel: List[lineup]):
         match = self.search_match_by_id(match_id)
         if not match:
@@ -46,6 +112,16 @@ class MatchRepository:
         result = self.collection.update_one(
             {"id_match": match_id},
             {"$set": {"home_lineups": [p.to_dict() for p in homel]}}
+        )
+        return result.modified_count > 0
+
+    def insert_away_linup(self, match_id:int, homel: List[lineup]):
+        match = self.search_match_by_id(match_id)
+        if not match:
+            return False
+        result = self.collection.update_one(
+            {"id_match": match_id},
+            {"$set": {"away_lineups": [p.to_dict() for p in homel]}}
         )
         return result.modified_count > 0
 
