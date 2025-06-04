@@ -16,10 +16,10 @@ mr = MatchRepository(client)
 def index():
     editions = []
     for x in range(1960,2025,4):
-        editions.append(x)
+        editions.append(x) 
     editions.sort() # Ordina gli anni
     editions.reverse()
-
+ 
     return render_template("index.html", editions=editions)
 
 
@@ -54,12 +54,12 @@ def match_detail(match_id):
     match = mr.search_match_by_id(int(match_id))
     
     players: list[Player] = []
-
+ 
     pr = PlayerRepository(client)
 
-    for lineup in match['home_lineups']:
+    for lineup in match['home_lineups']: 
         player_info = pr.find_player_by_id(int(lineup['id_player']))
-        if player_info:
+        if player_info: 
             player_info.team_side = 'home' 
             player_info.field = lineup['start'] == "field"
             players.append(player_info)
@@ -75,7 +75,7 @@ def match_detail(match_id):
             
     assign_player_positions(players)
 
-    return render_template("match_detail.html", match=match, players=players, localized_roles=roles_it, localized_winner_reason=winner_reason_it)
+    return render_template("match_detail.html", match=match, players=players, localized_roles=roles_it, localized_winner_reason=winner_reason_it, localized_misc=misc_it)
 
 def assign_player_positions(players): 
     """
@@ -159,6 +159,25 @@ winner_reason_it = {
     "WIN_ON_PENALTIES": "Vittoria ai rigori",
     "WIN_ON_EXTRA_TIME": "Vittoria ai tempi supplementari",
     "WIN_REGULAR": "Vittoria nei tempi regolamentari",
+}
+
+misc_it = {
+    "PENALTY" : "Calci di rigore",
+    "YELLOW_CARD": "Cartellino giallo",
+    "RED_CARD": "Cartellino rosso",
+    "SUBSTITUTION": "Sostituzione",
+    "GOAL": "Gol",
+    "OWN_GOAL": "Autogol",
+    "INJURY_TIME": "Tempo di recupero",
+    "END_PHASE": "Fine dell'intertempo",
+    "START_PHASE": "Inizio dell'intertempo",
+    "CORNER": "Calcio d'angolo",
+    "OFFSIDE": "Fuorigioco",
+    "EXTRA_TIME": "Tempi supplementari",
+    "EXTRA_TIME_SECOND_HALF": "Secondo tempo supplementare",
+    "EXTRA_TIME_FIRST_HALF": "Primo tempo supplementare",
+    "SECOND_HALF": "Secondo tempo",
+    "FIRST_HALF": "Primo tempo",
 }
 
 if __name__ == '__main__':

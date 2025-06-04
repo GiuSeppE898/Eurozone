@@ -88,7 +88,6 @@
   <!-- Tabs -->
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#summary">Riassunto</a></li>
-    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#stats">Statistiche</a></li>
     <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#lineups">Formazioni</a></li>
   </ul>
 
@@ -97,46 +96,152 @@
   <h5 class="mt-3">Eventi</h5>
   {% if match.events %}
     {% for event in match.events %}
-      <div class="event d-flex justify-content-between align-items-center border-bottom py-2">
-        <div class="text-muted" style="width: 60px;">
-          {{ event.time_minute }}
-        </div>
-        <div class="flex-grow-1 ms-3">
-          <strong>{{ event.primary_name or 'Giocatore sconosciuto' }}</strong>
+      {% if "PHASE" not in event.type %}
+        {% if event.type == "INJURY_TIME" %}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="flex-grow-1 text-center">
 
-          <small class="text-muted d-block">{{ event.phase.replace('_', ' ') }}</small>
+            <strong> Inizio recupero</strong>
+          </div>
         </div>
-        <div class="text-end" style="width: 120px;">
-          <span class="badge bg-secondary">{{ event.type }}</span>
+        {% endif %}
+        
+        {% if event.type == "GOAL" %}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="text-muted" style="width: 60px;">
+            {{ event.time_minute|int ~ ':' ~ event.time_second|int if event.time_minute is not none else 'N/A' }}
+          </div>
+          <img src="{{ url_for('static', filename='logos/' ~ event.primary_country_code ~ '.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
+          <img src="{{ url_for('static', filename='ball.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            <strong> !! GOAL DI {{ event.primary_name|upper }} !! </strong>
+          </div>
         </div>
+        {% endif  %}
+
+        {% if event.type == "FULL_TIME" %}
+          <div class="event d-flex justify-content-center align-items-center">
+            <img src="{{ url_for('static', filename='whistle-icon.svg') }}" alt="Whistle Icon" style="width: 30px; height: 30px; margin-right: 10px;">
+            <div class="flex-grow-1 text-center">
+
+              <strong> FINE </strong>
+            </div>
+          </div>
+        {% endif %}
+
+        {% if event.type == "PENALTY" and event.phase == "PENALTY" and event.subType == "MISSED"%}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="text-muted" style="width: 60px;">
+            {{ event.time_minute|int ~ ':' ~ event.time_second|int if event.time_minute is not none else 'N/A' }}
+          </div>
+          <img src="{{ url_for('static', filename='logos/' ~ event.primary_country_code ~ '.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            <strong> {{ event.primary_name|upper }} ha sbagliato il rigore! </strong>
+          </div>
+        </div>
+        {% endif %}
+        {% if event.type == "PENALTY" and event.phase == "PENALTY" and event.subType != "MISSED"%}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="text-muted" style="width: 60px;">
+            {{ event.time_minute|int ~ ':' ~ event.time_second|int if event.time_minute is not none else 'N/A' }}
+          </div>
+          <img src="{{ url_for('static', filename='logos/' ~ event.primary_country_code ~ '.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
+          <img src="{{ url_for('static', filename='ball.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            <strong> {{ event.primary_name|upper }} non sbaglia il rigore! </strong>
+          </div>
+        </div>
+        {% endif %}
+
+        {% if event.type == "PENALTY" and event.phase != "PENALTY" %}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="text-muted" style="width: 60px;">
+            {{ event.time_minute|int ~ ':' ~ event.time_second|int if event.time_minute is not none else 'N/A' }}
+          </div>
+          <img src="{{ url_for('static', filename='logos/' ~ event.primary_country_code ~ '.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
+          <img src="{{ url_for('static', filename='ball.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            <strong> !! GOAL DI {{ event.primary_name|upper }} SU CALCIO DI RIGORE !! </strong>
+          </div>
+        </div>
+        {% endif %}
+
+        {% if event.type == "CORNER" %}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="text-muted" style="width: 60px;">
+            {{ event.time_minute|int ~ ':' ~ event.time_second|int if event.time_minute is not none else 'N/A' }}
+          </div>
+          <img src="{{ url_for('static', filename='logos/' ~ event.primary_country_code ~ '.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            <strong> Calcio d'angolo battuto da {{ event.primary_name }} </strong>
+          </div>
+        </div>
+        {% endif %}
+
+
+        {% if event.type == "SUBSTITUTION" %}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="text-muted" style="width: 60px;">
+            {{ event.time_minute|int ~ ':' ~ event.time_second|int if event.time_minute is not none else 'N/A' }}
+          </div>
+          <img src="{{ url_for('static', filename='sub.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            Entra <b>{{ event.secondary_name }}</b>, esce <b>{{ event.primary_name }}</b>
+          </div>
+        </div>
+        {% endif %}
+
+        {% if event.type == "YELLOW_CARD" %}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="text-muted" style="width: 60px;">
+            {{ event.time_minute|int ~ ':' ~ event.time_second|int if event.time_minute is not none else 'N/A' }}
+          </div>
+          <img src="{{ url_for('static', filename='Yellow_card.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            <strong> Cartellino giallo per {{ event.primary_name }} </strong>
+          </div>
+        </div>
+        {% endif %}
+
+        {% if event.type == "RED_CARD" %}
+        <div class="event d-flex justify-content-center align-items-center">
+          <div class="text-muted" style="width: 60px;">
+            {{ event.time_minute|int ~ ':' ~ event.time_second|int if event.time_minute is not none else 'N/A' }}
+          </div>
+          <img src="{{ url_for('static', filename='Yellow_card.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            <strong> Cartellino giallo per {{ event.primary_name }} </strong>
+          </div>
+        </div>
+        {% endif %}
+
+
+        <div class="event d-flex justify-content-between align-items-center border-bottom py-2">
+          <div class="flex-grow-1 ms-3">
+          </div>
       </div>
+      {% else %}
+        <div class="event d-flex justify-content-center align-items-center">
+          <img src="{{ url_for('static', filename='whistle-icon.svg') }}" alt="Whistle Icon" style="width: 30px; height: 30px; margin-right: 10px;">
+          <div class="flex-grow-1 text-center">
+
+            <strong> {{"Inizio" if event.type == "START_PHASE" else "Fine" if event.type == "END_PHASE" else "" }} {{ localized_misc[event.phase] }}</strong>
+          </div>
+        </div>
+      {% endif %}
     {% endfor %}
   {% else %}
     <p class="text-muted">Nessun evento registrato per questa partita.</p>
   {% endif %}
 </div>
-
-
-    <div class="tab-pane fade" id="stats">
-      <h1>Statistiche partita: {{ match.home_team }} vs {{ match.away_team }} ({{ match.year }})</h1>
-      <p>Data: {{ match.date }} | Stadio: {{ match.stadio.name if match.stadio else 'N/D' }} | Presenze: {{ match.match_attendance|int }}</p>
-      <p>Risultato finale: {{ match.home_score_total|int }} - {{ match.away_score_total|int }} ({{ match.winner }} vincitore, {{ localized_winner_reason[match.winner_reason] }})</p>
-      <h2>Formazioni iniziali</h2>
-      <div>
-        <h3>{{ match.home_team }}</h3>
-        <ul>
-          {% for player in players if player.team_side == 'home' %}
-            <li>{{ player.name_shirt }} (#{{ player.jersey_number|int }}) - {{ localized_roles[player.position_field] }}</li>
-          {% endfor %}
-        </ul>
-        <h3>{{ match.away_team }}</h3>
-        <ul>
-          {% for player in players if player.team_side == 'away' %}
-            <li>{{ player.name_shirt }} (#{{ player.jersey_number }}) - {{ player.position_field }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-          </div>
 
     <div class="tab-pane fade" id="lineups">
       <div class="field-container" style="position: relative; width: 100%; max-width: 600px; margin: auto;">
@@ -151,6 +256,22 @@
         {% endif %}
       {% endfor %}
             </div>
+            <h2>Formazioni iniziali</h2>
+            <div>
+              <h3>{{ match.home_team }}</h3>
+              <ul>
+                {% for player in players if player.team_side == 'home' %}
+                  <li>{{ player.name_shirt }} (#{{ player.jersey_number|int }}) - {{ localized_roles[player.position_field] }}{% if not player.field %} (panchina) {% endif %}</li>
+                {% endfor %}
+              </ul>
+              <h3>{{ match.away_team }}</h3>
+              <ul>
+                {% for player in players if player.team_side == 'away' %}
+                  <li>{{ player.name_shirt }} (#{{ player.jersey_number }}) - {{ player.position_field }}{% if not player.field %} (panchina) {% endif %}</li>
+                {% endfor %}
+              </ul>
+            </div>
+      
     </div>
   </div>
 
