@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-from src.db.model.player import Player
+from db.model.player import Player
 
 class PlayerRepository:
     def __init__(self, client: MongoClient, db_name="eurozone", collection_name="players"):
@@ -31,6 +31,6 @@ class PlayerRepository:
         return Player.from_dict(data) if data else None
 
     # Trovato tramite id
-    def find_player_by_id(self, id_player: str):
+    def find_player_by_id(self, id_player: int):
         data = self.collection.find_one({'id_player': id_player})
         return Player.from_dict(data) if data else None

@@ -1,4 +1,4 @@
-from src.db.model.Tempo import Tempo
+from db.model.Tempo import Tempo
 
 class Goal:
     def __init__(self, international_name: str, time: Tempo, goal_type: str):

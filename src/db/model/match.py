@@ -1,12 +1,12 @@
 from datetime import datetime
 from typing import Optional, List
 
-from src.db.model.Stadio import Stadio
-from src.db.model.goal import Goal
-from src.db.model.lineup import Lineup
-from src.db.model.events import Events
-from src.db.model.penalty import Penalty
-from src.db.model.red_card import Red_Card
+from db.model.Stadio import Stadio
+from db.model.goal import Goal
+from db.model.lineup import Lineup
+from db.model.events import Events
+from db.model.penalty import Penalty
+from db.model.red_card import Red_Card
 
 
 class Match:

@@ -1,5 +1,5 @@
 
-from src.db.model.Tempo import Tempo
+from db.model.Tempo import Tempo
 
 
 class Red_Card:

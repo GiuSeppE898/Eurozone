@@ -100,17 +100,29 @@
     <div class="matchday">Partite dell'edizione {{ edition }}</div>
 
     {% if results %}
-      {% for match in results %}
-<a href="{{ url_for('match_detail', match_id=match.id_match) }}" style="text-decoration: none; color: inherit;">
+      {% for phase, matches in results.items() %}
+      <div class="phase-separator">
+        <h3 style="text-align: center; margin: 20px 0;">{{ localized[phase] }}</h3>
+      </div>
+      {% for match in matches %}
+        <a href="{{ url_for('match_detail', match_id=match.id_match) }}" style="text-decoration: none; color: inherit;">
         <div class="match">
-            <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.home_team_code ~ '.png') }}" alt="{{ match.home_team }}">
+          <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.home_team_code ~ '.png') }}" alt="{{ match.home_team }}">
           <span class="team-home">{{ match.home_team }} ({{ match.home_team_code }})</span>
-          <span class="score">{{ match.home_score|int }} - {{ match.away_score|int }}</span>
+          <span class="score">
+          {% if match.home_penalty is not none %}
+            ({{ match.home_penalty|int }})
+          {% endif %}
+          {{ match.home_score|int }} - {{ match.away_score|int }}
+          {% if match.away_penalty is not none %}
+            ({{ match.away_penalty|int }})
+          {% endif %}
+          </span>
           <span class="team-away">{{ match.away_team }} ({{ match.away_team_code }})</span>
           <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.away_team_code ~ '.png') }}" alt="{{ match.away_team }}">
-
         </div>
-                </a>
+        </a>
+      {% endfor %}
       {% endfor %}
     {% else %}
       <p style="text-align:center;">Nessun risultato disponibile per questa edizione.</p>

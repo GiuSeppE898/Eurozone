@@ -1,12 +1,11 @@
 import uuid
-from re import match
 
 from pymongo import MongoClient
 from typing import Optional, List
 
-from src.db.model import red_card, lineup
-from src.db.model.goal import Goal
-from src.db.model.match import Match
+from ..model import red_card, lineup
+from ..model.goal import Goal
+from ..model.match import Match
 class MatchRepository:
     def __init__(self,client: MongoClient, db_name="eurozone", collection_name="match"):
         self.client = client
