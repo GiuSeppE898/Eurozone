@@ -59,6 +59,7 @@
     {% if editions %}
 
     <div class="container">
+      <div class="row justify-content-center mt-4"></div>
   <div class="row justify-content-center">
     {% for edition in editions %}
       <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
@@ -67,7 +68,6 @@
           <img class="card-img-top mt-3" src="{{ url_for('static', filename='Eurologos/' ~ edition ~ '.png') }}" alt="Logo {{ edition }}" style="width: 100px; height: 100px; object-fit: contain;">
             <div class="card-body">
             <h3 class="card-title">Euro {{ edition }}</h3>
-            <p class="card-text">Breve Descrizione...</p>
             </div>
         </div></a>
       </div>
@@ -75,5 +75,9 @@
   </div>
 </div>
 {% endif %}
+
+<footer style="background-color: black; color: white; text-align: center; padding: 1rem; margin-top: 2rem;">
+  Sviluppato da Giuseppe Pio Sorrentino, Pasquale Sorrentino e Vito Piegari
+</footer>
 </body>
 </html>
