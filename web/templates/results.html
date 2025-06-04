@@ -101,6 +101,7 @@
 
     {% if results %}
       {% for match in results %}
+<a href="{{ url_for('match_detail', match_id=match.id_match) }}" style="text-decoration: none; color: inherit;">
         <div class="match">
             <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.home_team_code ~ '.png') }}" alt="{{ match.home_team }}">
           <span class="team-home">{{ match.home_team }} ({{ match.home_team_code }})</span>
@@ -109,6 +110,7 @@
           <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.away_team_code ~ '.png') }}" alt="{{ match.away_team }}">
 
         </div>
+                </a>
       {% endfor %}
     {% else %}
       <p style="text-align:center;">Nessun risultato disponibile per questa edizione.</p>

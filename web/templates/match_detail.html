@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ match.home_team }} - {{ match.away_team }} | Euro {{ edition }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    .event {
+  font-size: 0.95rem;
+}
+.event strong {
+  color: #222;
+}
+.event .badge {
+  font-size: 0.8rem;
+}
+
+    .team-logo {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+
+    .score-box {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .event {
+      border-bottom: 1px solid #eee;
+      padding: 10px 0;
+    }
+
+    .tab-content {
+      border: 1px solid #dee2e6;
+      border-top: none;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+<div class="container mt-4">
+
+  <!-- Titolo e risultato -->
+  <div class="text-center mb-4">
+    <div class="d-flex justify-content-center align-items-center gap-3">
+      <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.home_team_code ~ '.png') }}" alt="{{ match.home_team }}">
+      <strong>{{ match.home_team }}</strong>
+      <div class="score-box">{{ match.home_score|int }} - {{ match.away_score|int }}</div>
+      <strong>{{ match.away_team }}</strong>
+      <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ match.away_team_code ~ '.png') }}" alt="{{ match.away_team }}">
+    </div>
+    <div class="text-muted mt-1"></div>
+  </div>
+
+  <!-- Tabs -->
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#summary">Riassunto</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#stats">Statistiche</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#lineups">Formazioni</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="summary">
+  <h5 class="mt-3">Eventi</h5>
+  {% if match.events %}
+    {% for event in match.events %}
+      <div class="event d-flex justify-content-between align-items-center border-bottom py-2">
+        <div class="text-muted" style="width: 60px;">
+          {{ event.time_minute }}
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <strong>{{ event.primary_name or 'Giocatore sconosciuto' }}</strong>
+
+          <small class="text-muted d-block">{{ event.phase.replace('_', ' ') }}</small>
+        </div>
+        <div class="text-end" style="width: 120px;">
+          <span class="badge bg-secondary">{{ event.type }}</span>
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p class="text-muted">Nessun evento registrato per questa partita.</p>
+  {% endif %}
+</div>
+
+
+    <div class="tab-pane fade" id="stats">
+      <p>Statistiche non disponibili.</p>
+    </div>
+
+    <div class="tab-pane fade" id="lineups">
+      <p>Formazioni non disponibili.</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

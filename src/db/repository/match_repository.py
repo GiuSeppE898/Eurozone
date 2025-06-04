@@ -17,6 +17,7 @@ class MatchRepository:
         return self.collection.insert_one(match.to_dict())
 
     def search_match_by_id(self, match_id: int) -> dict | None:
+        print(match_id)
         return self.collection.find_one({"id_match": match_id})
 
 

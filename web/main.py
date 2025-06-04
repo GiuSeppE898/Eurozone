@@ -22,6 +22,12 @@ def index():
 def results_page(edition):
     results = mr.get_match_from_edition(edition)
     return render_template('results.html', edition=edition, results=results)
+@app.route("/match/<match_id>")
+def match_detail(match_id):
+    print(match_id)
+    match = mr.search_match_by_id (int (match_id))
+    print(match)
+    return render_template("match_detail.html", match=match)
 
 if __name__ == '__main__':
     app.run(debug=True)
