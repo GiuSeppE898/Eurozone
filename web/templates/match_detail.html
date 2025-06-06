@@ -94,6 +94,12 @@
   <div class="tab-content">
     <div class="tab-pane fade show active" id="summary">
   <h5 class="mt-3">Eventi</h5>
+
+  <div class="mb-3 text-center">
+    <a href="{{ url_for('match_detail', match_id=match.id_match, order='asc') }}" class="btn btn-outline-primary btn-sm {% if order == 'asc' %}active{% endif %}">Ordine Cronologico</a>
+    <a href="{{ url_for('match_detail', match_id=match.id_match, order='desc') }}" class="btn btn-outline-primary btn-sm {% if order == 'desc' %}active{% endif %}">Ordine Inverso</a>
+  </div>
+
   {% if match.events %}
     {% for event in match.events %}
       {% if "PHASE" not in event.type %}
@@ -115,7 +121,7 @@
           <img src="{{ url_for('static', filename='ball.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
           <div class="flex-grow-1 text-center">
 
-            <strong> !! GOAL DI {{ event.primary_name|upper }} !! </strong>
+            <strong> !! GOAL DI <a href="{{ url_for('player_detail', player_id=event.primary_id_person) }}">{{ event.primary_name|upper }}</a> !! </strong>
           </div>
         </div>
         {% endif  %}
@@ -138,7 +144,7 @@
           <img src="{{ url_for('static', filename='logos/' ~ event.primary_country_code ~ '.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
           <div class="flex-grow-1 text-center">
 
-            <strong> {{ event.primary_name|upper }} ha sbagliato il rigore! </strong>
+            <strong> <a href="{{ url_for('player_detail', player_id=event.primary_id_person) }}">{{ event.primary_name|upper }}</a> ha sbagliato il rigore! </strong>
           </div>
         </div>
         {% endif %}
@@ -151,7 +157,7 @@
           <img src="{{ url_for('static', filename='ball.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
           <div class="flex-grow-1 text-center">
 
-            <strong> {{ event.primary_name|upper }} non sbaglia il rigore! </strong>
+            <strong> <a href="{{ url_for('player_detail', player_id=event.primary_id_person) }}">{{ event.primary_name|upper }}</a> non sbaglia il rigore! </strong>
           </div>
         </div>
         {% endif %}
@@ -165,7 +171,7 @@
           <img src="{{ url_for('static', filename='ball.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
           <div class="flex-grow-1 text-center">
 
-            <strong> !! GOAL DI {{ event.primary_name|upper }} SU CALCIO DI RIGORE !! </strong>
+            <strong> !! GOAL DI <a href="{{ url_for('player_detail', player_id=event.primary_id_person) }}">{{ event.primary_name|upper }}</a> SU CALCIO DI RIGORE !! </strong>
           </div>
         </div>
         {% endif %}
@@ -178,7 +184,7 @@
           <img src="{{ url_for('static', filename='logos/' ~ event.primary_country_code ~ '.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
           <div class="flex-grow-1 text-center">
 
-            <strong> Calcio d'angolo battuto da {{ event.primary_name }} </strong>
+            <strong> Calcio d'angolo battuto da <a href="{{ url_for('player_detail', player_id=event.primary_id_person) }}">{{ event.primary_name }}</a> </strong>
           </div>
         </div>
         {% endif %}
@@ -192,7 +198,7 @@
           <img src="{{ url_for('static', filename='sub.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
           <div class="flex-grow-1 text-center">
 
-            Entra <b>{{ event.secondary_name }}</b>, esce <b>{{ event.primary_name }}</b>
+            Entra <b><a href="{{ url_for('player_detail', player_id=event.secondary_id_person) }}">{{ event.secondary_name }}</a></b>, esce <b><a href="{{ url_for('player_detail', player_id=event.primary_id_person) }}">{{ event.primary_name }}</a></b>
           </div>
         </div>
         {% endif %}
@@ -205,7 +211,7 @@
           <img src="{{ url_for('static', filename='Yellow_card.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
           <div class="flex-grow-1 text-center">
 
-            <strong> Cartellino giallo per {{ event.primary_name }} </strong>
+            <strong> Cartellino giallo per <a href="{{ url_for('player_detail', player_id=event.primary_id_person) }}">{{ event.primary_name }}</a> </strong>
           </div>
         </div>
         {% endif %}
@@ -218,7 +224,7 @@
           <img src="{{ url_for('static', filename='Yellow_card.svg') }}" alt="Goal icon" style="width: 30px; height: 30px; margin-right: 10px;">
           <div class="flex-grow-1 text-center">
 
-            <strong> Cartellino giallo per {{ event.primary_name }} </strong>
+            <strong> Cartellino giallo per <a href="{{ url_for('player_detail', player_id=event.primary_id_person) }}">{{ event.primary_name }}</a> </strong>
           </div>
         </div>
         {% endif %}
@@ -249,10 +255,12 @@
       
         {% for player in players %}
         {% if not (player.x == 0 and player.y == 0) %}
-          <div class="player-dot" style="position: absolute; {{ 'top: {:.1f}%; left: {:.1f}%;'.format(player.y, player.x) }}">
-            <div class="circle {{ 'home' if player.team_side == 'home' else 'away' }}">{{ player.jersey_number|int }}</div>
-            <div class="player-name">{{ player.name_shirt }}</div>
-          </div>
+          <a href="{{ url_for('player_detail', player_id=player.id_player) }}" style="text-decoration: none;">
+            <div class="player-dot" style="position: absolute; {{ 'top: {:.1f}%; left: {:.1f}%;'.format(player.y, player.x) }}">
+              <div class="circle {{ 'home' if player.team_side == 'home' else 'away' }}">{{ player.jersey_number|int }}</div>
+              <div class="player-name">{{ player.name_shirt }}</div>
+            </div>
+          </a>
         {% endif %}
       {% endfor %}
             </div>

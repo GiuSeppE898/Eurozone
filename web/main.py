@@ -10,6 +10,9 @@ from db.model.player import Player
 from db.repository.match_repository import MatchRepository
 from db.repository.player_repository import PlayerRepository
 
+from flask import request
+from datetime import datetime
+
 app = Flask(__name__)
 mr = MatchRepository(client)
 @app.route('/')
@@ -52,6 +55,19 @@ def results_page(edition):
 @app.route("/match/<match_id>") 
 def match_detail(match_id):
     match = mr.search_match_by_id(int(match_id))
+
+    # Legge l'ordine richiesto (di default: ascendente)
+    order = request.args.get("order", "asc").lower()
+
+    # Ordina gli eventi
+    if "events" in match:
+        match["events"].sort(
+            key=lambda e: (
+                e["time_minute"] if isinstance(e.get("time_minute"), (int, float)) else 999,
+                e["time_second"] if isinstance(e.get("time_second"), (int, float)) else 0
+            ),
+            reverse=(order == "desc")
+        )
     
     players: list[Player] = []
  
@@ -77,7 +93,38 @@ def match_detail(match_id):
 
     return render_template("match_detail.html", match=match, players=players, localized_roles=roles_it, localized_winner_reason=winner_reason_it, localized_misc=misc_it)
 
-def assign_player_positions(players): 
+
+@app.route("/player/<int:player_id>")
+def player_detail(player_id):
+    pr = PlayerRepository(client)
+    player = pr.find_player_by_id(player_id)
+
+    # Formatta la data in formato GG/MM/AAAA
+    if player and player.birth_date:
+        try:
+            player.birth_date = datetime.strptime(player.birth_date, "%Y-%m-%d").strftime("%d/%m/%Y")
+        except Exception as e:
+            print("Errore formattazione data:", e)
+
+    goal= mr.count_goals_by_player_name(player.name)
+
+    assist = mr.count_assists_by_player_id(player_id)
+
+    total_game = mr.count_matches_played_by_player_id(player_id)
+
+    starter = mr.count_matches_started_by_player_id(player_id)
+
+    country_code = pr.get_country_code_by_player_id(player_id)
+    print(country_code)
+
+    if not player:
+        return "Giocatore non trovato", 404
+
+    # Recupera statistiche, eventi, partite, ecc. (puoi ampliare in seguito)
+    return render_template("player_detail.html", player=player, goals=goal, assists=assist, appearances=total_game, starters=starter)
+
+
+def assign_player_positions(players):
     """
     funzione di utility per assegnare le posizioni ai giocatori
     """
