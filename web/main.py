@@ -114,9 +114,6 @@ def player_detail(player_id):
 
     starter = mr.count_matches_started_by_player_id(player_id)
 
-    country_code = pr.get_country_code_by_player_id(player_id)
-    print(country_code)
-
     if not player:
         return "Giocatore non trovato", 404
 
