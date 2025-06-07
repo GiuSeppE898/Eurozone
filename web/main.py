@@ -1,7 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for, flash, jsonify
 import sys
 import os
 
+from src.db.model import red_card
+from src.db.model.Tempo import Tempo
+from src.db.model.goal import Goal
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
@@ -14,6 +17,7 @@ from flask import request
 from datetime import datetime
 
 app = Flask(__name__)
+app.secret_key = 'una-chiave-molto-segreta-e-lunga'
 mr = MatchRepository(client)
 @app.route('/')
 def index():
@@ -54,6 +58,7 @@ def results_page(edition):
  
 @app.route("/match/<match_id>") 
 def match_detail(match_id):
+    #print(match_id)
     match = mr.search_match_by_id(int(match_id))
 
     # Legge l'ordine richiesto (di default: ascendente)
@@ -92,6 +97,87 @@ def match_detail(match_id):
     assign_player_positions(players)
 
     return render_template("match_detail.html", match=match, players=players, localized_roles=roles_it, localized_winner_reason=winner_reason_it, localized_misc=misc_it)
+
+
+@app.route("/match/<int:match_id>/delete_event/<event_id>", methods=["POST"])
+def delete_event(match_id, event_id):
+    match_repo = MatchRepository(client)
+    success = match_repo.remove_event_from_match(match_id, event_id)
+
+    if success:
+        flash("Evento eliminato con successo.", "success")
+    else:
+        flash("Errore durante l'eliminazione dell'evento.", "danger")
+
+    return redirect(url_for("match_detail", match_id=match_id))
+
+
+
+@app.route('/add_event', methods=['POST'])
+def add_event():
+    data = request.json
+    try:
+        id_match = int(data["id_match"])
+        event_type = data["eventType"]
+        id_player = int(data["player_id"])
+        minute = int(data["minute"])
+        second = int(data["second"])
+        tempo = Tempo(minute, second)
+
+        # Trova il giocatore
+        pr = PlayerRepository(client)
+        player = pr.find_player_by_id(id_player)
+        if not player:
+            return jsonify({"success": False, "error": "Giocatore non trovato"}), 404
+
+        player_name = player.name
+        country_code = player.id_national_team
+
+        if event_type == "GOAL":
+            assist_id = data.get("assist_id")
+            assist_name = None
+            if assist_id:
+                assist_player = pr.find_player_by_id(int(assist_id))
+                if assist_player:
+                    assist_name = assist_player.name
+
+            goal_obj = Goal(
+                time=tempo,
+                international_name=player_name,
+                country_code=country_code,
+                id_player=id_player
+            )
+            mr.insert_goal(id_match, goal_obj, assist_name=assist_name, assist_id=assist_id)
+
+        elif event_type == "RED_CARD":
+            rc_obj = red_card.Red_Card(
+                time=tempo,
+                international_name=player_name,
+                country_code=country_code,
+                phase="FIRST_HALF" if minute <= 45 else "SECOND_HALF",
+                id_player=id_player
+            )
+            mr.insert_red_card(id_match, rc_obj)
+
+        elif event_type == "YELLOW_CARD":
+            yc_obj = red_card.Red_Card(
+                time=tempo,
+                international_name=player_name,
+                country_code=country_code,
+                phase="FIRST_HALF" if minute <= 45 else "SECOND_HALF",
+                id_player=id_player
+            )
+            mr.insert_yellow_card(id_match, yc_obj)
+
+        else:
+            return jsonify({"success": False, "error": "Tipo evento non supportato"}), 400
+
+        return jsonify({"success": True})
+
+    except Exception as e:
+        print("[ERRORE EVENTO]", e)
+        return jsonify({"success": False, "error": str(e)}), 500
+
 
 
 @app.route("/player/<int:player_id>")

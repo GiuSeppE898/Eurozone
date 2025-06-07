@@ -1,0 +1,7 @@
+{% macro player_link(name, player_id) %}
+  {% if player_id %}
+    <a href="{{ url_for('player_detail', player_id=player_id) }}">{{ name }}</a>
+  {% else %}
+    {{ name }}
+  {% endif %}
+{% endmacro %}

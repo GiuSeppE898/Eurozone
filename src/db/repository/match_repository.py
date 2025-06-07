@@ -20,7 +20,7 @@ class MatchRepository:
         return self.collection.find_one({"id_match": match_id})
 
 
-    def insert_goal(self, match_id: int, goal: Goal, assist_name: Optional[str] = None):
+    def insert_goal(self, match_id: int, goal: Goal, assist_name: Optional[str] = None, assist_id: Optional[str] = None):
         match = self.search_match_by_id(match_id)
         if not match:
             return False
@@ -41,8 +41,8 @@ class MatchRepository:
             "primary_id_person": goal_dict.get("id_player"),
             "primary_country_code": goal_dict.get("country_code"),
             "primary_name": goal_dict.get("international_name"),
-            "secondary_id_person": None,
-            "secondary_country_code": None,
+            "secondary_id_person": str(assist_id) if assist_id else None,
+            "secondary_country_code": goal_dict.get("country_code") if assist_id is None else assist_id,
             "secondary_name": assist_name if assist_name else None,
             "body_part": None,
             "field_position_x": None,
@@ -190,3 +190,108 @@ class MatchRepository:
                     assist_count += 1
 
         return assist_count
+
+
+    def remove_event_from_match(self, match_id: int, event_id: str) -> bool:
+        # Recupera il match
+        match = self.search_match_by_id(match_id)
+        if not match:
+            print("[DEBUG] Match non trovato.")
+            return False
+
+        # Trova l'evento principale da rimuovere
+        events = match.get("events", [])
+        event_to_remove = next((e for e in events if e.get("id") == event_id), None)
+        if not event_to_remove:
+            print("[DEBUG] Evento con id specificato non trovato.")
+            return False
+
+        # Estrai i dati essenziali dell'evento
+        target_phase = event_to_remove.get("phase")
+        target_type = event_to_remove.get("type")
+        target_name = event_to_remove.get("primary_name")
+        target_minute = event_to_remove.get("time_minute")
+        target_second = event_to_remove.get("time_second")
+
+        # Prepara la query per rimuovere l'evento da events
+        update_query = {
+            "$pull": {
+                "events": {"id": event_id}
+            }
+        }
+
+        # Associa il tipo di evento all'array secondario corrispondente
+        secondary_collections = {
+            "GOAL": "goals",
+            "RED_CARD": "red_cards",
+            "PENALTY_SCORED": "penalties",
+            "PENALTY_MISSED": "penalties_missed"
+        }
+
+        secondary_array_name = secondary_collections.get(target_type)
+
+        # Se c'è un array secondario, cerca di rimuovere l'oggetto corrispondente
+        if secondary_array_name and secondary_array_name in match:
+            for item in match[secondary_array_name]:
+                time = item.get("time", {})
+                if (
+                        #item.get("phase") == target_phase and
+                        item.get("international_name") == target_name and
+                        time.get("minute") == target_minute and
+                        time.get("second") == target_second
+                ):
+                    update_query["$pull"][secondary_array_name] = item
+                    break
+
+        # Esegui l'update sul documento
+        result = self.collection.update_one({"id_match": match_id}, update_query)
+
+        # Debug info
+        if result.modified_count == 0:
+            print("[DEBUG] Nessuna modifica effettuata al documento.")
+        else:
+            print("[DEBUG] Evento rimosso con successo.")
+
+        return result.modified_count > 0
+
+
+
+    def insert_yellow_card(self, match_id: int, redc: red_card):
+        match = self.search_match_by_id(match_id)
+        if not match:
+            return False
+
+        red_card_data = redc.to_dict()
+        minute = red_card_data["time"]["minute"]
+        second = red_card_data["time"].get("second")
+        red_card_event = {
+            "id": str(uuid.uuid4()),
+            "phase": red_card_data["phase"],
+            "timestamp": None,
+            "type": "YELLOW_CARD",
+            "subType": None,
+            "time_minute": minute,
+            "time_second": second,
+            "primary_id_person": red_card_data.get("id_player"),
+            "primary_country_code": red_card_data.get("country_code"),
+            "primary_name": red_card_data.get("international_name"),
+            "secondary_id_person": red_card_data.get("id_player"),
+            "secondary_country_code": red_card_data.get("country_code"),
+            "secondary_name": red_card_data.get("international_name"),
+            "body_part": None,
+            "field_position_x": None,
+            "field_position_y": None,
+            "field_position_distance": None,
+            "field_position_zone": None
+        }
+
+        result = self.collection.update_one(
+            {"id_match": match_id},
+            {
+                "$push": {
+                    "events": red_card_event
+                }
+            }
+        )
+
+        return result.modified_count > 0

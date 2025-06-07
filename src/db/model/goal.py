@@ -1,16 +1,19 @@
-from db.model.Tempo import Tempo
+from .Tempo import Tempo
+
 
 class Goal:
-    def __init__(self, international_name: str, time: Tempo, goal_type: str):
-        self.international_name = international_name
+    def __init__(self, time, international_name, country_code, id_player):
         self.time = time
-        self.goal_type = goal_type
+        self.international_name = international_name
+        self.country_code = country_code
+        self.id_player = id_player
 
-    def to_dict(self) -> dict:
+    def to_dict(self):
         return {
+            "time": self.time.to_dict(),
             "international_name": self.international_name,
-            "time": self.time.to_dict() if self.time else None,
-            "goal_type": self.goal_type
+            "country_code": self.country_code,
+            "id_player": str(self.id_player)
         }
 
     @classmethod
