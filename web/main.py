@@ -2,11 +2,11 @@ from flask import Flask, render_template, redirect, url_for, flash, jsonify
 import sys
 import os
 
-from src.db.model import red_card
-from src.db.model.Tempo import Tempo
-from src.db.model.goal import Goal
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+from db.model import red_card
+from db.model.Tempo import Tempo
+from db.model.match import Match
+from db.model.goal import Goal
 
 from db.conf import client
 from db.model.player import Player
@@ -47,7 +47,7 @@ def results_page(edition):
         round_name = result['round']
         if round_name not in grouped_results:
             grouped_results[round_name] = []
-        grouped_results[round_name].append(result)
+        grouped_results[round_name].append(Match.from_dict(result))
     
     unique_winner_reasons = set()
     for result in results:
@@ -60,16 +60,16 @@ def results_page(edition):
 def match_detail(match_id):
     #print(match_id)
     match = mr.search_match_by_id(int(match_id))
-
+    
     # Legge l'ordine richiesto (di default: ascendente)
     order = request.args.get("order", "asc").lower()
 
     # Ordina gli eventi
-    if "events" in match:
-        match["events"].sort(
+    if match.events and len(match.events) > 0:
+        match.events.sort(
             key=lambda e: (
-                e["time_minute"] if isinstance(e.get("time_minute"), (int, float)) else 999,
-                e["time_second"] if isinstance(e.get("time_second"), (int, float)) else 0
+                e.time_minute if isinstance(e.time_minute, (int, float)) else 999,
+                e.time_second if isinstance(e.time_second, (int, float)) else 0
             ),
             reverse=(order == "desc")
         )
@@ -78,25 +78,29 @@ def match_detail(match_id):
  
     pr = PlayerRepository(client)
 
-    for lineup in match['home_lineups']: 
-        player_info = pr.find_player_by_id(int(lineup['id_player']))
+    for lineup in match.home_lineup: 
+        player_info = pr.find_player_by_id(int(lineup.id_player))
         if player_info: 
             player_info.team_side = 'home' 
-            player_info.field = lineup['start'] == "field"
+            player_info.field = lineup.start == "field"
             players.append(player_info)
 
-    for lineup in match['away_lineups']:
-        player_info = pr.find_player_by_id(int(lineup['id_player']))
+    for lineup in match.away_lineup:
+        player_info = pr.find_player_by_id(int(lineup.id_player))
         if player_info:
             player_info.team_side = 'away'
-            player_info.field = lineup['start'] == "field"
+            player_info.field = lineup.start == "field"
             players.append(player_info)
             
-    match['date'] = format_date_human(match['date_time'])
+    match.date = format_date_human(match.date_time)
             
     assign_player_positions(players)
+    
+    # Retrieve other matches for the same year
+    other_matches = mr.get_match_from_edition(match.year)
+    other_matches = [m for m in other_matches if m['id_match'] != match.id_match]
 
-    return render_template("match_detail.html", match=match, players=players, localized_roles=roles_it, localized_winner_reason=winner_reason_it, localized_misc=misc_it)
+    return render_template("match_detail.html", match=match, players=players, localized_roles=roles_it, localized_winner_reason=winner_reason_it, localized_misc=misc_it, other_matches=other_matches, rounds_it=rounds_it)
 
 
 @app.route("/match/<int:match_id>/delete_event/<event_id>", methods=["POST"])
@@ -131,7 +135,7 @@ def add_event():
             return jsonify({"success": False, "error": "Giocatore non trovato"}), 404
 
         player_name = player.name
-        country_code = player.id_national_team
+        country_code = player.country_code
 
         if event_type == "GOAL":
             assist_id = data.get("assist_id")
@@ -204,7 +208,7 @@ def player_detail(player_id):
         return "Giocatore non trovato", 404
 
     # Recupera statistiche, eventi, partite, ecc. (puoi ampliare in seguito)
-    return render_template("player_detail.html", player=player, goals=goal, assists=assist, appearances=total_game, starters=starter)
+    return render_template("player_detail.html", player=player, goals=goal, assists=assist, appearances=total_game, starters=starter, localized_roles=roles_it,)
 
 
 def assign_player_positions(players):

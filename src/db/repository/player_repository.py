@@ -17,7 +17,7 @@ class PlayerRepository:
 
     def update_player(self, player: Player):
         return self.collection.update_one(
-            {"id_player": player._id},
+            {"id_player": player.id_player}, 
             {"$set": player.to_dict()}
         )
 
@@ -31,6 +31,6 @@ class PlayerRepository:
         return Player.from_dict(data) if data else None
 
     # Trovato tramite id
-    def find_player_by_id(self, id_player: int):
+    def find_player_by_id(self, id_player: int) -> Player:
         data = self.collection.find_one({'id_player': id_player})
         return Player.from_dict(data) if data else None

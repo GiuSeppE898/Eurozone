@@ -30,8 +30,11 @@
 </head>
 <body>
   <div class="card">
-    <h2>{{ player.name }}</h2>
-    <p class="stat"><strong>Ruolo:</strong> {{ player.position_field }}</p>
+    <div style="display: flex; align-items: center; gap: 20px;">
+      <img class="team-logo" src="{{ url_for('static', filename='logos/' ~ player.country_code ~ '.png') }}" alt="{{ player.country_code }}" style="width: 50px; height: 50px; object-fit: cover;">
+      <h2 style="margin: 0;">{{ player.name }}</h2>
+    </div>
+    <p class="stat"><strong>Ruolo:</strong> {{ localized_roles[player.position_field] }}</p>
     <p class="stat"><strong>Data di nascita:</strong> {{ player.birth_date }}</p>
     <p class="stat"><strong>Presenze totali:</strong> {{ appearances }}</p>
     <p class="stat"><strong>Presenze da titolare:</strong> {{ starters }}</p>

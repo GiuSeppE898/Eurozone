@@ -26,5 +26,5 @@ class Red_Card:
             international_name = data.get("international_name"),
             country_code = data.get("country_code"),
             time=Tempo.from_dict(data["time"]) if data.get("time") else None,
-
+            id_player=data.get("id_player", None)
         )

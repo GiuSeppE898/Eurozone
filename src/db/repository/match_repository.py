@@ -15,10 +15,22 @@ class MatchRepository:
     def insert_match(self, match: Match):
         return self.collection.insert_one(match.to_dict())
 
-    def search_match_by_id(self, match_id: int) -> dict | None:
-        print(match_id)
-        return self.collection.find_one({"id_match": match_id})
+    def search_match_by_id(self, match_id: int) -> Match:
+        match_data = self.collection.find_one({"id_match": match_id})
+        if not match_data:
+            return None
+        return Match.from_dict(match_data)
 
+    def add_goal(self, match: Match, home: bool):
+        current_score = match.get(f"{'home' if home else 'away'}_score_total", 0)
+        new_score = current_score + 1
+        result = self.collection.update_one(
+            {"id_match": match['id_match']},
+            {"$set": {f"{'home' if home else 'away'}_score_total": new_score}}
+        )
+        
+        return result.modified_count > 0
+        
 
     def insert_goal(self, match_id: int, goal: Goal, assist_name: Optional[str] = None, assist_id: Optional[str] = None):
         match = self.search_match_by_id(match_id)
@@ -295,3 +307,20 @@ class MatchRepository:
         )
 
         return result.modified_count > 0
+
+    def get_home_goal_count(self, match_id) -> int:
+        match = self.search_match_by_id(match_id)
+        return sum(
+            1 for event in match['events']
+            if (event['type'] == 'GOAL' or (event['type'] == 'PENALTY' and event['subType'] == 'SCORED'))
+            and event['primary_country_code'] == match['home_team_code']
+        )
+        
+    def get_away_goal_count(self, match_id) -> int:
+        match = self.search_match_by_id(match_id)
+        return sum(
+            1 for event in match['events']
+            if (event['type'] == 'GOAL' or (event['type'] == 'PENALTY' and event['subType'] == 'SCORED'))
+            and event['primary_country_code'] == match['away_team_code']
+        )
+

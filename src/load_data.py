@@ -3,11 +3,11 @@ import pandas as pd
 
 from data.match_loader import MatchLoader
 import data.player_loader as pl
-from src.db.model.player import Player
-from src.db.repository.player_repository import PlayerRepository
-from src.db.conf import client
-from src.db.model.match import Match
-from src.db.repository.match_repository import MatchRepository
+from db.model.player import Player
+from db.repository.player_repository import PlayerRepository
+from db.conf import client
+from db.model.match import Match
+from db.repository.match_repository import MatchRepository
 
 
 def load_player_data_from_csv(debug: bool = True) -> pd.DataFrame:
@@ -84,10 +84,10 @@ def save_players_to_db(data: pd.DataFrame):
             start=row['start'],
             year=row['year'],
             id_club=row['id_club'],
-            id_national_team=row['id_national_team']
+            country_code=row['country_code'],
         )
         
-        player_repository.insert_player(player)
+        player_repository.update_player(player)
         
         # Mostro il progresso ogni 15 iterazioni e alla fine
         if index % 15 == 0 or index == total_rows - 1:
@@ -124,11 +124,11 @@ def save_matches_to_db(match_data: list):
             percentuale = ((index + 1) / total) * 100
             print(f"Percentuale di caricamento: {percentuale:.2f}%", end="\r")
 if __name__ == "__main__":
-    #player_data = load_player_data_from_csv(debug=False)
-    #save_players_to_db(player_data)
-    match_loader = MatchLoader("/Users/giuseppepiosorrentino/PycharmProjects/NoSQLMAtches/data/matches/matches/euro")
-    match_data = match_loader.load(debug=False)  # ritorna lista di dizionari
-    save_matches_to_db(match_data)
+    player_data = load_player_data_from_csv(debug=False)
+    save_players_to_db(player_data)
+    #match_loader = MatchLoader("/Users/giuseppepiosorrentino/PycharmProjects/NoSQLMAtches/data/matches/matches/euro")
+    #match_data = match_loader.load(debug=False)  # ritorna lista di dizionari
+    #save_matches_to_db(match_data)
     
     
     

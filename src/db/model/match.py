@@ -81,6 +81,20 @@ class Match:
         self.home_coaches = home_coaches
         self.away_coaches = away_coaches
         self.events = events
+        
+    def get_home_goal_count(self) -> int:
+        return sum(
+            1 for event in self.events
+            if (event.type == 'GOAL' or (event.type == 'PENALTY' and event.subType == 'SCORED'))
+            and event.primary_country_code == self.home_team_code
+        )
+        
+    def get_away_goal_count(self) -> int:
+        return sum(
+            1 for event in self.events
+            if (event.type == 'GOAL' or (event.type == 'PENALTY' and event.subType == 'SCORED'))
+            and event.primary_country_code == self.away_team_code
+        )
 
     def to_dict(self) -> dict:
         return {

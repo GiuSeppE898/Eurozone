@@ -3,10 +3,10 @@ from bson import ObjectId
 class Player:
     def __init__(self, name: str, name_shirt: str, jersey_number: float, position_national: str, 
                  position_field: str, birth_date: str, id_match: int, id_player: int, 
-                 start: str, year: int, id_club: int, id_national_team: int):
+                 start: str, year: int, id_club: int, country_code: int):
         self.id_player = id_player
         self.name = name
-        self.id_national_team = id_national_team
+        self.country_code = country_code
         self.birth_date = birth_date
         self.name_shirt = name_shirt
         self.jersey_number = jersey_number
@@ -21,7 +21,7 @@ class Player:
         return {
             "id_player": self.id_player,
             "name": self.name,
-            "id_national_team": self.id_national_team,
+            "country_code": self.country_code,
             "birth_date": self.birth_date,
             "name_shirt": self.name_shirt,
             "jersey_namber": self.jersey_number,
@@ -38,7 +38,7 @@ class Player:
         return cls(
             id_player=data["id_player"],
             name=data["name"],
-            id_national_team=data["id_national_team"],
+            country_code=data["country_code"],
             birth_date=data["birth_date"],
             name_shirt=data["name_shirt"],
             jersey_number=data["jersey_namber"],
