@@ -207,6 +207,9 @@ class MatchRepository:
     def remove_event_from_match(self, match_id: int, event_id: str) -> bool:
         # Recupera il match
         match = self.search_match_by_id(match_id)
+        if isinstance(match, Match):
+            match = match.to_dict()
+
         if not match:
             print("[DEBUG] Match non trovato.")
             return False
