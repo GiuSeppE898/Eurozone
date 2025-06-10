@@ -6,6 +6,8 @@ from typing import Optional, List
 from ..model import red_card, lineup
 from ..model.goal import Goal
 from ..model.match import Match
+from ..model.corner import Corner
+
 class MatchRepository:
     def __init__(self,client: MongoClient, db_name="eurozone", collection_name="match"):
         self.client = client
@@ -328,13 +330,68 @@ class MatchRepository:
         )
 
 
-    #def count_matches_coached_by_name(self, coach_name: str) -> int:
-    #    """
-    #    Conta il numero di match in cui l'allenatore ha allenato come home o away coach.
-    #    """
-    #    return self.collection.count_documents({
-    #        "$or": [
-    #            {"home_coaches": coach_name},
-    #            {"away_coaches": coach_name}
-    #        ]
-    #    })
+    def count_corner_by_player_id(self, player_id: int) -> int:
+        player_id_str = str(player_id)
+
+        matches_with_assists = self.collection.find({
+            "events": {
+                "$elemMatch": {
+                    "type": "CORNER",
+                    "primary_id_person": player_id_str
+                }
+            }
+        })
+
+        corner_count = 0
+        for match in matches_with_assists:
+            for event in match.get("events", []):
+                if (
+                        event.get("type") == "CORNER"
+                        and event.get("primary_id_person") == player_id_str
+                ):
+                    corner_count += 1
+
+        return corner_count
+
+
+
+    def insert_corner(self, match_id: int, corner: Corner):
+        match = self.search_match_by_id(match_id)
+        if not match:
+            return False
+
+        corner_data = corner.to_dict()
+        minute = corner_data["time"]["minute"]
+        second = corner_data["time"].get("second")
+
+        corner_event = {
+            "id": str(uuid.uuid4()),
+            "phase": corner_data["phase"],
+            "timestamp": None,
+            "type": "CORNER",
+            "subType": None,
+            "time_minute": minute,
+            "time_second": second,
+            "primary_id_person": corner_data.get("id_player"),
+            "primary_country_code": corner_data.get("country_code"),
+            "primary_name": corner_data.get("international_name"),
+            "secondary_id_person": None,
+            "secondary_country_code": None,
+            "secondary_name": None,
+            "body_part": None,
+            "field_position_x": None,
+            "field_position_y": None,
+            "field_position_distance": None,
+            "field_position_zone": None
+        }
+
+        result = self.collection.update_one(
+            {"id_match": match_id},
+            {
+                "$push": {
+                    "events": corner_event
+                }
+            }
+        )
+
+        return result.modified_count > 0

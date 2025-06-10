@@ -178,6 +178,17 @@ def add_event():
             )
             mr.insert_yellow_card(id_match, yc_obj)
 
+        elif event_type == "CORNER":
+            corner_obj = red_card.Red_Card(  # Riutilizzi la classe, magari da rinominare più avanti
+                time=tempo,
+                international_name=player_name,
+                country_code=country_code,
+                phase="FIRST_HALF" if minute <= 45 else "SECOND_HALF",
+                id_player=id_player
+            )
+            mr.insert_corner(id_match, corner_obj)
+
+
         else:
             return jsonify({"success": False, "error": "Tipo evento non supportato"}), 400
 
@@ -207,6 +218,7 @@ def player_detail(player_id):
     # Statistiche
     goal = mr.count_goals_by_player_name(player.name)
     assist = mr.count_assists_by_player_id(player_id)
+    corner = mr.count_corner_by_player_id(player_id)
     total_game = mr.count_matches_played_by_player_id(player_id)
     starter = mr.count_matches_started_by_player_id(player_id)
 
@@ -219,6 +231,7 @@ def player_detail(player_id):
         player=player,
         goals=goal,
         assists=assist,
+        corner=corner,
         appearances=total_game,
         starters=starter,
         european_years=european_years,
