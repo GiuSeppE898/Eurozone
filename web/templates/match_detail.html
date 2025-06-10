@@ -68,6 +68,31 @@
   margin-top: 2px;
 }
 
+
+.coach-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  z-index: 10;
+}
+
+.left-coach {
+  top: 20px;
+  left: -40px;
+}
+
+.right-coach {
+  bottom: 20px;
+  right: -40px;
+}
+
   </style>
 </head>
 
@@ -395,6 +420,13 @@
     <div class="tab-pane fade" id="lineups">
       <div class="field-container" style="position: relative; width: 100%; max-width: 600px; margin: auto;">
         <img src="{{ url_for('static', filename='field.svg') }}" alt="Field" class="img-fluid">
+
+        <a href="{{ url_for('coach_detail', coach_name=home_coach) }}">
+          <div class="coach-circle left-coach" title="{{ home_coach }}">
+            <div class="circle home "> {{ home_coach_name }} C </div>
+          </div>
+        </a>
+
       
         {% for player in players %}
         {% if not (player.x == 0 and player.y == 0) %}
@@ -406,16 +438,25 @@
           </a>
         {% endif %}
       {% endfor %}
+
+        <a href="{{ url_for('coach_detail', coach_name=away_coach) }}">
+          <div class="coach-circle right-coach" title="{{ away_coach }}">
+            <div class="circle away"> {{ away_coach_name }} C</div>
+          </div>
+        </a>
+
             </div>
             <h2>Formazioni iniziali</h2>
             <div>
               <h3>{{ match.home_team }}</h3>
+              <p><strong>Allenatore:</strong> {{ match.home_coaches }}</p>
               <ul>
                 {% for player in players if player.team_side == 'home' %}
                   <li>{{ player.name_shirt }} (#{{ player.jersey_number|int }}) - {{ localized_roles[player.position_field] }}{% if not player.field %} (panchina) {% endif %}</li>
                 {% endfor %}
               </ul>
               <h3>{{ match.away_team }}</h3>
+              <p><strong>Allenatore:</strong> {{ match.away_coaches }}</p>
               <ul>
                 {% for player in players if player.team_side == 'away' %}
                   <li>{{ player.name_shirt }} (#{{ player.jersey_number|int }}) - {{ localized_roles[player.position_field] }}{% if not player.field %} (panchina) {% endif %}</li>

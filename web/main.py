@@ -12,6 +12,7 @@ from db.conf import client
 from db.model.player import Player
 from db.repository.match_repository import MatchRepository
 from db.repository.player_repository import PlayerRepository
+from db.repository.coach_repository import CoachRepository
 
 from flask import request
 from datetime import datetime
@@ -100,7 +101,11 @@ def match_detail(match_id):
     other_matches = mr.get_match_from_edition(match.year)
     other_matches = [m for m in other_matches if m['id_match'] != match.id_match]
 
-    return render_template("match_detail.html", match=match, players=players, localized_roles=roles_it, localized_winner_reason=winner_reason_it, localized_misc=misc_it, other_matches=other_matches, rounds_it=rounds_it)
+    # Recupera il nome degli allenatori
+    home_coach_name = match.home_coaches if match.home_coaches else "Allenatore sconosciuto"
+    away_coach_name = match.away_coaches if match.away_coaches else "Allenatore sconosciuto"
+
+    return render_template("match_detail.html", match=match, players=players, home_coach=home_coach_name, away_coach=away_coach_name, localized_roles=roles_it, localized_winner_reason=winner_reason_it, localized_misc=misc_it, other_matches=other_matches, rounds_it=rounds_it)
 
 
 @app.route("/match/<int:match_id>/delete_event/<event_id>", methods=["POST"])
@@ -189,26 +194,71 @@ def player_detail(player_id):
     pr = PlayerRepository(client)
     player = pr.find_player_by_id(player_id)
 
-    # Formatta la data in formato GG/MM/AAAA
-    if player and player.birth_date:
+    if not player:
+        return "Giocatore non trovato", 404
+
+    # Formatta la data
+    if player.birth_date:
         try:
             player.birth_date = datetime.strptime(player.birth_date, "%Y-%m-%d").strftime("%d/%m/%Y")
         except Exception as e:
             print("Errore formattazione data:", e)
 
-    goal= mr.count_goals_by_player_name(player.name)
-
+    # Statistiche
+    goal = mr.count_goals_by_player_name(player.name)
     assist = mr.count_assists_by_player_id(player_id)
-
     total_game = mr.count_matches_played_by_player_id(player_id)
-
     starter = mr.count_matches_started_by_player_id(player_id)
 
-    if not player:
-        return "Giocatore non trovato", 404
+    # Europei partecipati
+    player_documents = list(pr.collection.find({"name": player.name}))
+    european_years = sorted(set(doc.get("year") for doc in player_documents if doc.get("year")))
 
-    # Recupera statistiche, eventi, partite, ecc. (puoi ampliare in seguito)
-    return render_template("player_detail.html", player=player, goals=goal, assists=assist, appearances=total_game, starters=starter, localized_roles=roles_it,)
+    return render_template(
+        "player_detail.html",
+        player=player,
+        goals=goal,
+        assists=assist,
+        appearances=total_game,
+        starters=starter,
+        european_years=european_years,
+        localized_roles=roles_it
+    )
+
+
+@app.route("/coach/<coach_name>")
+def coach_detail(coach_name):
+    coach_repo = CoachRepository(client)
+
+    # Recupera tutti i documenti per il coach con quel nome
+    coach_documents = list(coach_repo.collection.find({"name": coach_name}))
+
+    if not coach_documents:
+        return f"Allenatore '{coach_name}' non trovato", 404
+
+    # Prendi i dati statici dal primo documento trovato
+    first_doc = coach_documents[0]
+    nationality = first_doc.get("country")
+    country_code = first_doc.get("country_code")
+    role = first_doc.get("role")
+
+    # Calcola il numero di partite e gli anni europei unici
+    match_ids = set(doc["id_match"] for doc in coach_documents)
+    european_years = sorted(set(doc["year"] for doc in coach_documents))
+    match_count = len(match_ids)
+
+    return render_template(
+        "coach_detail.html",
+        coach_name=coach_name,
+        nationality=nationality,
+        country_code=country_code,
+        role=role,
+        match_count=match_count,
+        european_years=european_years
+    )
+
+
+
 
 
 def assign_player_positions(players):

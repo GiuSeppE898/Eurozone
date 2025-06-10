@@ -327,3 +327,14 @@ class MatchRepository:
             and event['primary_country_code'] == match['away_team_code']
         )
 
+
+    #def count_matches_coached_by_name(self, coach_name: str) -> int:
+    #    """
+    #    Conta il numero di match in cui l'allenatore ha allenato come home o away coach.
+    #    """
+    #    return self.collection.count_documents({
+    #        "$or": [
+    #            {"home_coaches": coach_name},
+    #            {"away_coaches": coach_name}
+    #        ]
+    #    })
